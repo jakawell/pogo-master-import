@@ -8,11 +8,11 @@
     "start:dev": "ts-node src/index.ts",
     "download": "tsc && node dist/index.js --save=true",
     "lint": "tslint -p .",
-    "test": "jest tests"
+    "test": "jest tests",
+    "prepublish": "tsc"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint && npm test",
       "pre-push": "npm run lint && npm test"
     }
   },
