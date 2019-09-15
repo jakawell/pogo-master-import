@@ -4,7 +4,9 @@
   "description": "Imports and parses the Pokémon GO game master and provides TS objects.",
   "main": "dist/index.js",
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "start:dev": "ts-node src/index.ts",
+    "download": "tsc && node dist/index.js --save=true",
     "lint": "tslint -p .",
     "test": "jest tests"
   },
@@ -21,11 +23,13 @@
   "author": "Jesse Kawell",
   "license": "MIT",
   "dependencies": {
-    "pokemongo-game-master": "^1.0.4"
+    "pokemongo-game-master": "^2.1.0",
+    "yargs": "^14.0.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
     "@types/node": "^12.7.2",
+    "@types/yargs": "^13.0.2",
     "husky": "^3.0.4",
     "jest": "^24.9.0",
     "ts-jest": "^24.0.2",

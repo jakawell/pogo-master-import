@@ -9,6 +9,9 @@ module.exports = {
     }
   },
   collectCoverage: true,
+  collectCoverageFrom: [
+    'src/**/*.ts'
+  ],
   coverageThreshold: {
     global: {
       branches: 100,
