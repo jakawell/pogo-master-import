@@ -42,6 +42,45 @@ function expectGoodLists(speciesList: Map<string, PokemonSpecies>, movesList: Ma
   ]);
 }
 
+test('should import data from parsed game master', () => {
+  const imported = GameMasterImport.importFromSaved({
+    species: {
+      VENUSAUR_SHADOW: {
+        speciesId: 'VENUSAUR',
+        form: 'SHADOW',
+        speciesName: 'Venusaur Shadow',
+        types: ['GRASS', 'POISON'],
+        fastMoves: ['RAZOR_LEAF_FAST', 'VINE_WHIP_FAST'],
+        chargeMoves: ['SLUDGE_BOMB', 'PETAL_BLIZZARD', 'SOLAR_BEAM', 'RETURN', 'FRUSTRATION'],
+        baseAttack: 198,
+        baseDefense: 189,
+        baseStamina: 190,
+        isFormless: false,
+      },
+    },
+    moves: {
+      WRAP: {
+        id: 'WRAP',
+        type: 'NORMAL',
+        pveStats: {
+          power: 60,
+          energyDelta: -33,
+          castTime: 2900,
+        },
+        pvpStats: {
+          power: 60,
+          energyDelta: -45,
+          turns: 1,
+        },
+      },
+    },
+  });
+  expect(imported.speciesList.size).toBe(1);
+  expect((imported.speciesList.get('VENUSAUR_SHADOW') as PokemonSpecies).speciesId).toBe('VENUSAUR');
+  expect(imported.movesList.size).toBe(1);
+  expect((imported.movesList.get('WRAP') as Move).pvpStats.energyDelta).toBe(-45);
+});
+
 test('should download and import game master', async () => {
   const options: IGameMasterImportOptions = {
     download: true,

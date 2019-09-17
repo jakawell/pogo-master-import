@@ -1,6 +1,6 @@
 {
-  "species": [
-    {
+  "species": {
+    "BULBASAUR_NORMAL": {
       "isFormless": false,
       "speciesId": "BULBASAUR",
       "form": "NORMAL",
@@ -23,7 +23,7 @@
       "baseDefense": 111,
       "baseStamina": 128
     },
-    {
+    "IVYSAUR_NORMAL": {
       "isFormless": false,
       "speciesId": "IVYSAUR",
       "form": "NORMAL",
@@ -46,7 +46,7 @@
       "baseDefense": 143,
       "baseStamina": 155
     },
-    {
+    "VENUSAUR_NORMAL": {
       "isFormless": false,
       "speciesId": "VENUSAUR",
       "form": "NORMAL",
@@ -69,7 +69,7 @@
       "baseDefense": 189,
       "baseStamina": 190
     },
-    {
+    "CHARMANDER_NORMAL": {
       "isFormless": false,
       "speciesId": "CHARMANDER",
       "form": "NORMAL",
@@ -92,7 +92,7 @@
       "baseDefense": 93,
       "baseStamina": 118
     },
-    {
+    "CHARMELEON_NORMAL": {
       "isFormless": false,
       "speciesId": "CHARMELEON",
       "form": "NORMAL",
@@ -115,7 +115,7 @@
       "baseDefense": 126,
       "baseStamina": 151
     },
-    {
+    "CHARIZARD_NORMAL": {
       "isFormless": false,
       "speciesId": "CHARIZARD",
       "form": "NORMAL",
@@ -138,7 +138,7 @@
       "baseDefense": 173,
       "baseStamina": 186
     },
-    {
+    "SQUIRTLE_NORMAL": {
       "isFormless": false,
       "speciesId": "SQUIRTLE",
       "form": "NORMAL",
@@ -161,7 +161,7 @@
       "baseDefense": 121,
       "baseStamina": 127
     },
-    {
+    "WARTORTLE_NORMAL": {
       "isFormless": false,
       "speciesId": "WARTORTLE",
       "form": "NORMAL",
@@ -184,7 +184,7 @@
       "baseDefense": 155,
       "baseStamina": 153
     },
-    {
+    "BLASTOISE_NORMAL": {
       "isFormless": false,
       "speciesId": "BLASTOISE",
       "form": "NORMAL",
@@ -208,7 +208,7 @@
       "baseDefense": 207,
       "baseStamina": 188
     },
-    {
+    "CATERPIE_NORMAL": {
       "isFormless": true,
       "speciesId": "CATERPIE",
       "form": "NORMAL",
@@ -227,7 +227,7 @@
       "baseDefense": 55,
       "baseStamina": 128
     },
-    {
+    "METAPOD_NORMAL": {
       "isFormless": true,
       "speciesId": "METAPOD",
       "form": "NORMAL",
@@ -246,7 +246,7 @@
       "baseDefense": 80,
       "baseStamina": 137
     },
-    {
+    "BUTTERFREE_NORMAL": {
       "isFormless": true,
       "speciesId": "BUTTERFREE",
       "form": "NORMAL",
@@ -267,7 +267,7 @@
       "baseDefense": 137,
       "baseStamina": 155
     },
-    {
+    "WEEDLE_NORMAL": {
       "isFormless": true,
       "speciesId": "WEEDLE",
       "form": "NORMAL",
@@ -286,7 +286,7 @@
       "baseDefense": 50,
       "baseStamina": 120
     },
-    {
+    "KAKUNA_NORMAL": {
       "isFormless": true,
       "speciesId": "KAKUNA",
       "form": "NORMAL",
@@ -305,7 +305,7 @@
       "baseDefense": 75,
       "baseStamina": 128
     },
-    {
+    "BEEDRILL_NORMAL": {
       "isFormless": true,
       "speciesId": "BEEDRILL",
       "form": "NORMAL",
@@ -326,7 +326,7 @@
       "baseDefense": 130,
       "baseStamina": 163
     },
-    {
+    "PIDGEY_NORMAL": {
       "isFormless": true,
       "speciesId": "PIDGEY",
       "form": "NORMAL",
@@ -347,7 +347,7 @@
       "baseDefense": 73,
       "baseStamina": 120
     },
-    {
+    "PIDGEOTTO_NORMAL": {
       "isFormless": true,
       "speciesId": "PIDGEOTTO",
       "form": "NORMAL",
@@ -368,7 +368,7 @@
       "baseDefense": 105,
       "baseStamina": 160
     },
-    {
+    "PIDGEOT_NORMAL": {
       "isFormless": true,
       "speciesId": "PIDGEOT",
       "form": "NORMAL",
@@ -389,7 +389,7 @@
       "baseDefense": 154,
       "baseStamina": 195
     },
-    {
+    "RATTATA_ALOLA": {
       "isFormless": false,
       "speciesId": "RATTATA",
       "form": "ALOLA",
@@ -410,7 +410,7 @@
       "baseDefense": 70,
       "baseStamina": 102
     },
-    {
+    "RATTATA_NORMAL": {
       "isFormless": false,
       "speciesId": "RATTATA",
       "form": "NORMAL",
@@ -433,7 +433,7 @@
       "baseDefense": 70,
       "baseStamina": 102
     },
-    {
+    "RATICATE_ALOLA": {
       "isFormless": false,
       "speciesId": "RATICATE",
       "form": "ALOLA",
@@ -454,7 +454,7 @@
       "baseDefense": 154,
       "baseStamina": 181
     },
-    {
+    "RATICATE_NORMAL": {
       "isFormless": false,
       "speciesId": "RATICATE",
       "form": "NORMAL",
@@ -477,7 +477,7 @@
       "baseDefense": 139,
       "baseStamina": 146
     },
-    {
+    "SPEAROW_NORMAL": {
       "isFormless": true,
       "speciesId": "SPEAROW",
       "form": "NORMAL",
@@ -498,7 +498,7 @@
       "baseDefense": 60,
       "baseStamina": 120
     },
-    {
+    "FEAROW_NORMAL": {
       "isFormless": true,
       "speciesId": "FEAROW",
       "form": "NORMAL",
@@ -519,7 +519,7 @@
       "baseDefense": 133,
       "baseStamina": 163
     },
-    {
+    "EKANS_NORMAL": {
       "isFormless": true,
       "speciesId": "EKANS",
       "form": "NORMAL",
@@ -540,7 +540,7 @@
       "baseDefense": 97,
       "baseStamina": 111
     },
-    {
+    "ARBOK_NORMAL": {
       "isFormless": true,
       "speciesId": "ARBOK",
       "form": "NORMAL",
@@ -563,7 +563,7 @@
       "baseDefense": 153,
       "baseStamina": 155
     },
-    {
+    "PIKACHU_NORMAL": {
       "isFormless": true,
       "speciesId": "PIKACHU",
       "form": "NORMAL",
@@ -584,7 +584,7 @@
       "baseDefense": 96,
       "baseStamina": 111
     },
-    {
+    "RAICHU_ALOLA": {
       "isFormless": false,
       "speciesId": "RAICHU",
       "form": "ALOLA",
@@ -606,7 +606,7 @@
       "baseDefense": 154,
       "baseStamina": 155
     },
-    {
+    "RAICHU_NORMAL": {
       "isFormless": false,
       "speciesId": "RAICHU",
       "form": "NORMAL",
@@ -629,7 +629,7 @@
       "baseDefense": 151,
       "baseStamina": 155
     },
-    {
+    "SANDSHREW_ALOLA": {
       "isFormless": false,
       "speciesId": "SANDSHREW",
       "form": "ALOLA",
@@ -650,7 +650,7 @@
       "baseDefense": 129,
       "baseStamina": 137
     },
-    {
+    "SANDSHREW_NORMAL": {
       "isFormless": false,
       "speciesId": "SANDSHREW",
       "form": "NORMAL",
@@ -671,7 +671,7 @@
       "baseDefense": 120,
       "baseStamina": 137
     },
-    {
+    "SANDSLASH_ALOLA": {
       "isFormless": false,
       "speciesId": "SANDSLASH",
       "form": "ALOLA",
@@ -692,7 +692,7 @@
       "baseDefense": 195,
       "baseStamina": 181
     },
-    {
+    "SANDSLASH_NORMAL": {
       "isFormless": false,
       "speciesId": "SANDSLASH",
       "form": "NORMAL",
@@ -713,7 +713,7 @@
       "baseDefense": 175,
       "baseStamina": 181
     },
-    {
+    "NIDORAN_FEMALE_NORMAL": {
       "isFormless": true,
       "speciesId": "NIDORAN_FEMALE",
       "form": "NORMAL",
@@ -734,7 +734,7 @@
       "baseDefense": 89,
       "baseStamina": 146
     },
-    {
+    "NIDORINA_NORMAL": {
       "isFormless": true,
       "speciesId": "NIDORINA",
       "form": "NORMAL",
@@ -755,7 +755,7 @@
       "baseDefense": 120,
       "baseStamina": 172
     },
-    {
+    "NIDOQUEEN_NORMAL": {
       "isFormless": true,
       "speciesId": "NIDOQUEEN",
       "form": "NORMAL",
@@ -777,7 +777,7 @@
       "baseDefense": 173,
       "baseStamina": 207
     },
-    {
+    "NIDORAN_MALE_NORMAL": {
       "isFormless": true,
       "speciesId": "NIDORAN_MALE",
       "form": "NORMAL",
@@ -798,7 +798,7 @@
       "baseDefense": 76,
       "baseStamina": 130
     },
-    {
+    "NIDORINO_NORMAL": {
       "isFormless": true,
       "speciesId": "NIDORINO",
       "form": "NORMAL",
@@ -819,7 +819,7 @@
       "baseDefense": 111,
       "baseStamina": 156
     },
-    {
+    "NIDOKING_NORMAL": {
       "isFormless": true,
       "speciesId": "NIDOKING",
       "form": "NORMAL",
@@ -841,7 +841,7 @@
       "baseDefense": 156,
       "baseStamina": 191
     },
-    {
+    "CLEFAIRY_NORMAL": {
       "isFormless": true,
       "speciesId": "CLEFAIRY",
       "form": "NORMAL",
@@ -862,7 +862,7 @@
       "baseDefense": 108,
       "baseStamina": 172
     },
-    {
+    "CLEFABLE_NORMAL": {
       "isFormless": true,
       "speciesId": "CLEFABLE",
       "form": "NORMAL",
@@ -885,7 +885,7 @@
       "baseDefense": 162,
       "baseStamina": 216
     },
-    {
+    "VULPIX_ALOLA": {
       "isFormless": false,
       "speciesId": "VULPIX",
       "form": "ALOLA",
@@ -906,7 +906,7 @@
       "baseDefense": 109,
       "baseStamina": 116
     },
-    {
+    "VULPIX_NORMAL": {
       "isFormless": false,
       "speciesId": "VULPIX",
       "form": "NORMAL",
@@ -927,7 +927,7 @@
       "baseDefense": 109,
       "baseStamina": 116
     },
-    {
+    "NINETALES_ALOLA": {
       "isFormless": false,
       "speciesId": "NINETALES",
       "form": "ALOLA",
@@ -949,7 +949,7 @@
       "baseDefense": 193,
       "baseStamina": 177
     },
-    {
+    "NINETALES_NORMAL": {
       "isFormless": false,
       "speciesId": "NINETALES",
       "form": "NORMAL",
@@ -971,7 +971,7 @@
       "baseDefense": 190,
       "baseStamina": 177
     },
-    {
+    "JIGGLYPUFF_NORMAL": {
       "isFormless": true,
       "speciesId": "JIGGLYPUFF",
       "form": "NORMAL",
@@ -992,7 +992,7 @@
       "baseDefense": 41,
       "baseStamina": 251
     },
-    {
+    "WIGGLYTUFF_NORMAL": {
       "isFormless": true,
       "speciesId": "WIGGLYTUFF",
       "form": "NORMAL",
@@ -1015,7 +1015,7 @@
       "baseDefense": 90,
       "baseStamina": 295
     },
-    {
+    "ZUBAT_NORMAL": {
       "isFormless": false,
       "speciesId": "ZUBAT",
       "form": "NORMAL",
@@ -1038,7 +1038,7 @@
       "baseDefense": 73,
       "baseStamina": 120
     },
-    {
+    "GOLBAT_NORMAL": {
       "isFormless": false,
       "speciesId": "GOLBAT",
       "form": "NORMAL",
@@ -1061,7 +1061,7 @@
       "baseDefense": 150,
       "baseStamina": 181
     },
-    {
+    "ODDISH_NORMAL": {
       "isFormless": false,
       "speciesId": "ODDISH",
       "form": "NORMAL",
@@ -1084,7 +1084,7 @@
       "baseDefense": 112,
       "baseStamina": 128
     },
-    {
+    "GLOOM_NORMAL": {
       "isFormless": false,
       "speciesId": "GLOOM",
       "form": "NORMAL",
@@ -1107,7 +1107,7 @@
       "baseDefense": 136,
       "baseStamina": 155
     },
-    {
+    "VILEPLUME_NORMAL": {
       "isFormless": false,
       "speciesId": "VILEPLUME",
       "form": "NORMAL",
@@ -1131,7 +1131,7 @@
       "baseDefense": 167,
       "baseStamina": 181
     },
-    {
+    "PARAS_NORMAL": {
       "isFormless": true,
       "speciesId": "PARAS",
       "form": "NORMAL",
@@ -1152,7 +1152,7 @@
       "baseDefense": 99,
       "baseStamina": 111
     },
-    {
+    "PARASECT_NORMAL": {
       "isFormless": true,
       "speciesId": "PARASECT",
       "form": "NORMAL",
@@ -1173,7 +1173,7 @@
       "baseDefense": 146,
       "baseStamina": 155
     },
-    {
+    "VENONAT_NORMAL": {
       "isFormless": false,
       "speciesId": "VENONAT",
       "form": "NORMAL",
@@ -1196,7 +1196,7 @@
       "baseDefense": 100,
       "baseStamina": 155
     },
-    {
+    "VENOMOTH_NORMAL": {
       "isFormless": false,
       "speciesId": "VENOMOTH",
       "form": "NORMAL",
@@ -1219,7 +1219,7 @@
       "baseDefense": 143,
       "baseStamina": 172
     },
-    {
+    "DIGLETT_ALOLA": {
       "isFormless": false,
       "speciesId": "DIGLETT",
       "form": "ALOLA",
@@ -1240,7 +1240,7 @@
       "baseDefense": 81,
       "baseStamina": 67
     },
-    {
+    "DIGLETT_NORMAL": {
       "isFormless": false,
       "speciesId": "DIGLETT",
       "form": "NORMAL",
@@ -1261,7 +1261,7 @@
       "baseDefense": 78,
       "baseStamina": 67
     },
-    {
+    "DUGTRIO_ALOLA": {
       "isFormless": false,
       "speciesId": "DUGTRIO",
       "form": "ALOLA",
@@ -1282,7 +1282,7 @@
       "baseDefense": 142,
       "baseStamina": 111
     },
-    {
+    "DUGTRIO_NORMAL": {
       "isFormless": false,
       "speciesId": "DUGTRIO",
       "form": "NORMAL",
@@ -1303,7 +1303,7 @@
       "baseDefense": 136,
       "baseStamina": 111
     },
-    {
+    "MEOWTH_ALOLA": {
       "isFormless": false,
       "speciesId": "MEOWTH",
       "form": "ALOLA",
@@ -1324,7 +1324,7 @@
       "baseDefense": 78,
       "baseStamina": 120
     },
-    {
+    "MEOWTH_NORMAL": {
       "isFormless": false,
       "speciesId": "MEOWTH",
       "form": "NORMAL",
@@ -1345,7 +1345,7 @@
       "baseDefense": 78,
       "baseStamina": 120
     },
-    {
+    "PERSIAN_ALOLA": {
       "isFormless": false,
       "speciesId": "PERSIAN",
       "form": "ALOLA",
@@ -1366,7 +1366,7 @@
       "baseDefense": 136,
       "baseStamina": 163
     },
-    {
+    "PERSIAN_NORMAL": {
       "isFormless": false,
       "speciesId": "PERSIAN",
       "form": "NORMAL",
@@ -1387,7 +1387,7 @@
       "baseDefense": 136,
       "baseStamina": 163
     },
-    {
+    "PSYDUCK_NORMAL": {
       "isFormless": false,
       "speciesId": "PSYDUCK",
       "form": "NORMAL",
@@ -1410,7 +1410,7 @@
       "baseDefense": 95,
       "baseStamina": 137
     },
-    {
+    "GOLDUCK_NORMAL": {
       "isFormless": false,
       "speciesId": "GOLDUCK",
       "form": "NORMAL",
@@ -1433,7 +1433,7 @@
       "baseDefense": 162,
       "baseStamina": 190
     },
-    {
+    "MANKEY_NORMAL": {
       "isFormless": true,
       "speciesId": "MANKEY",
       "form": "NORMAL",
@@ -1454,7 +1454,7 @@
       "baseDefense": 82,
       "baseStamina": 120
     },
-    {
+    "PRIMEAPE_NORMAL": {
       "isFormless": true,
       "speciesId": "PRIMEAPE",
       "form": "NORMAL",
@@ -1475,7 +1475,7 @@
       "baseDefense": 138,
       "baseStamina": 163
     },
-    {
+    "GROWLITHE_NORMAL": {
       "isFormless": false,
       "speciesId": "GROWLITHE",
       "form": "NORMAL",
@@ -1498,7 +1498,7 @@
       "baseDefense": 93,
       "baseStamina": 146
     },
-    {
+    "ARCANINE_NORMAL": {
       "isFormless": false,
       "speciesId": "ARCANINE",
       "form": "NORMAL",
@@ -1521,7 +1521,7 @@
       "baseDefense": 166,
       "baseStamina": 207
     },
-    {
+    "POLIWAG_NORMAL": {
       "isFormless": false,
       "speciesId": "POLIWAG",
       "form": "NORMAL",
@@ -1544,7 +1544,7 @@
       "baseDefense": 82,
       "baseStamina": 120
     },
-    {
+    "POLIWHIRL_NORMAL": {
       "isFormless": false,
       "speciesId": "POLIWHIRL",
       "form": "NORMAL",
@@ -1567,7 +1567,7 @@
       "baseDefense": 123,
       "baseStamina": 163
     },
-    {
+    "POLIWRATH_NORMAL": {
       "isFormless": false,
       "speciesId": "POLIWRATH",
       "form": "NORMAL",
@@ -1591,7 +1591,7 @@
       "baseDefense": 184,
       "baseStamina": 207
     },
-    {
+    "ABRA_NORMAL": {
       "isFormless": false,
       "speciesId": "ABRA",
       "form": "NORMAL",
@@ -1614,7 +1614,7 @@
       "baseDefense": 82,
       "baseStamina": 93
     },
-    {
+    "KADABRA_NORMAL": {
       "isFormless": false,
       "speciesId": "KADABRA",
       "form": "NORMAL",
@@ -1637,7 +1637,7 @@
       "baseDefense": 117,
       "baseStamina": 120
     },
-    {
+    "ALAKAZAM_NORMAL": {
       "isFormless": false,
       "speciesId": "ALAKAZAM",
       "form": "NORMAL",
@@ -1661,7 +1661,7 @@
       "baseDefense": 167,
       "baseStamina": 146
     },
-    {
+    "MACHOP_NORMAL": {
       "isFormless": true,
       "speciesId": "MACHOP",
       "form": "NORMAL",
@@ -1682,7 +1682,7 @@
       "baseDefense": 82,
       "baseStamina": 172
     },
-    {
+    "MACHOKE_NORMAL": {
       "isFormless": true,
       "speciesId": "MACHOKE",
       "form": "NORMAL",
@@ -1703,7 +1703,7 @@
       "baseDefense": 125,
       "baseStamina": 190
     },
-    {
+    "MACHAMP_NORMAL": {
       "isFormless": true,
       "speciesId": "MACHAMP",
       "form": "NORMAL",
@@ -1725,7 +1725,7 @@
       "baseDefense": 159,
       "baseStamina": 207
     },
-    {
+    "BELLSPROUT_NORMAL": {
       "isFormless": true,
       "speciesId": "BELLSPROUT",
       "form": "NORMAL",
@@ -1746,7 +1746,7 @@
       "baseDefense": 61,
       "baseStamina": 137
     },
-    {
+    "WEEPINBELL_NORMAL": {
       "isFormless": true,
       "speciesId": "WEEPINBELL",
       "form": "NORMAL",
@@ -1767,7 +1767,7 @@
       "baseDefense": 92,
       "baseStamina": 163
     },
-    {
+    "VICTREEBEL_NORMAL": {
       "isFormless": true,
       "speciesId": "VICTREEBEL",
       "form": "NORMAL",
@@ -1790,7 +1790,7 @@
       "baseDefense": 135,
       "baseStamina": 190
     },
-    {
+    "TENTACOOL_NORMAL": {
       "isFormless": true,
       "speciesId": "TENTACOOL",
       "form": "NORMAL",
@@ -1811,7 +1811,7 @@
       "baseDefense": 149,
       "baseStamina": 120
     },
-    {
+    "TENTACRUEL_NORMAL": {
       "isFormless": true,
       "speciesId": "TENTACRUEL",
       "form": "NORMAL",
@@ -1833,7 +1833,7 @@
       "baseDefense": 209,
       "baseStamina": 190
     },
-    {
+    "GEODUDE_ALOLA": {
       "isFormless": false,
       "speciesId": "GEODUDE",
       "form": "ALOLA",
@@ -1854,7 +1854,7 @@
       "baseDefense": 132,
       "baseStamina": 120
     },
-    {
+    "GEODUDE_NORMAL": {
       "isFormless": false,
       "speciesId": "GEODUDE",
       "form": "NORMAL",
@@ -1875,7 +1875,7 @@
       "baseDefense": 132,
       "baseStamina": 120
     },
-    {
+    "GRAVELER_ALOLA": {
       "isFormless": false,
       "speciesId": "GRAVELER",
       "form": "ALOLA",
@@ -1896,7 +1896,7 @@
       "baseDefense": 164,
       "baseStamina": 146
     },
-    {
+    "GRAVELER_NORMAL": {
       "isFormless": false,
       "speciesId": "GRAVELER",
       "form": "NORMAL",
@@ -1917,7 +1917,7 @@
       "baseDefense": 164,
       "baseStamina": 146
     },
-    {
+    "GOLEM_ALOLA": {
       "isFormless": false,
       "speciesId": "GOLEM",
       "form": "ALOLA",
@@ -1938,7 +1938,7 @@
       "baseDefense": 198,
       "baseStamina": 190
     },
-    {
+    "GOLEM_NORMAL": {
       "isFormless": false,
       "speciesId": "GOLEM",
       "form": "NORMAL",
@@ -1959,7 +1959,7 @@
       "baseDefense": 198,
       "baseStamina": 190
     },
-    {
+    "PONYTA_NORMAL": {
       "isFormless": true,
       "speciesId": "PONYTA",
       "form": "NORMAL",
@@ -1980,7 +1980,7 @@
       "baseDefense": 127,
       "baseStamina": 137
     },
-    {
+    "RAPIDASH_NORMAL": {
       "isFormless": true,
       "speciesId": "RAPIDASH",
       "form": "NORMAL",
@@ -2001,7 +2001,7 @@
       "baseDefense": 162,
       "baseStamina": 163
     },
-    {
+    "SLOWPOKE_NORMAL": {
       "isFormless": true,
       "speciesId": "SLOWPOKE",
       "form": "NORMAL",
@@ -2022,7 +2022,7 @@
       "baseDefense": 98,
       "baseStamina": 207
     },
-    {
+    "SLOWBRO_NORMAL": {
       "isFormless": true,
       "speciesId": "SLOWBRO",
       "form": "NORMAL",
@@ -2043,7 +2043,7 @@
       "baseDefense": 180,
       "baseStamina": 216
     },
-    {
+    "MAGNEMITE_NORMAL": {
       "isFormless": true,
       "speciesId": "MAGNEMITE",
       "form": "NORMAL",
@@ -2064,7 +2064,7 @@
       "baseDefense": 121,
       "baseStamina": 93
     },
-    {
+    "MAGNETON_NORMAL": {
       "isFormless": true,
       "speciesId": "MAGNETON",
       "form": "NORMAL",
@@ -2085,7 +2085,7 @@
       "baseDefense": 169,
       "baseStamina": 137
     },
-    {
+    "FARFETCHD_NORMAL": {
       "isFormless": true,
       "speciesId": "FARFETCHD",
       "form": "NORMAL",
@@ -2106,7 +2106,7 @@
       "baseDefense": 115,
       "baseStamina": 141
     },
-    {
+    "DODUO_NORMAL": {
       "isFormless": true,
       "speciesId": "DODUO",
       "form": "NORMAL",
@@ -2127,7 +2127,7 @@
       "baseDefense": 83,
       "baseStamina": 111
     },
-    {
+    "DODRIO_NORMAL": {
       "isFormless": true,
       "speciesId": "DODRIO",
       "form": "NORMAL",
@@ -2148,7 +2148,7 @@
       "baseDefense": 140,
       "baseStamina": 155
     },
-    {
+    "SEEL_NORMAL": {
       "isFormless": true,
       "speciesId": "SEEL",
       "form": "NORMAL",
@@ -2169,7 +2169,7 @@
       "baseDefense": 121,
       "baseStamina": 163
     },
-    {
+    "DEWGONG_NORMAL": {
       "isFormless": true,
       "speciesId": "DEWGONG",
       "form": "NORMAL",
@@ -2190,7 +2190,7 @@
       "baseDefense": 177,
       "baseStamina": 207
     },
-    {
+    "GRIMER_ALOLA": {
       "isFormless": false,
       "speciesId": "GRIMER",
       "form": "ALOLA",
@@ -2211,7 +2211,7 @@
       "baseDefense": 90,
       "baseStamina": 190
     },
-    {
+    "GRIMER_NORMAL": {
       "isFormless": false,
       "speciesId": "GRIMER",
       "form": "NORMAL",
@@ -2234,7 +2234,7 @@
       "baseDefense": 90,
       "baseStamina": 190
     },
-    {
+    "MUK_ALOLA": {
       "isFormless": false,
       "speciesId": "MUK",
       "form": "ALOLA",
@@ -2257,7 +2257,7 @@
       "baseDefense": 172,
       "baseStamina": 233
     },
-    {
+    "MUK_NORMAL": {
       "isFormless": false,
       "speciesId": "MUK",
       "form": "NORMAL",
@@ -2282,7 +2282,7 @@
       "baseDefense": 172,
       "baseStamina": 233
     },
-    {
+    "SHELLDER_NORMAL": {
       "isFormless": true,
       "speciesId": "SHELLDER",
       "form": "NORMAL",
@@ -2303,7 +2303,7 @@
       "baseDefense": 134,
       "baseStamina": 102
     },
-    {
+    "CLOYSTER_NORMAL": {
       "isFormless": true,
       "speciesId": "CLOYSTER",
       "form": "NORMAL",
@@ -2324,7 +2324,7 @@
       "baseDefense": 256,
       "baseStamina": 137
     },
-    {
+    "GASTLY_NORMAL": {
       "isFormless": true,
       "speciesId": "GASTLY",
       "form": "NORMAL",
@@ -2345,7 +2345,7 @@
       "baseDefense": 67,
       "baseStamina": 102
     },
-    {
+    "HAUNTER_NORMAL": {
       "isFormless": true,
       "speciesId": "HAUNTER",
       "form": "NORMAL",
@@ -2366,7 +2366,7 @@
       "baseDefense": 107,
       "baseStamina": 128
     },
-    {
+    "GENGAR_NORMAL": {
       "isFormless": true,
       "speciesId": "GENGAR",
       "form": "NORMAL",
@@ -2387,7 +2387,7 @@
       "baseDefense": 149,
       "baseStamina": 155
     },
-    {
+    "ONIX_NORMAL": {
       "isFormless": true,
       "speciesId": "ONIX",
       "form": "NORMAL",
@@ -2408,7 +2408,7 @@
       "baseDefense": 232,
       "baseStamina": 111
     },
-    {
+    "DROWZEE_NORMAL": {
       "isFormless": false,
       "speciesId": "DROWZEE",
       "form": "NORMAL",
@@ -2431,7 +2431,7 @@
       "baseDefense": 136,
       "baseStamina": 155
     },
-    {
+    "HYPNO_NORMAL": {
       "isFormless": false,
       "speciesId": "HYPNO",
       "form": "NORMAL",
@@ -2457,7 +2457,7 @@
       "baseDefense": 193,
       "baseStamina": 198
     },
-    {
+    "KRABBY_NORMAL": {
       "isFormless": true,
       "speciesId": "KRABBY",
       "form": "NORMAL",
@@ -2478,7 +2478,7 @@
       "baseDefense": 124,
       "baseStamina": 102
     },
-    {
+    "KINGLER_NORMAL": {
       "isFormless": true,
       "speciesId": "KINGLER",
       "form": "NORMAL",
@@ -2500,7 +2500,7 @@
       "baseDefense": 181,
       "baseStamina": 146
     },
-    {
+    "VOLTORB_NORMAL": {
       "isFormless": true,
       "speciesId": "VOLTORB",
       "form": "NORMAL",
@@ -2521,7 +2521,7 @@
       "baseDefense": 111,
       "baseStamina": 120
     },
-    {
+    "ELECTRODE_NORMAL": {
       "isFormless": true,
       "speciesId": "ELECTRODE",
       "form": "NORMAL",
@@ -2543,7 +2543,7 @@
       "baseDefense": 173,
       "baseStamina": 155
     },
-    {
+    "EXEGGCUTE_NORMAL": {
       "isFormless": true,
       "speciesId": "EXEGGCUTE",
       "form": "NORMAL",
@@ -2564,7 +2564,7 @@
       "baseDefense": 125,
       "baseStamina": 155
     },
-    {
+    "EXEGGUTOR_ALOLA": {
       "isFormless": false,
       "speciesId": "EXEGGUTOR",
       "form": "ALOLA",
@@ -2585,7 +2585,7 @@
       "baseDefense": 153,
       "baseStamina": 216
     },
-    {
+    "EXEGGUTOR_NORMAL": {
       "isFormless": false,
       "speciesId": "EXEGGUTOR",
       "form": "NORMAL",
@@ -2606,7 +2606,7 @@
       "baseDefense": 149,
       "baseStamina": 216
     },
-    {
+    "CUBONE_NORMAL": {
       "isFormless": false,
       "speciesId": "CUBONE",
       "form": "NORMAL",
@@ -2629,7 +2629,7 @@
       "baseDefense": 144,
       "baseStamina": 137
     },
-    {
+    "MAROWAK_ALOLA": {
       "isFormless": false,
       "speciesId": "MAROWAK",
       "form": "ALOLA",
@@ -2650,7 +2650,7 @@
       "baseDefense": 186,
       "baseStamina": 155
     },
-    {
+    "MAROWAK_NORMAL": {
       "isFormless": false,
       "speciesId": "MAROWAK",
       "form": "NORMAL",
@@ -2673,7 +2673,7 @@
       "baseDefense": 186,
       "baseStamina": 155
     },
-    {
+    "HITMONLEE_NORMAL": {
       "isFormless": true,
       "speciesId": "HITMONLEE",
       "form": "NORMAL",
@@ -2694,7 +2694,7 @@
       "baseDefense": 181,
       "baseStamina": 137
     },
-    {
+    "HITMONCHAN_NORMAL": {
       "isFormless": false,
       "speciesId": "HITMONCHAN",
       "form": "NORMAL",
@@ -2719,7 +2719,7 @@
       "baseDefense": 197,
       "baseStamina": 137
     },
-    {
+    "LICKITUNG_NORMAL": {
       "isFormless": true,
       "speciesId": "LICKITUNG",
       "form": "NORMAL",
@@ -2740,7 +2740,7 @@
       "baseDefense": 137,
       "baseStamina": 207
     },
-    {
+    "KOFFING_NORMAL": {
       "isFormless": true,
       "speciesId": "KOFFING",
       "form": "NORMAL",
@@ -2761,7 +2761,7 @@
       "baseDefense": 141,
       "baseStamina": 120
     },
-    {
+    "WEEZING_NORMAL": {
       "isFormless": true,
       "speciesId": "WEEZING",
       "form": "NORMAL",
@@ -2783,7 +2783,7 @@
       "baseDefense": 197,
       "baseStamina": 163
     },
-    {
+    "RHYHORN_NORMAL": {
       "isFormless": true,
       "speciesId": "RHYHORN",
       "form": "NORMAL",
@@ -2804,7 +2804,7 @@
       "baseDefense": 127,
       "baseStamina": 190
     },
-    {
+    "RHYDON_NORMAL": {
       "isFormless": true,
       "speciesId": "RHYDON",
       "form": "NORMAL",
@@ -2825,7 +2825,7 @@
       "baseDefense": 171,
       "baseStamina": 233
     },
-    {
+    "CHANSEY_NORMAL": {
       "isFormless": true,
       "speciesId": "CHANSEY",
       "form": "NORMAL",
@@ -2846,7 +2846,7 @@
       "baseDefense": 128,
       "baseStamina": 487
     },
-    {
+    "TANGELA_NORMAL": {
       "isFormless": true,
       "speciesId": "TANGELA",
       "form": "NORMAL",
@@ -2867,7 +2867,7 @@
       "baseDefense": 169,
       "baseStamina": 163
     },
-    {
+    "KANGASKHAN_NORMAL": {
       "isFormless": true,
       "speciesId": "KANGASKHAN",
       "form": "NORMAL",
@@ -2889,7 +2889,7 @@
       "baseDefense": 165,
       "baseStamina": 233
     },
-    {
+    "HORSEA_NORMAL": {
       "isFormless": true,
       "speciesId": "HORSEA",
       "form": "NORMAL",
@@ -2910,7 +2910,7 @@
       "baseDefense": 103,
       "baseStamina": 102
     },
-    {
+    "SEADRA_NORMAL": {
       "isFormless": true,
       "speciesId": "SEADRA",
       "form": "NORMAL",
@@ -2931,7 +2931,7 @@
       "baseDefense": 156,
       "baseStamina": 146
     },
-    {
+    "GOLDEEN_NORMAL": {
       "isFormless": true,
       "speciesId": "GOLDEEN",
       "form": "NORMAL",
@@ -2952,7 +2952,7 @@
       "baseDefense": 110,
       "baseStamina": 128
     },
-    {
+    "SEAKING_NORMAL": {
       "isFormless": true,
       "speciesId": "SEAKING",
       "form": "NORMAL",
@@ -2973,7 +2973,7 @@
       "baseDefense": 147,
       "baseStamina": 190
     },
-    {
+    "STARYU_NORMAL": {
       "isFormless": true,
       "speciesId": "STARYU",
       "form": "NORMAL",
@@ -2994,7 +2994,7 @@
       "baseDefense": 112,
       "baseStamina": 102
     },
-    {
+    "STARMIE_NORMAL": {
       "isFormless": true,
       "speciesId": "STARMIE",
       "form": "NORMAL",
@@ -3017,7 +3017,7 @@
       "baseDefense": 184,
       "baseStamina": 155
     },
-    {
+    "MR_MIME_NORMAL": {
       "isFormless": true,
       "speciesId": "MR_MIME",
       "form": "NORMAL",
@@ -3038,7 +3038,7 @@
       "baseDefense": 205,
       "baseStamina": 120
     },
-    {
+    "SCYTHER_NORMAL": {
       "isFormless": false,
       "speciesId": "SCYTHER",
       "form": "NORMAL",
@@ -3061,7 +3061,7 @@
       "baseDefense": 170,
       "baseStamina": 172
     },
-    {
+    "JYNX_NORMAL": {
       "isFormless": true,
       "speciesId": "JYNX",
       "form": "NORMAL",
@@ -3083,7 +3083,7 @@
       "baseDefense": 151,
       "baseStamina": 163
     },
-    {
+    "ELECTABUZZ_NORMAL": {
       "isFormless": true,
       "speciesId": "ELECTABUZZ",
       "form": "NORMAL",
@@ -3104,7 +3104,7 @@
       "baseDefense": 158,
       "baseStamina": 163
     },
-    {
+    "MAGMAR_NORMAL": {
       "isFormless": true,
       "speciesId": "MAGMAR",
       "form": "NORMAL",
@@ -3125,7 +3125,7 @@
       "baseDefense": 154,
       "baseStamina": 163
     },
-    {
+    "PINSIR_NORMAL": {
       "isFormless": true,
       "speciesId": "PINSIR",
       "form": "NORMAL",
@@ -3146,7 +3146,7 @@
       "baseDefense": 182,
       "baseStamina": 163
     },
-    {
+    "TAUROS_NORMAL": {
       "isFormless": true,
       "speciesId": "TAUROS",
       "form": "NORMAL",
@@ -3167,7 +3167,7 @@
       "baseDefense": 183,
       "baseStamina": 181
     },
-    {
+    "MAGIKARP_NORMAL": {
       "isFormless": false,
       "speciesId": "MAGIKARP",
       "form": "NORMAL",
@@ -3187,7 +3187,7 @@
       "baseDefense": 85,
       "baseStamina": 85
     },
-    {
+    "GYARADOS_NORMAL": {
       "isFormless": false,
       "speciesId": "GYARADOS",
       "form": "NORMAL",
@@ -3210,7 +3210,7 @@
       "baseDefense": 186,
       "baseStamina": 216
     },
-    {
+    "LAPRAS_NORMAL": {
       "isFormless": false,
       "speciesId": "LAPRAS",
       "form": "NORMAL",
@@ -3234,7 +3234,7 @@
       "baseDefense": 174,
       "baseStamina": 277
     },
-    {
+    "DITTO_NORMAL": {
       "isFormless": true,
       "speciesId": "DITTO",
       "form": "NORMAL",
@@ -3252,7 +3252,7 @@
       "baseDefense": 91,
       "baseStamina": 134
     },
-    {
+    "EEVEE_NORMAL": {
       "isFormless": true,
       "speciesId": "EEVEE",
       "form": "NORMAL",
@@ -3272,7 +3272,7 @@
       "baseDefense": 114,
       "baseStamina": 146
     },
-    {
+    "VAPOREON_NORMAL": {
       "isFormless": true,
       "speciesId": "VAPOREON",
       "form": "NORMAL",
@@ -3292,7 +3292,7 @@
       "baseDefense": 161,
       "baseStamina": 277
     },
-    {
+    "JOLTEON_NORMAL": {
       "isFormless": true,
       "speciesId": "JOLTEON",
       "form": "NORMAL",
@@ -3313,7 +3313,7 @@
       "baseDefense": 182,
       "baseStamina": 163
     },
-    {
+    "FLAREON_NORMAL": {
       "isFormless": true,
       "speciesId": "FLAREON",
       "form": "NORMAL",
@@ -3334,7 +3334,7 @@
       "baseDefense": 179,
       "baseStamina": 163
     },
-    {
+    "PORYGON_NORMAL": {
       "isFormless": true,
       "speciesId": "PORYGON",
       "form": "NORMAL",
@@ -3355,7 +3355,7 @@
       "baseDefense": 136,
       "baseStamina": 163
     },
-    {
+    "OMANYTE_NORMAL": {
       "isFormless": true,
       "speciesId": "OMANYTE",
       "form": "NORMAL",
@@ -3376,7 +3376,7 @@
       "baseDefense": 153,
       "baseStamina": 111
     },
-    {
+    "OMASTAR_NORMAL": {
       "isFormless": true,
       "speciesId": "OMASTAR",
       "form": "NORMAL",
@@ -3397,7 +3397,7 @@
       "baseDefense": 201,
       "baseStamina": 172
     },
-    {
+    "KABUTO_NORMAL": {
       "isFormless": true,
       "speciesId": "KABUTO",
       "form": "NORMAL",
@@ -3418,7 +3418,7 @@
       "baseDefense": 140,
       "baseStamina": 102
     },
-    {
+    "KABUTOPS_NORMAL": {
       "isFormless": true,
       "speciesId": "KABUTOPS",
       "form": "NORMAL",
@@ -3440,7 +3440,7 @@
       "baseDefense": 186,
       "baseStamina": 155
     },
-    {
+    "AERODACTYL_NORMAL": {
       "isFormless": true,
       "speciesId": "AERODACTYL",
       "form": "NORMAL",
@@ -3464,7 +3464,7 @@
       "baseDefense": 159,
       "baseStamina": 190
     },
-    {
+    "SNORLAX_NORMAL": {
       "isFormless": false,
       "speciesId": "SNORLAX",
       "form": "NORMAL",
@@ -3489,7 +3489,7 @@
       "baseDefense": 169,
       "baseStamina": 330
     },
-    {
+    "ARTICUNO_NORMAL": {
       "isFormless": true,
       "speciesId": "ARTICUNO",
       "form": "NORMAL",
@@ -3511,7 +3511,7 @@
       "baseDefense": 236,
       "baseStamina": 207
     },
-    {
+    "ZAPDOS_NORMAL": {
       "isFormless": true,
       "speciesId": "ZAPDOS",
       "form": "NORMAL",
@@ -3533,7 +3533,7 @@
       "baseDefense": 185,
       "baseStamina": 207
     },
-    {
+    "MOLTRES_NORMAL": {
       "isFormless": true,
       "speciesId": "MOLTRES",
       "form": "NORMAL",
@@ -3555,7 +3555,7 @@
       "baseDefense": 181,
       "baseStamina": 207
     },
-    {
+    "DRATINI_NORMAL": {
       "isFormless": false,
       "speciesId": "DRATINI",
       "form": "NORMAL",
@@ -3578,7 +3578,7 @@
       "baseDefense": 91,
       "baseStamina": 121
     },
-    {
+    "DRAGONAIR_NORMAL": {
       "isFormless": false,
       "speciesId": "DRAGONAIR",
       "form": "NORMAL",
@@ -3601,7 +3601,7 @@
       "baseDefense": 135,
       "baseStamina": 156
     },
-    {
+    "DRAGONITE_NORMAL": {
       "isFormless": false,
       "speciesId": "DRAGONITE",
       "form": "NORMAL",
@@ -3624,7 +3624,7 @@
       "baseDefense": 198,
       "baseStamina": 209
     },
-    {
+    "MEWTWO_A": {
       "isFormless": false,
       "speciesId": "MEWTWO",
       "form": "A",
@@ -3646,7 +3646,7 @@
       "baseDefense": 278,
       "baseStamina": 214
     },
-    {
+    "MEWTWO_NORMAL": {
       "isFormless": false,
       "speciesId": "MEWTWO",
       "form": "NORMAL",
@@ -3669,7 +3669,7 @@
       "baseDefense": 182,
       "baseStamina": 214
     },
-    {
+    "MEW_NORMAL": {
       "isFormless": true,
       "speciesId": "MEW",
       "form": "NORMAL",
@@ -3734,7 +3734,7 @@
       "baseDefense": 210,
       "baseStamina": 225
     },
-    {
+    "CHIKORITA_NORMAL": {
       "isFormless": true,
       "speciesId": "CHIKORITA",
       "form": "NORMAL",
@@ -3755,7 +3755,7 @@
       "baseDefense": 122,
       "baseStamina": 128
     },
-    {
+    "BAYLEEF_NORMAL": {
       "isFormless": true,
       "speciesId": "BAYLEEF",
       "form": "NORMAL",
@@ -3776,7 +3776,7 @@
       "baseDefense": 155,
       "baseStamina": 155
     },
-    {
+    "MEGANIUM_NORMAL": {
       "isFormless": true,
       "speciesId": "MEGANIUM",
       "form": "NORMAL",
@@ -3797,7 +3797,7 @@
       "baseDefense": 202,
       "baseStamina": 190
     },
-    {
+    "CYNDAQUIL_NORMAL": {
       "isFormless": true,
       "speciesId": "CYNDAQUIL",
       "form": "NORMAL",
@@ -3818,7 +3818,7 @@
       "baseDefense": 93,
       "baseStamina": 118
     },
-    {
+    "QUILAVA_NORMAL": {
       "isFormless": true,
       "speciesId": "QUILAVA",
       "form": "NORMAL",
@@ -3839,7 +3839,7 @@
       "baseDefense": 126,
       "baseStamina": 151
     },
-    {
+    "TYPHLOSION_NORMAL": {
       "isFormless": true,
       "speciesId": "TYPHLOSION",
       "form": "NORMAL",
@@ -3860,7 +3860,7 @@
       "baseDefense": 173,
       "baseStamina": 186
     },
-    {
+    "TOTODILE_NORMAL": {
       "isFormless": true,
       "speciesId": "TOTODILE",
       "form": "NORMAL",
@@ -3881,7 +3881,7 @@
       "baseDefense": 109,
       "baseStamina": 137
     },
-    {
+    "CROCONAW_NORMAL": {
       "isFormless": true,
       "speciesId": "CROCONAW",
       "form": "NORMAL",
@@ -3902,7 +3902,7 @@
       "baseDefense": 142,
       "baseStamina": 163
     },
-    {
+    "FERALIGATR_NORMAL": {
       "isFormless": true,
       "speciesId": "FERALIGATR",
       "form": "NORMAL",
@@ -3923,7 +3923,7 @@
       "baseDefense": 188,
       "baseStamina": 198
     },
-    {
+    "SENTRET_NORMAL": {
       "isFormless": true,
       "speciesId": "SENTRET",
       "form": "NORMAL",
@@ -3944,7 +3944,7 @@
       "baseDefense": 73,
       "baseStamina": 111
     },
-    {
+    "FURRET_NORMAL": {
       "isFormless": true,
       "speciesId": "FURRET",
       "form": "NORMAL",
@@ -3965,7 +3965,7 @@
       "baseDefense": 125,
       "baseStamina": 198
     },
-    {
+    "HOOTHOOT_NORMAL": {
       "isFormless": true,
       "speciesId": "HOOTHOOT",
       "form": "NORMAL",
@@ -3986,7 +3986,7 @@
       "baseDefense": 88,
       "baseStamina": 155
     },
-    {
+    "NOCTOWL_NORMAL": {
       "isFormless": true,
       "speciesId": "NOCTOWL",
       "form": "NORMAL",
@@ -4007,7 +4007,7 @@
       "baseDefense": 156,
       "baseStamina": 225
     },
-    {
+    "LEDYBA_NORMAL": {
       "isFormless": true,
       "speciesId": "LEDYBA",
       "form": "NORMAL",
@@ -4028,7 +4028,7 @@
       "baseDefense": 118,
       "baseStamina": 120
     },
-    {
+    "LEDIAN_NORMAL": {
       "isFormless": true,
       "speciesId": "LEDIAN",
       "form": "NORMAL",
@@ -4049,7 +4049,7 @@
       "baseDefense": 179,
       "baseStamina": 146
     },
-    {
+    "SPINARAK_NORMAL": {
       "isFormless": true,
       "speciesId": "SPINARAK",
       "form": "NORMAL",
@@ -4070,7 +4070,7 @@
       "baseDefense": 73,
       "baseStamina": 120
     },
-    {
+    "ARIADOS_NORMAL": {
       "isFormless": true,
       "speciesId": "ARIADOS",
       "form": "NORMAL",
@@ -4091,7 +4091,7 @@
       "baseDefense": 124,
       "baseStamina": 172
     },
-    {
+    "CROBAT_NORMAL": {
       "isFormless": false,
       "speciesId": "CROBAT",
       "form": "NORMAL",
@@ -4114,7 +4114,7 @@
       "baseDefense": 178,
       "baseStamina": 198
     },
-    {
+    "CHINCHOU_NORMAL": {
       "isFormless": true,
       "speciesId": "CHINCHOU",
       "form": "NORMAL",
@@ -4135,7 +4135,7 @@
       "baseDefense": 97,
       "baseStamina": 181
     },
-    {
+    "LANTURN_NORMAL": {
       "isFormless": true,
       "speciesId": "LANTURN",
       "form": "NORMAL",
@@ -4156,7 +4156,7 @@
       "baseDefense": 137,
       "baseStamina": 268
     },
-    {
+    "PICHU_NORMAL": {
       "isFormless": true,
       "speciesId": "PICHU",
       "form": "NORMAL",
@@ -4176,7 +4176,7 @@
       "baseDefense": 53,
       "baseStamina": 85
     },
-    {
+    "CLEFFA_NORMAL": {
       "isFormless": true,
       "speciesId": "CLEFFA",
       "form": "NORMAL",
@@ -4197,7 +4197,7 @@
       "baseDefense": 79,
       "baseStamina": 137
     },
-    {
+    "IGGLYBUFF_NORMAL": {
       "isFormless": true,
       "speciesId": "IGGLYBUFF",
       "form": "NORMAL",
@@ -4218,7 +4218,7 @@
       "baseDefense": 32,
       "baseStamina": 207
     },
-    {
+    "TOGEPI_NORMAL": {
       "isFormless": true,
       "speciesId": "TOGEPI",
       "form": "NORMAL",
@@ -4239,7 +4239,7 @@
       "baseDefense": 116,
       "baseStamina": 111
     },
-    {
+    "TOGETIC_NORMAL": {
       "isFormless": true,
       "speciesId": "TOGETIC",
       "form": "NORMAL",
@@ -4260,7 +4260,7 @@
       "baseDefense": 181,
       "baseStamina": 146
     },
-    {
+    "NATU_NORMAL": {
       "isFormless": true,
       "speciesId": "NATU",
       "form": "NORMAL",
@@ -4281,7 +4281,7 @@
       "baseDefense": 89,
       "baseStamina": 120
     },
-    {
+    "XATU_NORMAL": {
       "isFormless": true,
       "speciesId": "XATU",
       "form": "NORMAL",
@@ -4302,7 +4302,7 @@
       "baseDefense": 146,
       "baseStamina": 163
     },
-    {
+    "MAREEP_NORMAL": {
       "isFormless": true,
       "speciesId": "MAREEP",
       "form": "NORMAL",
@@ -4323,7 +4323,7 @@
       "baseDefense": 79,
       "baseStamina": 146
     },
-    {
+    "FLAAFFY_NORMAL": {
       "isFormless": true,
       "speciesId": "FLAAFFY",
       "form": "NORMAL",
@@ -4344,7 +4344,7 @@
       "baseDefense": 109,
       "baseStamina": 172
     },
-    {
+    "AMPHAROS_NORMAL": {
       "isFormless": true,
       "speciesId": "AMPHAROS",
       "form": "NORMAL",
@@ -4366,7 +4366,7 @@
       "baseDefense": 169,
       "baseStamina": 207
     },
-    {
+    "BELLOSSOM_NORMAL": {
       "isFormless": false,
       "speciesId": "BELLOSSOM",
       "form": "NORMAL",
@@ -4389,7 +4389,7 @@
       "baseDefense": 186,
       "baseStamina": 181
     },
-    {
+    "MARILL_NORMAL": {
       "isFormless": true,
       "speciesId": "MARILL",
       "form": "NORMAL",
@@ -4410,7 +4410,7 @@
       "baseDefense": 93,
       "baseStamina": 172
     },
-    {
+    "AZUMARILL_NORMAL": {
       "isFormless": true,
       "speciesId": "AZUMARILL",
       "form": "NORMAL",
@@ -4431,7 +4431,7 @@
       "baseDefense": 152,
       "baseStamina": 225
     },
-    {
+    "SUDOWOODO_NORMAL": {
       "isFormless": true,
       "speciesId": "SUDOWOODO",
       "form": "NORMAL",
@@ -4452,7 +4452,7 @@
       "baseDefense": 176,
       "baseStamina": 172
     },
-    {
+    "POLITOED_NORMAL": {
       "isFormless": false,
       "speciesId": "POLITOED",
       "form": "NORMAL",
@@ -4475,7 +4475,7 @@
       "baseDefense": 179,
       "baseStamina": 207
     },
-    {
+    "HOPPIP_NORMAL": {
       "isFormless": true,
       "speciesId": "HOPPIP",
       "form": "NORMAL",
@@ -4496,7 +4496,7 @@
       "baseDefense": 94,
       "baseStamina": 111
     },
-    {
+    "SKIPLOOM_NORMAL": {
       "isFormless": true,
       "speciesId": "SKIPLOOM",
       "form": "NORMAL",
@@ -4517,7 +4517,7 @@
       "baseDefense": 120,
       "baseStamina": 146
     },
-    {
+    "JUMPLUFF_NORMAL": {
       "isFormless": true,
       "speciesId": "JUMPLUFF",
       "form": "NORMAL",
@@ -4538,7 +4538,7 @@
       "baseDefense": 183,
       "baseStamina": 181
     },
-    {
+    "AIPOM_NORMAL": {
       "isFormless": true,
       "speciesId": "AIPOM",
       "form": "NORMAL",
@@ -4559,7 +4559,7 @@
       "baseDefense": 112,
       "baseStamina": 146
     },
-    {
+    "SUNKERN_NORMAL": {
       "isFormless": true,
       "speciesId": "SUNKERN",
       "form": "NORMAL",
@@ -4580,7 +4580,7 @@
       "baseDefense": 55,
       "baseStamina": 102
     },
-    {
+    "SUNFLORA_NORMAL": {
       "isFormless": true,
       "speciesId": "SUNFLORA",
       "form": "NORMAL",
@@ -4601,7 +4601,7 @@
       "baseDefense": 135,
       "baseStamina": 181
     },
-    {
+    "YANMA_NORMAL": {
       "isFormless": true,
       "speciesId": "YANMA",
       "form": "NORMAL",
@@ -4622,7 +4622,7 @@
       "baseDefense": 94,
       "baseStamina": 163
     },
-    {
+    "WOOPER_NORMAL": {
       "isFormless": true,
       "speciesId": "WOOPER",
       "form": "NORMAL",
@@ -4643,7 +4643,7 @@
       "baseDefense": 66,
       "baseStamina": 146
     },
-    {
+    "QUAGSIRE_NORMAL": {
       "isFormless": true,
       "speciesId": "QUAGSIRE",
       "form": "NORMAL",
@@ -4665,7 +4665,7 @@
       "baseDefense": 143,
       "baseStamina": 216
     },
-    {
+    "ESPEON_NORMAL": {
       "isFormless": true,
       "speciesId": "ESPEON",
       "form": "NORMAL",
@@ -4686,7 +4686,7 @@
       "baseDefense": 175,
       "baseStamina": 163
     },
-    {
+    "UMBREON_NORMAL": {
       "isFormless": true,
       "speciesId": "UMBREON",
       "form": "NORMAL",
@@ -4706,7 +4706,7 @@
       "baseDefense": 240,
       "baseStamina": 216
     },
-    {
+    "MURKROW_NORMAL": {
       "isFormless": true,
       "speciesId": "MURKROW",
       "form": "NORMAL",
@@ -4727,7 +4727,7 @@
       "baseDefense": 87,
       "baseStamina": 155
     },
-    {
+    "SLOWKING_NORMAL": {
       "isFormless": true,
       "speciesId": "SLOWKING",
       "form": "NORMAL",
@@ -4748,7 +4748,7 @@
       "baseDefense": 180,
       "baseStamina": 216
     },
-    {
+    "MISDREAVUS_NORMAL": {
       "isFormless": true,
       "speciesId": "MISDREAVUS",
       "form": "NORMAL",
@@ -4769,7 +4769,7 @@
       "baseDefense": 154,
       "baseStamina": 155
     },
-    {
+    "UNOWN_NORMAL": {
       "isFormless": true,
       "speciesId": "UNOWN",
       "form": "NORMAL",
@@ -4787,7 +4787,7 @@
       "baseDefense": 91,
       "baseStamina": 134
     },
-    {
+    "WOBBUFFET_NORMAL": {
       "isFormless": true,
       "speciesId": "WOBBUFFET",
       "form": "NORMAL",
@@ -4807,7 +4807,7 @@
       "baseDefense": 106,
       "baseStamina": 382
     },
-    {
+    "GIRAFARIG_NORMAL": {
       "isFormless": true,
       "speciesId": "GIRAFARIG",
       "form": "NORMAL",
@@ -4828,7 +4828,7 @@
       "baseDefense": 133,
       "baseStamina": 172
     },
-    {
+    "PINECO_NORMAL": {
       "isFormless": true,
       "speciesId": "PINECO",
       "form": "NORMAL",
@@ -4849,7 +4849,7 @@
       "baseDefense": 122,
       "baseStamina": 137
     },
-    {
+    "FORRETRESS_NORMAL": {
       "isFormless": true,
       "speciesId": "FORRETRESS",
       "form": "NORMAL",
@@ -4870,7 +4870,7 @@
       "baseDefense": 205,
       "baseStamina": 181
     },
-    {
+    "DUNSPARCE_NORMAL": {
       "isFormless": true,
       "speciesId": "DUNSPARCE",
       "form": "NORMAL",
@@ -4891,7 +4891,7 @@
       "baseDefense": 128,
       "baseStamina": 225
     },
-    {
+    "GLIGAR_NORMAL": {
       "isFormless": true,
       "speciesId": "GLIGAR",
       "form": "NORMAL",
@@ -4912,7 +4912,7 @@
       "baseDefense": 184,
       "baseStamina": 163
     },
-    {
+    "STEELIX_NORMAL": {
       "isFormless": true,
       "speciesId": "STEELIX",
       "form": "NORMAL",
@@ -4933,7 +4933,7 @@
       "baseDefense": 272,
       "baseStamina": 181
     },
-    {
+    "SNUBBULL_NORMAL": {
       "isFormless": true,
       "speciesId": "SNUBBULL",
       "form": "NORMAL",
@@ -4954,7 +4954,7 @@
       "baseDefense": 85,
       "baseStamina": 155
     },
-    {
+    "GRANBULL_NORMAL": {
       "isFormless": true,
       "speciesId": "GRANBULL",
       "form": "NORMAL",
@@ -4976,7 +4976,7 @@
       "baseDefense": 131,
       "baseStamina": 207
     },
-    {
+    "QWILFISH_NORMAL": {
       "isFormless": true,
       "speciesId": "QWILFISH",
       "form": "NORMAL",
@@ -4998,7 +4998,7 @@
       "baseDefense": 138,
       "baseStamina": 163
     },
-    {
+    "SCIZOR_NORMAL": {
       "isFormless": false,
       "speciesId": "SCIZOR",
       "form": "NORMAL",
@@ -5021,7 +5021,7 @@
       "baseDefense": 181,
       "baseStamina": 172
     },
-    {
+    "SHUCKLE_NORMAL": {
       "isFormless": true,
       "speciesId": "SHUCKLE",
       "form": "NORMAL",
@@ -5042,7 +5042,7 @@
       "baseDefense": 396,
       "baseStamina": 85
     },
-    {
+    "HERACROSS_NORMAL": {
       "isFormless": true,
       "speciesId": "HERACROSS",
       "form": "NORMAL",
@@ -5063,7 +5063,7 @@
       "baseDefense": 179,
       "baseStamina": 190
     },
-    {
+    "SNEASEL_NORMAL": {
       "isFormless": true,
       "speciesId": "SNEASEL",
       "form": "NORMAL",
@@ -5084,7 +5084,7 @@
       "baseDefense": 146,
       "baseStamina": 146
     },
-    {
+    "TEDDIURSA_NORMAL": {
       "isFormless": true,
       "speciesId": "TEDDIURSA",
       "form": "NORMAL",
@@ -5105,7 +5105,7 @@
       "baseDefense": 93,
       "baseStamina": 155
     },
-    {
+    "URSARING_NORMAL": {
       "isFormless": true,
       "speciesId": "URSARING",
       "form": "NORMAL",
@@ -5127,7 +5127,7 @@
       "baseDefense": 144,
       "baseStamina": 207
     },
-    {
+    "SLUGMA_NORMAL": {
       "isFormless": true,
       "speciesId": "SLUGMA",
       "form": "NORMAL",
@@ -5148,7 +5148,7 @@
       "baseDefense": 71,
       "baseStamina": 120
     },
-    {
+    "MAGCARGO_NORMAL": {
       "isFormless": true,
       "speciesId": "MAGCARGO",
       "form": "NORMAL",
@@ -5169,7 +5169,7 @@
       "baseDefense": 191,
       "baseStamina": 137
     },
-    {
+    "SWINUB_NORMAL": {
       "isFormless": true,
       "speciesId": "SWINUB",
       "form": "NORMAL",
@@ -5190,7 +5190,7 @@
       "baseDefense": 69,
       "baseStamina": 137
     },
-    {
+    "PILOSWINE_NORMAL": {
       "isFormless": true,
       "speciesId": "PILOSWINE",
       "form": "NORMAL",
@@ -5211,7 +5211,7 @@
       "baseDefense": 138,
       "baseStamina": 225
     },
-    {
+    "CORSOLA_NORMAL": {
       "isFormless": true,
       "speciesId": "CORSOLA",
       "form": "NORMAL",
@@ -5232,7 +5232,7 @@
       "baseDefense": 156,
       "baseStamina": 146
     },
-    {
+    "REMORAID_NORMAL": {
       "isFormless": true,
       "speciesId": "REMORAID",
       "form": "NORMAL",
@@ -5253,7 +5253,7 @@
       "baseDefense": 69,
       "baseStamina": 111
     },
-    {
+    "OCTILLERY_NORMAL": {
       "isFormless": true,
       "speciesId": "OCTILLERY",
       "form": "NORMAL",
@@ -5275,7 +5275,7 @@
       "baseDefense": 141,
       "baseStamina": 181
     },
-    {
+    "DELIBIRD_NORMAL": {
       "isFormless": true,
       "speciesId": "DELIBIRD",
       "form": "NORMAL",
@@ -5295,7 +5295,7 @@
       "baseDefense": 90,
       "baseStamina": 128
     },
-    {
+    "MANTINE_NORMAL": {
       "isFormless": true,
       "speciesId": "MANTINE",
       "form": "NORMAL",
@@ -5317,7 +5317,7 @@
       "baseDefense": 226,
       "baseStamina": 163
     },
-    {
+    "SKARMORY_NORMAL": {
       "isFormless": true,
       "speciesId": "SKARMORY",
       "form": "NORMAL",
@@ -5338,7 +5338,7 @@
       "baseDefense": 226,
       "baseStamina": 163
     },
-    {
+    "HOUNDOUR_NORMAL": {
       "isFormless": false,
       "speciesId": "HOUNDOUR",
       "form": "NORMAL",
@@ -5361,7 +5361,7 @@
       "baseDefense": 83,
       "baseStamina": 128
     },
-    {
+    "HOUNDOOM_NORMAL": {
       "isFormless": false,
       "speciesId": "HOUNDOOM",
       "form": "NORMAL",
@@ -5385,7 +5385,7 @@
       "baseDefense": 144,
       "baseStamina": 181
     },
-    {
+    "KINGDRA_NORMAL": {
       "isFormless": true,
       "speciesId": "KINGDRA",
       "form": "NORMAL",
@@ -5406,7 +5406,7 @@
       "baseDefense": 194,
       "baseStamina": 181
     },
-    {
+    "PHANPY_NORMAL": {
       "isFormless": true,
       "speciesId": "PHANPY",
       "form": "NORMAL",
@@ -5427,7 +5427,7 @@
       "baseDefense": 98,
       "baseStamina": 207
     },
-    {
+    "DONPHAN_NORMAL": {
       "isFormless": true,
       "speciesId": "DONPHAN",
       "form": "NORMAL",
@@ -5450,7 +5450,7 @@
       "baseDefense": 185,
       "baseStamina": 207
     },
-    {
+    "PORYGON2_NORMAL": {
       "isFormless": true,
       "speciesId": "PORYGON2",
       "form": "NORMAL",
@@ -5471,7 +5471,7 @@
       "baseDefense": 180,
       "baseStamina": 198
     },
-    {
+    "STANTLER_NORMAL": {
       "isFormless": true,
       "speciesId": "STANTLER",
       "form": "NORMAL",
@@ -5492,7 +5492,7 @@
       "baseDefense": 131,
       "baseStamina": 177
     },
-    {
+    "SMEARGLE_NORMAL": {
       "isFormless": true,
       "speciesId": "SMEARGLE",
       "form": "NORMAL",
@@ -5504,7 +5504,7 @@
       "baseDefense": 83,
       "baseStamina": 146
     },
-    {
+    "TYROGUE_NORMAL": {
       "isFormless": true,
       "speciesId": "TYROGUE",
       "form": "NORMAL",
@@ -5525,7 +5525,7 @@
       "baseDefense": 64,
       "baseStamina": 111
     },
-    {
+    "HITMONTOP_NORMAL": {
       "isFormless": true,
       "speciesId": "HITMONTOP",
       "form": "NORMAL",
@@ -5546,7 +5546,7 @@
       "baseDefense": 207,
       "baseStamina": 137
     },
-    {
+    "SMOOCHUM_NORMAL": {
       "isFormless": true,
       "speciesId": "SMOOCHUM",
       "form": "NORMAL",
@@ -5567,7 +5567,7 @@
       "baseDefense": 91,
       "baseStamina": 128
     },
-    {
+    "ELEKID_NORMAL": {
       "isFormless": true,
       "speciesId": "ELEKID",
       "form": "NORMAL",
@@ -5588,7 +5588,7 @@
       "baseDefense": 101,
       "baseStamina": 128
     },
-    {
+    "MAGBY_NORMAL": {
       "isFormless": true,
       "speciesId": "MAGBY",
       "form": "NORMAL",
@@ -5609,7 +5609,7 @@
       "baseDefense": 99,
       "baseStamina": 128
     },
-    {
+    "MILTANK_NORMAL": {
       "isFormless": true,
       "speciesId": "MILTANK",
       "form": "NORMAL",
@@ -5632,7 +5632,7 @@
       "baseDefense": 193,
       "baseStamina": 216
     },
-    {
+    "BLISSEY_NORMAL": {
       "isFormless": true,
       "speciesId": "BLISSEY",
       "form": "NORMAL",
@@ -5653,7 +5653,7 @@
       "baseDefense": 169,
       "baseStamina": 496
     },
-    {
+    "RAIKOU_NORMAL": {
       "isFormless": true,
       "speciesId": "RAIKOU",
       "form": "NORMAL",
@@ -5675,7 +5675,7 @@
       "baseDefense": 195,
       "baseStamina": 207
     },
-    {
+    "ENTEI_NORMAL": {
       "isFormless": true,
       "speciesId": "ENTEI",
       "form": "NORMAL",
@@ -5697,7 +5697,7 @@
       "baseDefense": 171,
       "baseStamina": 251
     },
-    {
+    "SUICUNE_NORMAL": {
       "isFormless": true,
       "speciesId": "SUICUNE",
       "form": "NORMAL",
@@ -5719,7 +5719,7 @@
       "baseDefense": 235,
       "baseStamina": 225
     },
-    {
+    "LARVITAR_NORMAL": {
       "isFormless": false,
       "speciesId": "LARVITAR",
       "form": "NORMAL",
@@ -5742,7 +5742,7 @@
       "baseDefense": 93,
       "baseStamina": 137
     },
-    {
+    "PUPITAR_NORMAL": {
       "isFormless": false,
       "speciesId": "PUPITAR",
       "form": "NORMAL",
@@ -5765,7 +5765,7 @@
       "baseDefense": 133,
       "baseStamina": 172
     },
-    {
+    "TYRANITAR_NORMAL": {
       "isFormless": false,
       "speciesId": "TYRANITAR",
       "form": "NORMAL",
@@ -5788,7 +5788,7 @@
       "baseDefense": 207,
       "baseStamina": 225
     },
-    {
+    "LUGIA_NORMAL": {
       "isFormless": true,
       "speciesId": "LUGIA",
       "form": "NORMAL",
@@ -5809,7 +5809,7 @@
       "baseDefense": 310,
       "baseStamina": 235
     },
-    {
+    "HO_OH_NORMAL": {
       "isFormless": true,
       "speciesId": "HO_OH",
       "form": "NORMAL",
@@ -5831,7 +5831,7 @@
       "baseDefense": 244,
       "baseStamina": 214
     },
-    {
+    "CELEBI_NORMAL": {
       "isFormless": true,
       "speciesId": "CELEBI",
       "form": "NORMAL",
@@ -5852,7 +5852,7 @@
       "baseDefense": 210,
       "baseStamina": 225
     },
-    {
+    "TREECKO_NORMAL": {
       "isFormless": true,
       "speciesId": "TREECKO",
       "form": "NORMAL",
@@ -5873,7 +5873,7 @@
       "baseDefense": 94,
       "baseStamina": 120
     },
-    {
+    "GROVYLE_NORMAL": {
       "isFormless": true,
       "speciesId": "GROVYLE",
       "form": "NORMAL",
@@ -5894,7 +5894,7 @@
       "baseDefense": 120,
       "baseStamina": 137
     },
-    {
+    "SCEPTILE_NORMAL": {
       "isFormless": true,
       "speciesId": "SCEPTILE",
       "form": "NORMAL",
@@ -5916,7 +5916,7 @@
       "baseDefense": 169,
       "baseStamina": 172
     },
-    {
+    "TORCHIC_NORMAL": {
       "isFormless": true,
       "speciesId": "TORCHIC",
       "form": "NORMAL",
@@ -5937,7 +5937,7 @@
       "baseDefense": 87,
       "baseStamina": 128
     },
-    {
+    "COMBUSKEN_NORMAL": {
       "isFormless": true,
       "speciesId": "COMBUSKEN",
       "form": "NORMAL",
@@ -5958,7 +5958,7 @@
       "baseDefense": 115,
       "baseStamina": 155
     },
-    {
+    "BLAZIKEN_NORMAL": {
       "isFormless": true,
       "speciesId": "BLAZIKEN",
       "form": "NORMAL",
@@ -5980,7 +5980,7 @@
       "baseDefense": 141,
       "baseStamina": 190
     },
-    {
+    "MUDKIP_NORMAL": {
       "isFormless": false,
       "speciesId": "MUDKIP",
       "form": "NORMAL",
@@ -6003,7 +6003,7 @@
       "baseDefense": 93,
       "baseStamina": 137
     },
-    {
+    "MARSHTOMP_NORMAL": {
       "isFormless": false,
       "speciesId": "MARSHTOMP",
       "form": "NORMAL",
@@ -6026,7 +6026,7 @@
       "baseDefense": 133,
       "baseStamina": 172
     },
-    {
+    "SWAMPERT_NORMAL": {
       "isFormless": false,
       "speciesId": "SWAMPERT",
       "form": "NORMAL",
@@ -6050,7 +6050,7 @@
       "baseDefense": 175,
       "baseStamina": 225
     },
-    {
+    "POOCHYENA_NORMAL": {
       "isFormless": true,
       "speciesId": "POOCHYENA",
       "form": "NORMAL",
@@ -6071,7 +6071,7 @@
       "baseDefense": 61,
       "baseStamina": 111
     },
-    {
+    "MIGHTYENA_NORMAL": {
       "isFormless": true,
       "speciesId": "MIGHTYENA",
       "form": "NORMAL",
@@ -6092,7 +6092,7 @@
       "baseDefense": 132,
       "baseStamina": 172
     },
-    {
+    "ZIGZAGOON_NORMAL": {
       "isFormless": true,
       "speciesId": "ZIGZAGOON",
       "form": "NORMAL",
@@ -6113,7 +6113,7 @@
       "baseDefense": 80,
       "baseStamina": 116
     },
-    {
+    "LINOONE_NORMAL": {
       "isFormless": true,
       "speciesId": "LINOONE",
       "form": "NORMAL",
@@ -6134,7 +6134,7 @@
       "baseDefense": 128,
       "baseStamina": 186
     },
-    {
+    "WURMPLE_NORMAL": {
       "isFormless": true,
       "speciesId": "WURMPLE",
       "form": "NORMAL",
@@ -6153,7 +6153,7 @@
       "baseDefense": 59,
       "baseStamina": 128
     },
-    {
+    "SILCOON_NORMAL": {
       "isFormless": true,
       "speciesId": "SILCOON",
       "form": "NORMAL",
@@ -6172,7 +6172,7 @@
       "baseDefense": 77,
       "baseStamina": 137
     },
-    {
+    "BEAUTIFLY_NORMAL": {
       "isFormless": true,
       "speciesId": "BEAUTIFLY",
       "form": "NORMAL",
@@ -6193,7 +6193,7 @@
       "baseDefense": 98,
       "baseStamina": 155
     },
-    {
+    "CASCOON_NORMAL": {
       "isFormless": true,
       "speciesId": "CASCOON",
       "form": "NORMAL",
@@ -6212,7 +6212,7 @@
       "baseDefense": 77,
       "baseStamina": 137
     },
-    {
+    "DUSTOX_NORMAL": {
       "isFormless": true,
       "speciesId": "DUSTOX",
       "form": "NORMAL",
@@ -6233,7 +6233,7 @@
       "baseDefense": 162,
       "baseStamina": 155
     },
-    {
+    "LOTAD_NORMAL": {
       "isFormless": true,
       "speciesId": "LOTAD",
       "form": "NORMAL",
@@ -6253,7 +6253,7 @@
       "baseDefense": 77,
       "baseStamina": 120
     },
-    {
+    "LOMBRE_NORMAL": {
       "isFormless": true,
       "speciesId": "LOMBRE",
       "form": "NORMAL",
@@ -6274,7 +6274,7 @@
       "baseDefense": 119,
       "baseStamina": 155
     },
-    {
+    "LUDICOLO_NORMAL": {
       "isFormless": true,
       "speciesId": "LUDICOLO",
       "form": "NORMAL",
@@ -6296,7 +6296,7 @@
       "baseDefense": 176,
       "baseStamina": 190
     },
-    {
+    "SEEDOT_NORMAL": {
       "isFormless": true,
       "speciesId": "SEEDOT",
       "form": "NORMAL",
@@ -6317,7 +6317,7 @@
       "baseDefense": 77,
       "baseStamina": 120
     },
-    {
+    "NUZLEAF_NORMAL": {
       "isFormless": true,
       "speciesId": "NUZLEAF",
       "form": "NORMAL",
@@ -6338,7 +6338,7 @@
       "baseDefense": 78,
       "baseStamina": 172
     },
-    {
+    "SHIFTRY_NORMAL": {
       "isFormless": true,
       "speciesId": "SHIFTRY",
       "form": "NORMAL",
@@ -6360,7 +6360,7 @@
       "baseDefense": 121,
       "baseStamina": 207
     },
-    {
+    "TAILLOW_NORMAL": {
       "isFormless": true,
       "speciesId": "TAILLOW",
       "form": "NORMAL",
@@ -6379,7 +6379,7 @@
       "baseDefense": 61,
       "baseStamina": 120
     },
-    {
+    "SWELLOW_NORMAL": {
       "isFormless": true,
       "speciesId": "SWELLOW",
       "form": "NORMAL",
@@ -6400,7 +6400,7 @@
       "baseDefense": 124,
       "baseStamina": 155
     },
-    {
+    "WINGULL_NORMAL": {
       "isFormless": true,
       "speciesId": "WINGULL",
       "form": "NORMAL",
@@ -6421,7 +6421,7 @@
       "baseDefense": 61,
       "baseStamina": 120
     },
-    {
+    "PELIPPER_NORMAL": {
       "isFormless": true,
       "speciesId": "PELIPPER",
       "form": "NORMAL",
@@ -6442,7 +6442,7 @@
       "baseDefense": 174,
       "baseStamina": 155
     },
-    {
+    "RALTS_NORMAL": {
       "isFormless": false,
       "speciesId": "RALTS",
       "form": "NORMAL",
@@ -6465,7 +6465,7 @@
       "baseDefense": 59,
       "baseStamina": 99
     },
-    {
+    "KIRLIA_NORMAL": {
       "isFormless": false,
       "speciesId": "KIRLIA",
       "form": "NORMAL",
@@ -6488,7 +6488,7 @@
       "baseDefense": 90,
       "baseStamina": 116
     },
-    {
+    "GARDEVOIR_NORMAL": {
       "isFormless": false,
       "speciesId": "GARDEVOIR",
       "form": "NORMAL",
@@ -6512,7 +6512,7 @@
       "baseDefense": 195,
       "baseStamina": 169
     },
-    {
+    "SURSKIT_NORMAL": {
       "isFormless": true,
       "speciesId": "SURSKIT",
       "form": "NORMAL",
@@ -6533,7 +6533,7 @@
       "baseDefense": 87,
       "baseStamina": 120
     },
-    {
+    "MASQUERAIN_NORMAL": {
       "isFormless": true,
       "speciesId": "MASQUERAIN",
       "form": "NORMAL",
@@ -6554,7 +6554,7 @@
       "baseDefense": 150,
       "baseStamina": 172
     },
-    {
+    "SHROOMISH_NORMAL": {
       "isFormless": true,
       "speciesId": "SHROOMISH",
       "form": "NORMAL",
@@ -6575,7 +6575,7 @@
       "baseDefense": 110,
       "baseStamina": 155
     },
-    {
+    "BRELOOM_NORMAL": {
       "isFormless": true,
       "speciesId": "BRELOOM",
       "form": "NORMAL",
@@ -6596,7 +6596,7 @@
       "baseDefense": 144,
       "baseStamina": 155
     },
-    {
+    "SLAKOTH_NORMAL": {
       "isFormless": true,
       "speciesId": "SLAKOTH",
       "form": "NORMAL",
@@ -6616,7 +6616,7 @@
       "baseDefense": 92,
       "baseStamina": 155
     },
-    {
+    "VIGOROTH_NORMAL": {
       "isFormless": true,
       "speciesId": "VIGOROTH",
       "form": "NORMAL",
@@ -6637,7 +6637,7 @@
       "baseDefense": 145,
       "baseStamina": 190
     },
-    {
+    "SLAKING_NORMAL": {
       "isFormless": true,
       "speciesId": "SLAKING",
       "form": "NORMAL",
@@ -6657,7 +6657,7 @@
       "baseDefense": 166,
       "baseStamina": 284
     },
-    {
+    "NINCADA_NORMAL": {
       "isFormless": true,
       "speciesId": "NINCADA",
       "form": "NORMAL",
@@ -6678,7 +6678,7 @@
       "baseDefense": 126,
       "baseStamina": 104
     },
-    {
+    "NINJASK_NORMAL": {
       "isFormless": true,
       "speciesId": "NINJASK",
       "form": "NORMAL",
@@ -6699,7 +6699,7 @@
       "baseDefense": 112,
       "baseStamina": 156
     },
-    {
+    "SHEDINJA_NORMAL": {
       "isFormless": true,
       "speciesId": "SHEDINJA",
       "form": "NORMAL",
@@ -6720,7 +6720,7 @@
       "baseDefense": 73,
       "baseStamina": 1
     },
-    {
+    "WHISMUR_NORMAL": {
       "isFormless": true,
       "speciesId": "WHISMUR",
       "form": "NORMAL",
@@ -6741,7 +6741,7 @@
       "baseDefense": 42,
       "baseStamina": 162
     },
-    {
+    "LOUDRED_NORMAL": {
       "isFormless": true,
       "speciesId": "LOUDRED",
       "form": "NORMAL",
@@ -6762,7 +6762,7 @@
       "baseDefense": 81,
       "baseStamina": 197
     },
-    {
+    "EXPLOUD_NORMAL": {
       "isFormless": true,
       "speciesId": "EXPLOUD",
       "form": "NORMAL",
@@ -6783,7 +6783,7 @@
       "baseDefense": 137,
       "baseStamina": 232
     },
-    {
+    "MAKUHITA_NORMAL": {
       "isFormless": true,
       "speciesId": "MAKUHITA",
       "form": "NORMAL",
@@ -6804,7 +6804,7 @@
       "baseDefense": 54,
       "baseStamina": 176
     },
-    {
+    "HARIYAMA_NORMAL": {
       "isFormless": true,
       "speciesId": "HARIYAMA",
       "form": "NORMAL",
@@ -6825,7 +6825,7 @@
       "baseDefense": 114,
       "baseStamina": 302
     },
-    {
+    "AZURILL_NORMAL": {
       "isFormless": true,
       "speciesId": "AZURILL",
       "form": "NORMAL",
@@ -6846,7 +6846,7 @@
       "baseDefense": 71,
       "baseStamina": 137
     },
-    {
+    "NOSEPASS_NORMAL": {
       "isFormless": true,
       "speciesId": "NOSEPASS",
       "form": "NORMAL",
@@ -6867,7 +6867,7 @@
       "baseDefense": 215,
       "baseStamina": 102
     },
-    {
+    "SKITTY_NORMAL": {
       "isFormless": true,
       "speciesId": "SKITTY",
       "form": "NORMAL",
@@ -6888,7 +6888,7 @@
       "baseDefense": 79,
       "baseStamina": 137
     },
-    {
+    "DELCATTY_NORMAL": {
       "isFormless": true,
       "speciesId": "DELCATTY",
       "form": "NORMAL",
@@ -6910,7 +6910,7 @@
       "baseDefense": 127,
       "baseStamina": 172
     },
-    {
+    "SABLEYE_NORMAL": {
       "isFormless": true,
       "speciesId": "SABLEYE",
       "form": "NORMAL",
@@ -6931,7 +6931,7 @@
       "baseDefense": 136,
       "baseStamina": 137
     },
-    {
+    "MAWILE_NORMAL": {
       "isFormless": true,
       "speciesId": "MAWILE",
       "form": "NORMAL",
@@ -6952,7 +6952,7 @@
       "baseDefense": 141,
       "baseStamina": 137
     },
-    {
+    "ARON_NORMAL": {
       "isFormless": true,
       "speciesId": "ARON",
       "form": "NORMAL",
@@ -6973,7 +6973,7 @@
       "baseDefense": 141,
       "baseStamina": 137
     },
-    {
+    "LAIRON_NORMAL": {
       "isFormless": true,
       "speciesId": "LAIRON",
       "form": "NORMAL",
@@ -6994,7 +6994,7 @@
       "baseDefense": 198,
       "baseStamina": 155
     },
-    {
+    "AGGRON_NORMAL": {
       "isFormless": true,
       "speciesId": "AGGRON",
       "form": "NORMAL",
@@ -7016,7 +7016,7 @@
       "baseDefense": 257,
       "baseStamina": 172
     },
-    {
+    "MEDITITE_NORMAL": {
       "isFormless": true,
       "speciesId": "MEDITITE",
       "form": "NORMAL",
@@ -7037,7 +7037,7 @@
       "baseDefense": 107,
       "baseStamina": 102
     },
-    {
+    "MEDICHAM_NORMAL": {
       "isFormless": true,
       "speciesId": "MEDICHAM",
       "form": "NORMAL",
@@ -7059,7 +7059,7 @@
       "baseDefense": 152,
       "baseStamina": 155
     },
-    {
+    "ELECTRIKE_NORMAL": {
       "isFormless": true,
       "speciesId": "ELECTRIKE",
       "form": "NORMAL",
@@ -7080,7 +7080,7 @@
       "baseDefense": 78,
       "baseStamina": 120
     },
-    {
+    "MANECTRIC_NORMAL": {
       "isFormless": true,
       "speciesId": "MANECTRIC",
       "form": "NORMAL",
@@ -7101,7 +7101,7 @@
       "baseDefense": 127,
       "baseStamina": 172
     },
-    {
+    "PLUSLE_NORMAL": {
       "isFormless": true,
       "speciesId": "PLUSLE",
       "form": "NORMAL",
@@ -7122,7 +7122,7 @@
       "baseDefense": 129,
       "baseStamina": 155
     },
-    {
+    "MINUN_NORMAL": {
       "isFormless": true,
       "speciesId": "MINUN",
       "form": "NORMAL",
@@ -7143,7 +7143,7 @@
       "baseDefense": 150,
       "baseStamina": 155
     },
-    {
+    "VOLBEAT_NORMAL": {
       "isFormless": true,
       "speciesId": "VOLBEAT",
       "form": "NORMAL",
@@ -7164,7 +7164,7 @@
       "baseDefense": 166,
       "baseStamina": 163
     },
-    {
+    "ILLUMISE_NORMAL": {
       "isFormless": true,
       "speciesId": "ILLUMISE",
       "form": "NORMAL",
@@ -7185,7 +7185,7 @@
       "baseDefense": 166,
       "baseStamina": 163
     },
-    {
+    "ROSELIA_NORMAL": {
       "isFormless": true,
       "speciesId": "ROSELIA",
       "form": "NORMAL",
@@ -7206,7 +7206,7 @@
       "baseDefense": 131,
       "baseStamina": 137
     },
-    {
+    "GULPIN_NORMAL": {
       "isFormless": true,
       "speciesId": "GULPIN",
       "form": "NORMAL",
@@ -7227,7 +7227,7 @@
       "baseDefense": 99,
       "baseStamina": 172
     },
-    {
+    "SWALOT_NORMAL": {
       "isFormless": true,
       "speciesId": "SWALOT",
       "form": "NORMAL",
@@ -7249,7 +7249,7 @@
       "baseDefense": 159,
       "baseStamina": 225
     },
-    {
+    "CARVANHA_NORMAL": {
       "isFormless": true,
       "speciesId": "CARVANHA",
       "form": "NORMAL",
@@ -7270,7 +7270,7 @@
       "baseDefense": 39,
       "baseStamina": 128
     },
-    {
+    "SHARPEDO_NORMAL": {
       "isFormless": true,
       "speciesId": "SHARPEDO",
       "form": "NORMAL",
@@ -7291,7 +7291,7 @@
       "baseDefense": 83,
       "baseStamina": 172
     },
-    {
+    "WAILMER_NORMAL": {
       "isFormless": true,
       "speciesId": "WAILMER",
       "form": "NORMAL",
@@ -7312,7 +7312,7 @@
       "baseDefense": 68,
       "baseStamina": 277
     },
-    {
+    "WAILORD_NORMAL": {
       "isFormless": true,
       "speciesId": "WAILORD",
       "form": "NORMAL",
@@ -7333,7 +7333,7 @@
       "baseDefense": 87,
       "baseStamina": 347
     },
-    {
+    "NUMEL_NORMAL": {
       "isFormless": true,
       "speciesId": "NUMEL",
       "form": "NORMAL",
@@ -7354,7 +7354,7 @@
       "baseDefense": 79,
       "baseStamina": 155
     },
-    {
+    "CAMERUPT_NORMAL": {
       "isFormless": true,
       "speciesId": "CAMERUPT",
       "form": "NORMAL",
@@ -7376,7 +7376,7 @@
       "baseDefense": 136,
       "baseStamina": 172
     },
-    {
+    "TORKOAL_NORMAL": {
       "isFormless": true,
       "speciesId": "TORKOAL",
       "form": "NORMAL",
@@ -7397,7 +7397,7 @@
       "baseDefense": 203,
       "baseStamina": 172
     },
-    {
+    "SPOINK_NORMAL": {
       "isFormless": true,
       "speciesId": "SPOINK",
       "form": "NORMAL",
@@ -7418,7 +7418,7 @@
       "baseDefense": 122,
       "baseStamina": 155
     },
-    {
+    "GRUMPIG_NORMAL": {
       "isFormless": true,
       "speciesId": "GRUMPIG",
       "form": "NORMAL",
@@ -7439,7 +7439,7 @@
       "baseDefense": 188,
       "baseStamina": 190
     },
-    {
+    "SPINDA_NORMAL": {
       "isFormless": true,
       "speciesId": "SPINDA",
       "form": "NORMAL",
@@ -7460,7 +7460,7 @@
       "baseDefense": 116,
       "baseStamina": 155
     },
-    {
+    "TRAPINCH_NORMAL": {
       "isFormless": true,
       "speciesId": "TRAPINCH",
       "form": "NORMAL",
@@ -7481,7 +7481,7 @@
       "baseDefense": 78,
       "baseStamina": 128
     },
-    {
+    "VIBRAVA_NORMAL": {
       "isFormless": true,
       "speciesId": "VIBRAVA",
       "form": "NORMAL",
@@ -7502,7 +7502,7 @@
       "baseDefense": 99,
       "baseStamina": 137
     },
-    {
+    "FLYGON_NORMAL": {
       "isFormless": true,
       "speciesId": "FLYGON",
       "form": "NORMAL",
@@ -7523,7 +7523,7 @@
       "baseDefense": 168,
       "baseStamina": 190
     },
-    {
+    "CACNEA_NORMAL": {
       "isFormless": true,
       "speciesId": "CACNEA",
       "form": "NORMAL",
@@ -7544,7 +7544,7 @@
       "baseDefense": 74,
       "baseStamina": 137
     },
-    {
+    "CACTURNE_NORMAL": {
       "isFormless": true,
       "speciesId": "CACTURNE",
       "form": "NORMAL",
@@ -7565,7 +7565,7 @@
       "baseDefense": 115,
       "baseStamina": 172
     },
-    {
+    "SWABLU_NORMAL": {
       "isFormless": true,
       "speciesId": "SWABLU",
       "form": "NORMAL",
@@ -7586,7 +7586,7 @@
       "baseDefense": 132,
       "baseStamina": 128
     },
-    {
+    "ALTARIA_NORMAL": {
       "isFormless": true,
       "speciesId": "ALTARIA",
       "form": "NORMAL",
@@ -7607,7 +7607,7 @@
       "baseDefense": 201,
       "baseStamina": 181
     },
-    {
+    "ZANGOOSE_NORMAL": {
       "isFormless": true,
       "speciesId": "ZANGOOSE",
       "form": "NORMAL",
@@ -7628,7 +7628,7 @@
       "baseDefense": 124,
       "baseStamina": 177
     },
-    {
+    "SEVIPER_NORMAL": {
       "isFormless": true,
       "speciesId": "SEVIPER",
       "form": "NORMAL",
@@ -7649,7 +7649,7 @@
       "baseDefense": 118,
       "baseStamina": 177
     },
-    {
+    "LUNATONE_NORMAL": {
       "isFormless": true,
       "speciesId": "LUNATONE",
       "form": "NORMAL",
@@ -7670,7 +7670,7 @@
       "baseDefense": 153,
       "baseStamina": 207
     },
-    {
+    "SOLROCK_NORMAL": {
       "isFormless": true,
       "speciesId": "SOLROCK",
       "form": "NORMAL",
@@ -7691,7 +7691,7 @@
       "baseDefense": 153,
       "baseStamina": 207
     },
-    {
+    "BARBOACH_NORMAL": {
       "isFormless": true,
       "speciesId": "BARBOACH",
       "form": "NORMAL",
@@ -7712,7 +7712,7 @@
       "baseDefense": 82,
       "baseStamina": 137
     },
-    {
+    "WHISCASH_NORMAL": {
       "isFormless": true,
       "speciesId": "WHISCASH",
       "form": "NORMAL",
@@ -7733,7 +7733,7 @@
       "baseDefense": 141,
       "baseStamina": 242
     },
-    {
+    "CORPHISH_NORMAL": {
       "isFormless": true,
       "speciesId": "CORPHISH",
       "form": "NORMAL",
@@ -7754,7 +7754,7 @@
       "baseDefense": 99,
       "baseStamina": 125
     },
-    {
+    "CRAWDAUNT_NORMAL": {
       "isFormless": true,
       "speciesId": "CRAWDAUNT",
       "form": "NORMAL",
@@ -7776,7 +7776,7 @@
       "baseDefense": 142,
       "baseStamina": 160
     },
-    {
+    "BALTOY_NORMAL": {
       "isFormless": true,
       "speciesId": "BALTOY",
       "form": "NORMAL",
@@ -7797,7 +7797,7 @@
       "baseDefense": 124,
       "baseStamina": 120
     },
-    {
+    "CLAYDOL_NORMAL": {
       "isFormless": true,
       "speciesId": "CLAYDOL",
       "form": "NORMAL",
@@ -7820,7 +7820,7 @@
       "baseDefense": 229,
       "baseStamina": 155
     },
-    {
+    "LILEEP_NORMAL": {
       "isFormless": true,
       "speciesId": "LILEEP",
       "form": "NORMAL",
@@ -7841,7 +7841,7 @@
       "baseDefense": 150,
       "baseStamina": 165
     },
-    {
+    "CRADILY_NORMAL": {
       "isFormless": true,
       "speciesId": "CRADILY",
       "form": "NORMAL",
@@ -7862,7 +7862,7 @@
       "baseDefense": 194,
       "baseStamina": 200
     },
-    {
+    "ANORITH_NORMAL": {
       "isFormless": true,
       "speciesId": "ANORITH",
       "form": "NORMAL",
@@ -7883,7 +7883,7 @@
       "baseDefense": 100,
       "baseStamina": 128
     },
-    {
+    "ARMALDO_NORMAL": {
       "isFormless": true,
       "speciesId": "ARMALDO",
       "form": "NORMAL",
@@ -7904,7 +7904,7 @@
       "baseDefense": 174,
       "baseStamina": 181
     },
-    {
+    "FEEBAS_NORMAL": {
       "isFormless": true,
       "speciesId": "FEEBAS",
       "form": "NORMAL",
@@ -7923,7 +7923,7 @@
       "baseDefense": 85,
       "baseStamina": 85
     },
-    {
+    "MILOTIC_NORMAL": {
       "isFormless": true,
       "speciesId": "MILOTIC",
       "form": "NORMAL",
@@ -7944,7 +7944,7 @@
       "baseDefense": 219,
       "baseStamina": 216
     },
-    {
+    "CASTFORM_RAINY": {
       "isFormless": false,
       "speciesId": "CASTFORM",
       "form": "RAINY",
@@ -7965,7 +7965,7 @@
       "baseDefense": 139,
       "baseStamina": 172
     },
-    {
+    "CASTFORM_SNOWY": {
       "isFormless": false,
       "speciesId": "CASTFORM",
       "form": "SNOWY",
@@ -7986,7 +7986,7 @@
       "baseDefense": 139,
       "baseStamina": 172
     },
-    {
+    "CASTFORM_SUNNY": {
       "isFormless": false,
       "speciesId": "CASTFORM",
       "form": "SUNNY",
@@ -8007,7 +8007,7 @@
       "baseDefense": 139,
       "baseStamina": 172
     },
-    {
+    "KECLEON_NORMAL": {
       "isFormless": true,
       "speciesId": "KECLEON",
       "form": "NORMAL",
@@ -8031,7 +8031,7 @@
       "baseDefense": 189,
       "baseStamina": 155
     },
-    {
+    "SHUPPET_NORMAL": {
       "isFormless": true,
       "speciesId": "SHUPPET",
       "form": "NORMAL",
@@ -8052,7 +8052,7 @@
       "baseDefense": 65,
       "baseStamina": 127
     },
-    {
+    "BANETTE_NORMAL": {
       "isFormless": true,
       "speciesId": "BANETTE",
       "form": "NORMAL",
@@ -8073,7 +8073,7 @@
       "baseDefense": 126,
       "baseStamina": 162
     },
-    {
+    "DUSKULL_NORMAL": {
       "isFormless": true,
       "speciesId": "DUSKULL",
       "form": "NORMAL",
@@ -8094,7 +8094,7 @@
       "baseDefense": 162,
       "baseStamina": 85
     },
-    {
+    "DUSCLOPS_NORMAL": {
       "isFormless": true,
       "speciesId": "DUSCLOPS",
       "form": "NORMAL",
@@ -8115,7 +8115,7 @@
       "baseDefense": 234,
       "baseStamina": 120
     },
-    {
+    "TROPIUS_NORMAL": {
       "isFormless": true,
       "speciesId": "TROPIUS",
       "form": "NORMAL",
@@ -8136,7 +8136,7 @@
       "baseDefense": 163,
       "baseStamina": 223
     },
-    {
+    "CHIMECHO_NORMAL": {
       "isFormless": true,
       "speciesId": "CHIMECHO",
       "form": "NORMAL",
@@ -8158,7 +8158,7 @@
       "baseDefense": 170,
       "baseStamina": 181
     },
-    {
+    "ABSOL_NORMAL": {
       "isFormless": true,
       "speciesId": "ABSOL",
       "form": "NORMAL",
@@ -8179,7 +8179,7 @@
       "baseDefense": 120,
       "baseStamina": 163
     },
-    {
+    "WYNAUT_NORMAL": {
       "isFormless": true,
       "speciesId": "WYNAUT",
       "form": "NORMAL",
@@ -8198,7 +8198,7 @@
       "baseDefense": 86,
       "baseStamina": 216
     },
-    {
+    "SNORUNT_NORMAL": {
       "isFormless": true,
       "speciesId": "SNORUNT",
       "form": "NORMAL",
@@ -8219,7 +8219,7 @@
       "baseDefense": 95,
       "baseStamina": 137
     },
-    {
+    "GLALIE_NORMAL": {
       "isFormless": true,
       "speciesId": "GLALIE",
       "form": "NORMAL",
@@ -8240,7 +8240,7 @@
       "baseDefense": 162,
       "baseStamina": 190
     },
-    {
+    "SPHEAL_NORMAL": {
       "isFormless": true,
       "speciesId": "SPHEAL",
       "form": "NORMAL",
@@ -8261,7 +8261,7 @@
       "baseDefense": 90,
       "baseStamina": 172
     },
-    {
+    "SEALEO_NORMAL": {
       "isFormless": true,
       "speciesId": "SEALEO",
       "form": "NORMAL",
@@ -8282,7 +8282,7 @@
       "baseDefense": 132,
       "baseStamina": 207
     },
-    {
+    "WALREIN_NORMAL": {
       "isFormless": true,
       "speciesId": "WALREIN",
       "form": "NORMAL",
@@ -8303,7 +8303,7 @@
       "baseDefense": 176,
       "baseStamina": 242
     },
-    {
+    "CLAMPERL_NORMAL": {
       "isFormless": true,
       "speciesId": "CLAMPERL",
       "form": "NORMAL",
@@ -8323,7 +8323,7 @@
       "baseDefense": 135,
       "baseStamina": 111
     },
-    {
+    "HUNTAIL_NORMAL": {
       "isFormless": true,
       "speciesId": "HUNTAIL",
       "form": "NORMAL",
@@ -8344,7 +8344,7 @@
       "baseDefense": 179,
       "baseStamina": 146
     },
-    {
+    "GOREBYSS_NORMAL": {
       "isFormless": true,
       "speciesId": "GOREBYSS",
       "form": "NORMAL",
@@ -8365,7 +8365,7 @@
       "baseDefense": 179,
       "baseStamina": 146
     },
-    {
+    "RELICANTH_NORMAL": {
       "isFormless": true,
       "speciesId": "RELICANTH",
       "form": "NORMAL",
@@ -8386,7 +8386,7 @@
       "baseDefense": 203,
       "baseStamina": 225
     },
-    {
+    "LUVDISC_NORMAL": {
       "isFormless": true,
       "speciesId": "LUVDISC",
       "form": "NORMAL",
@@ -8407,7 +8407,7 @@
       "baseDefense": 128,
       "baseStamina": 125
     },
-    {
+    "BAGON_NORMAL": {
       "isFormless": true,
       "speciesId": "BAGON",
       "form": "NORMAL",
@@ -8428,7 +8428,7 @@
       "baseDefense": 93,
       "baseStamina": 128
     },
-    {
+    "SHELGON_NORMAL": {
       "isFormless": true,
       "speciesId": "SHELGON",
       "form": "NORMAL",
@@ -8449,7 +8449,7 @@
       "baseDefense": 155,
       "baseStamina": 163
     },
-    {
+    "SALAMENCE_NORMAL": {
       "isFormless": true,
       "speciesId": "SALAMENCE",
       "form": "NORMAL",
@@ -8471,7 +8471,7 @@
       "baseDefense": 168,
       "baseStamina": 216
     },
-    {
+    "BELDUM_NORMAL": {
       "isFormless": true,
       "speciesId": "BELDUM",
       "form": "NORMAL",
@@ -8489,7 +8489,7 @@
       "baseDefense": 132,
       "baseStamina": 120
     },
-    {
+    "METANG_NORMAL": {
       "isFormless": true,
       "speciesId": "METANG",
       "form": "NORMAL",
@@ -8510,7 +8510,7 @@
       "baseDefense": 176,
       "baseStamina": 155
     },
-    {
+    "METAGROSS_NORMAL": {
       "isFormless": true,
       "speciesId": "METAGROSS",
       "form": "NORMAL",
@@ -8531,7 +8531,7 @@
       "baseDefense": 228,
       "baseStamina": 190
     },
-    {
+    "REGIROCK_NORMAL": {
       "isFormless": true,
       "speciesId": "REGIROCK",
       "form": "NORMAL",
@@ -8552,7 +8552,7 @@
       "baseDefense": 309,
       "baseStamina": 190
     },
-    {
+    "REGICE_NORMAL": {
       "isFormless": true,
       "speciesId": "REGICE",
       "form": "NORMAL",
@@ -8573,7 +8573,7 @@
       "baseDefense": 309,
       "baseStamina": 190
     },
-    {
+    "REGISTEEL_NORMAL": {
       "isFormless": true,
       "speciesId": "REGISTEEL",
       "form": "NORMAL",
@@ -8594,7 +8594,7 @@
       "baseDefense": 285,
       "baseStamina": 190
     },
-    {
+    "LATIAS_NORMAL": {
       "isFormless": true,
       "speciesId": "LATIAS",
       "form": "NORMAL",
@@ -8616,7 +8616,7 @@
       "baseDefense": 246,
       "baseStamina": 190
     },
-    {
+    "LATIOS_NORMAL": {
       "isFormless": true,
       "speciesId": "LATIOS",
       "form": "NORMAL",
@@ -8637,7 +8637,7 @@
       "baseDefense": 212,
       "baseStamina": 190
     },
-    {
+    "KYOGRE_NORMAL": {
       "isFormless": true,
       "speciesId": "KYOGRE",
       "form": "NORMAL",
@@ -8657,7 +8657,7 @@
       "baseDefense": 228,
       "baseStamina": 205
     },
-    {
+    "GROUDON_NORMAL": {
       "isFormless": true,
       "speciesId": "GROUDON",
       "form": "NORMAL",
@@ -8678,7 +8678,7 @@
       "baseDefense": 228,
       "baseStamina": 205
     },
-    {
+    "RAYQUAZA_NORMAL": {
       "isFormless": true,
       "speciesId": "RAYQUAZA",
       "form": "NORMAL",
@@ -8699,7 +8699,7 @@
       "baseDefense": 170,
       "baseStamina": 213
     },
-    {
+    "JIRACHI_NORMAL": {
       "isFormless": true,
       "speciesId": "JIRACHI",
       "form": "NORMAL",
@@ -8720,7 +8720,7 @@
       "baseDefense": 210,
       "baseStamina": 225
     },
-    {
+    "DEOXYS_ATTACK": {
       "isFormless": false,
       "speciesId": "DEOXYS",
       "form": "ATTACK",
@@ -8741,7 +8741,7 @@
       "baseDefense": 46,
       "baseStamina": 137
     },
-    {
+    "DEOXYS_DEFENSE": {
       "isFormless": false,
       "speciesId": "DEOXYS",
       "form": "DEFENSE",
@@ -8762,7 +8762,7 @@
       "baseDefense": 330,
       "baseStamina": 137
     },
-    {
+    "DEOXYS_NORMAL": {
       "isFormless": false,
       "speciesId": "DEOXYS",
       "form": "NORMAL",
@@ -8783,7 +8783,7 @@
       "baseDefense": 115,
       "baseStamina": 137
     },
-    {
+    "DEOXYS_SPEED": {
       "isFormless": false,
       "speciesId": "DEOXYS",
       "form": "SPEED",
@@ -8804,7 +8804,7 @@
       "baseDefense": 218,
       "baseStamina": 137
     },
-    {
+    "TURTWIG_NORMAL": {
       "isFormless": false,
       "speciesId": "TURTWIG",
       "form": "NORMAL",
@@ -8827,7 +8827,7 @@
       "baseDefense": 110,
       "baseStamina": 146
     },
-    {
+    "GROTLE_NORMAL": {
       "isFormless": false,
       "speciesId": "GROTLE",
       "form": "NORMAL",
@@ -8850,7 +8850,7 @@
       "baseDefense": 143,
       "baseStamina": 181
     },
-    {
+    "TORTERRA_NORMAL": {
       "isFormless": false,
       "speciesId": "TORTERRA",
       "form": "NORMAL",
@@ -8873,7 +8873,7 @@
       "baseDefense": 188,
       "baseStamina": 216
     },
-    {
+    "CHIMCHAR_NORMAL": {
       "isFormless": true,
       "speciesId": "CHIMCHAR",
       "form": "NORMAL",
@@ -8894,7 +8894,7 @@
       "baseDefense": 86,
       "baseStamina": 127
     },
-    {
+    "MONFERNO_NORMAL": {
       "isFormless": true,
       "speciesId": "MONFERNO",
       "form": "NORMAL",
@@ -8915,7 +8915,7 @@
       "baseDefense": 105,
       "baseStamina": 162
     },
-    {
+    "INFERNAPE_NORMAL": {
       "isFormless": true,
       "speciesId": "INFERNAPE",
       "form": "NORMAL",
@@ -8936,7 +8936,7 @@
       "baseDefense": 151,
       "baseStamina": 183
     },
-    {
+    "PIPLUP_NORMAL": {
       "isFormless": true,
       "speciesId": "PIPLUP",
       "form": "NORMAL",
@@ -8957,7 +8957,7 @@
       "baseDefense": 102,
       "baseStamina": 142
     },
-    {
+    "PRINPLUP_NORMAL": {
       "isFormless": true,
       "speciesId": "PRINPLUP",
       "form": "NORMAL",
@@ -8978,7 +8978,7 @@
       "baseDefense": 139,
       "baseStamina": 162
     },
-    {
+    "EMPOLEON_NORMAL": {
       "isFormless": true,
       "speciesId": "EMPOLEON",
       "form": "NORMAL",
@@ -8999,7 +8999,7 @@
       "baseDefense": 186,
       "baseStamina": 197
     },
-    {
+    "STARLY_NORMAL": {
       "isFormless": true,
       "speciesId": "STARLY",
       "form": "NORMAL",
@@ -9019,7 +9019,7 @@
       "baseDefense": 58,
       "baseStamina": 120
     },
-    {
+    "STARAVIA_NORMAL": {
       "isFormless": true,
       "speciesId": "STARAVIA",
       "form": "NORMAL",
@@ -9040,7 +9040,7 @@
       "baseDefense": 94,
       "baseStamina": 146
     },
-    {
+    "STARAPTOR_NORMAL": {
       "isFormless": true,
       "speciesId": "STARAPTOR",
       "form": "NORMAL",
@@ -9061,7 +9061,7 @@
       "baseDefense": 140,
       "baseStamina": 198
     },
-    {
+    "BIDOOF_NORMAL": {
       "isFormless": true,
       "speciesId": "BIDOOF",
       "form": "NORMAL",
@@ -9082,7 +9082,7 @@
       "baseDefense": 73,
       "baseStamina": 153
     },
-    {
+    "BIBAREL_NORMAL": {
       "isFormless": true,
       "speciesId": "BIBAREL",
       "form": "NORMAL",
@@ -9103,7 +9103,7 @@
       "baseDefense": 119,
       "baseStamina": 188
     },
-    {
+    "KRICKETOT_NORMAL": {
       "isFormless": true,
       "speciesId": "KRICKETOT",
       "form": "NORMAL",
@@ -9122,7 +9122,7 @@
       "baseDefense": 74,
       "baseStamina": 114
     },
-    {
+    "KRICKETUNE_NORMAL": {
       "isFormless": true,
       "speciesId": "KRICKETUNE",
       "form": "NORMAL",
@@ -9143,7 +9143,7 @@
       "baseDefense": 100,
       "baseStamina": 184
     },
-    {
+    "SHINX_NORMAL": {
       "isFormless": true,
       "speciesId": "SHINX",
       "form": "NORMAL",
@@ -9164,7 +9164,7 @@
       "baseDefense": 64,
       "baseStamina": 128
     },
-    {
+    "LUXIO_NORMAL": {
       "isFormless": true,
       "speciesId": "LUXIO",
       "form": "NORMAL",
@@ -9185,7 +9185,7 @@
       "baseDefense": 95,
       "baseStamina": 155
     },
-    {
+    "LUXRAY_NORMAL": {
       "isFormless": true,
       "speciesId": "LUXRAY",
       "form": "NORMAL",
@@ -9207,7 +9207,7 @@
       "baseDefense": 156,
       "baseStamina": 190
     },
-    {
+    "BUDEW_NORMAL": {
       "isFormless": true,
       "speciesId": "BUDEW",
       "form": "NORMAL",
@@ -9227,7 +9227,7 @@
       "baseDefense": 109,
       "baseStamina": 120
     },
-    {
+    "ROSERADE_NORMAL": {
       "isFormless": true,
       "speciesId": "ROSERADE",
       "form": "NORMAL",
@@ -9249,7 +9249,7 @@
       "baseDefense": 185,
       "baseStamina": 155
     },
-    {
+    "CRANIDOS_NORMAL": {
       "isFormless": true,
       "speciesId": "CRANIDOS",
       "form": "NORMAL",
@@ -9270,7 +9270,7 @@
       "baseDefense": 71,
       "baseStamina": 167
     },
-    {
+    "RAMPARDOS_NORMAL": {
       "isFormless": true,
       "speciesId": "RAMPARDOS",
       "form": "NORMAL",
@@ -9291,7 +9291,7 @@
       "baseDefense": 109,
       "baseStamina": 219
     },
-    {
+    "SHIELDON_NORMAL": {
       "isFormless": true,
       "speciesId": "SHIELDON",
       "form": "NORMAL",
@@ -9312,7 +9312,7 @@
       "baseDefense": 195,
       "baseStamina": 102
     },
-    {
+    "BASTIODON_NORMAL": {
       "isFormless": true,
       "speciesId": "BASTIODON",
       "form": "NORMAL",
@@ -9333,7 +9333,7 @@
       "baseDefense": 286,
       "baseStamina": 155
     },
-    {
+    "BURMY_PLANT": {
       "isFormless": false,
       "speciesId": "BURMY",
       "form": "PLANT",
@@ -9352,7 +9352,7 @@
       "baseDefense": 83,
       "baseStamina": 120
     },
-    {
+    "BURMY_SANDY": {
       "isFormless": false,
       "speciesId": "BURMY",
       "form": "SANDY",
@@ -9371,7 +9371,7 @@
       "baseDefense": 83,
       "baseStamina": 120
     },
-    {
+    "BURMY_TRASH": {
       "isFormless": false,
       "speciesId": "BURMY",
       "form": "TRASH",
@@ -9390,7 +9390,7 @@
       "baseDefense": 83,
       "baseStamina": 120
     },
-    {
+    "WORMADAM_PLANT": {
       "isFormless": false,
       "speciesId": "WORMADAM",
       "form": "PLANT",
@@ -9411,7 +9411,7 @@
       "baseDefense": 180,
       "baseStamina": 155
     },
-    {
+    "WORMADAM_SANDY": {
       "isFormless": false,
       "speciesId": "WORMADAM",
       "form": "SANDY",
@@ -9432,7 +9432,7 @@
       "baseDefense": 180,
       "baseStamina": 155
     },
-    {
+    "WORMADAM_TRASH": {
       "isFormless": false,
       "speciesId": "WORMADAM",
       "form": "TRASH",
@@ -9453,7 +9453,7 @@
       "baseDefense": 175,
       "baseStamina": 155
     },
-    {
+    "MOTHIM_NORMAL": {
       "isFormless": true,
       "speciesId": "MOTHIM",
       "form": "NORMAL",
@@ -9474,7 +9474,7 @@
       "baseDefense": 98,
       "baseStamina": 172
     },
-    {
+    "COMBEE_NORMAL": {
       "isFormless": true,
       "speciesId": "COMBEE",
       "form": "NORMAL",
@@ -9492,7 +9492,7 @@
       "baseDefense": 83,
       "baseStamina": 102
     },
-    {
+    "VESPIQUEN_NORMAL": {
       "isFormless": true,
       "speciesId": "VESPIQUEN",
       "form": "NORMAL",
@@ -9513,7 +9513,7 @@
       "baseDefense": 190,
       "baseStamina": 172
     },
-    {
+    "PACHIRISU_NORMAL": {
       "isFormless": true,
       "speciesId": "PACHIRISU",
       "form": "NORMAL",
@@ -9534,7 +9534,7 @@
       "baseDefense": 172,
       "baseStamina": 155
     },
-    {
+    "BUIZEL_NORMAL": {
       "isFormless": true,
       "speciesId": "BUIZEL",
       "form": "NORMAL",
@@ -9555,7 +9555,7 @@
       "baseDefense": 67,
       "baseStamina": 146
     },
-    {
+    "FLOATZEL_NORMAL": {
       "isFormless": true,
       "speciesId": "FLOATZEL",
       "form": "NORMAL",
@@ -9576,7 +9576,7 @@
       "baseDefense": 114,
       "baseStamina": 198
     },
-    {
+    "CHERUBI_NORMAL": {
       "isFormless": true,
       "speciesId": "CHERUBI",
       "form": "NORMAL",
@@ -9597,7 +9597,7 @@
       "baseDefense": 92,
       "baseStamina": 128
     },
-    {
+    "CHERRIM_OVERCAST": {
       "isFormless": false,
       "speciesId": "CHERRIM",
       "form": "OVERCAST",
@@ -9618,7 +9618,7 @@
       "baseDefense": 153,
       "baseStamina": 172
     },
-    {
+    "CHERRIM_SUNNY": {
       "isFormless": false,
       "speciesId": "CHERRIM",
       "form": "SUNNY",
@@ -9639,7 +9639,7 @@
       "baseDefense": 153,
       "baseStamina": 172
     },
-    {
+    "SHELLOS_EAST_SEA": {
       "isFormless": false,
       "speciesId": "SHELLOS",
       "form": "EAST_SEA",
@@ -9660,7 +9660,7 @@
       "baseDefense": 105,
       "baseStamina": 183
     },
-    {
+    "SHELLOS_WEST_SEA": {
       "isFormless": false,
       "speciesId": "SHELLOS",
       "form": "WEST_SEA",
@@ -9681,7 +9681,7 @@
       "baseDefense": 105,
       "baseStamina": 183
     },
-    {
+    "GASTRODON_EAST_SEA": {
       "isFormless": false,
       "speciesId": "GASTRODON",
       "form": "EAST_SEA",
@@ -9702,7 +9702,7 @@
       "baseDefense": 143,
       "baseStamina": 244
     },
-    {
+    "GASTRODON_WEST_SEA": {
       "isFormless": false,
       "speciesId": "GASTRODON",
       "form": "WEST_SEA",
@@ -9723,7 +9723,7 @@
       "baseDefense": 143,
       "baseStamina": 244
     },
-    {
+    "AMBIPOM_NORMAL": {
       "isFormless": true,
       "speciesId": "AMBIPOM",
       "form": "NORMAL",
@@ -9744,7 +9744,7 @@
       "baseDefense": 143,
       "baseStamina": 181
     },
-    {
+    "DRIFLOON_NORMAL": {
       "isFormless": true,
       "speciesId": "DRIFLOON",
       "form": "NORMAL",
@@ -9765,7 +9765,7 @@
       "baseDefense": 80,
       "baseStamina": 207
     },
-    {
+    "DRIFBLIM_NORMAL": {
       "isFormless": true,
       "speciesId": "DRIFBLIM",
       "form": "NORMAL",
@@ -9786,7 +9786,7 @@
       "baseDefense": 102,
       "baseStamina": 312
     },
-    {
+    "BUNEARY_NORMAL": {
       "isFormless": true,
       "speciesId": "BUNEARY",
       "form": "NORMAL",
@@ -9806,7 +9806,7 @@
       "baseDefense": 105,
       "baseStamina": 146
     },
-    {
+    "LOPUNNY_NORMAL": {
       "isFormless": true,
       "speciesId": "LOPUNNY",
       "form": "NORMAL",
@@ -9827,7 +9827,7 @@
       "baseDefense": 194,
       "baseStamina": 163
     },
-    {
+    "MISMAGIUS_NORMAL": {
       "isFormless": true,
       "speciesId": "MISMAGIUS",
       "form": "NORMAL",
@@ -9848,7 +9848,7 @@
       "baseDefense": 187,
       "baseStamina": 155
     },
-    {
+    "HONCHKROW_NORMAL": {
       "isFormless": true,
       "speciesId": "HONCHKROW",
       "form": "NORMAL",
@@ -9870,7 +9870,7 @@
       "baseDefense": 103,
       "baseStamina": 225
     },
-    {
+    "GLAMEOW_NORMAL": {
       "isFormless": true,
       "speciesId": "GLAMEOW",
       "form": "NORMAL",
@@ -9891,7 +9891,7 @@
       "baseDefense": 82,
       "baseStamina": 135
     },
-    {
+    "PURUGLY_NORMAL": {
       "isFormless": true,
       "speciesId": "PURUGLY",
       "form": "NORMAL",
@@ -9912,7 +9912,7 @@
       "baseDefense": 133,
       "baseStamina": 174
     },
-    {
+    "CHINGLING_NORMAL": {
       "isFormless": true,
       "speciesId": "CHINGLING",
       "form": "NORMAL",
@@ -9933,7 +9933,7 @@
       "baseDefense": 94,
       "baseStamina": 128
     },
-    {
+    "STUNKY_NORMAL": {
       "isFormless": true,
       "speciesId": "STUNKY",
       "form": "NORMAL",
@@ -9954,7 +9954,7 @@
       "baseDefense": 90,
       "baseStamina": 160
     },
-    {
+    "SKUNTANK_NORMAL": {
       "isFormless": true,
       "speciesId": "SKUNTANK",
       "form": "NORMAL",
@@ -9975,7 +9975,7 @@
       "baseDefense": 132,
       "baseStamina": 230
     },
-    {
+    "BRONZOR_NORMAL": {
       "isFormless": true,
       "speciesId": "BRONZOR",
       "form": "NORMAL",
@@ -9996,7 +9996,7 @@
       "baseDefense": 154,
       "baseStamina": 149
     },
-    {
+    "BRONZONG_NORMAL": {
       "isFormless": true,
       "speciesId": "BRONZONG",
       "form": "NORMAL",
@@ -10019,7 +10019,7 @@
       "baseDefense": 213,
       "baseStamina": 167
     },
-    {
+    "BONSLY_NORMAL": {
       "isFormless": true,
       "speciesId": "BONSLY",
       "form": "NORMAL",
@@ -10040,7 +10040,7 @@
       "baseDefense": 133,
       "baseStamina": 137
     },
-    {
+    "MIME_JR_NORMAL": {
       "isFormless": true,
       "speciesId": "MIME_JR",
       "form": "NORMAL",
@@ -10061,7 +10061,7 @@
       "baseDefense": 142,
       "baseStamina": 85
     },
-    {
+    "HAPPINY_NORMAL": {
       "isFormless": true,
       "speciesId": "HAPPINY",
       "form": "NORMAL",
@@ -10080,7 +10080,7 @@
       "baseDefense": 77,
       "baseStamina": 225
     },
-    {
+    "CHATOT_NORMAL": {
       "isFormless": true,
       "speciesId": "CHATOT",
       "form": "NORMAL",
@@ -10101,7 +10101,7 @@
       "baseDefense": 91,
       "baseStamina": 183
     },
-    {
+    "SPIRITOMB_NORMAL": {
       "isFormless": true,
       "speciesId": "SPIRITOMB",
       "form": "NORMAL",
@@ -10122,7 +10122,7 @@
       "baseDefense": 199,
       "baseStamina": 137
     },
-    {
+    "GIBLE_NORMAL": {
       "isFormless": true,
       "speciesId": "GIBLE",
       "form": "NORMAL",
@@ -10143,7 +10143,7 @@
       "baseDefense": 84,
       "baseStamina": 151
     },
-    {
+    "GABITE_NORMAL": {
       "isFormless": true,
       "speciesId": "GABITE",
       "form": "NORMAL",
@@ -10164,7 +10164,7 @@
       "baseDefense": 125,
       "baseStamina": 169
     },
-    {
+    "GARCHOMP_NORMAL": {
       "isFormless": true,
       "speciesId": "GARCHOMP",
       "form": "NORMAL",
@@ -10185,7 +10185,7 @@
       "baseDefense": 193,
       "baseStamina": 239
     },
-    {
+    "MUNCHLAX_NORMAL": {
       "isFormless": true,
       "speciesId": "MUNCHLAX",
       "form": "NORMAL",
@@ -10206,7 +10206,7 @@
       "baseDefense": 117,
       "baseStamina": 286
     },
-    {
+    "RIOLU_NORMAL": {
       "isFormless": true,
       "speciesId": "RIOLU",
       "form": "NORMAL",
@@ -10227,7 +10227,7 @@
       "baseDefense": 78,
       "baseStamina": 120
     },
-    {
+    "LUCARIO_NORMAL": {
       "isFormless": true,
       "speciesId": "LUCARIO",
       "form": "NORMAL",
@@ -10249,7 +10249,7 @@
       "baseDefense": 144,
       "baseStamina": 172
     },
-    {
+    "HIPPOPOTAS_NORMAL": {
       "isFormless": true,
       "speciesId": "HIPPOPOTAS",
       "form": "NORMAL",
@@ -10270,7 +10270,7 @@
       "baseDefense": 118,
       "baseStamina": 169
     },
-    {
+    "HIPPOWDON_NORMAL": {
       "isFormless": true,
       "speciesId": "HIPPOWDON",
       "form": "NORMAL",
@@ -10292,7 +10292,7 @@
       "baseDefense": 191,
       "baseStamina": 239
     },
-    {
+    "SKORUPI_NORMAL": {
       "isFormless": true,
       "speciesId": "SKORUPI",
       "form": "NORMAL",
@@ -10313,7 +10313,7 @@
       "baseDefense": 151,
       "baseStamina": 120
     },
-    {
+    "DRAPION_NORMAL": {
       "isFormless": true,
       "speciesId": "DRAPION",
       "form": "NORMAL",
@@ -10335,7 +10335,7 @@
       "baseDefense": 202,
       "baseStamina": 172
     },
-    {
+    "CROAGUNK_NORMAL": {
       "isFormless": true,
       "speciesId": "CROAGUNK",
       "form": "NORMAL",
@@ -10356,7 +10356,7 @@
       "baseDefense": 76,
       "baseStamina": 134
     },
-    {
+    "TOXICROAK_NORMAL": {
       "isFormless": true,
       "speciesId": "TOXICROAK",
       "form": "NORMAL",
@@ -10377,7 +10377,7 @@
       "baseDefense": 133,
       "baseStamina": 195
     },
-    {
+    "CARNIVINE_NORMAL": {
       "isFormless": true,
       "speciesId": "CARNIVINE",
       "form": "NORMAL",
@@ -10398,7 +10398,7 @@
       "baseDefense": 136,
       "baseStamina": 179
     },
-    {
+    "FINNEON_NORMAL": {
       "isFormless": true,
       "speciesId": "FINNEON",
       "form": "NORMAL",
@@ -10419,7 +10419,7 @@
       "baseDefense": 116,
       "baseStamina": 135
     },
-    {
+    "LUMINEON_NORMAL": {
       "isFormless": true,
       "speciesId": "LUMINEON",
       "form": "NORMAL",
@@ -10440,7 +10440,7 @@
       "baseDefense": 170,
       "baseStamina": 170
     },
-    {
+    "MANTYKE_NORMAL": {
       "isFormless": true,
       "speciesId": "MANTYKE",
       "form": "NORMAL",
@@ -10461,7 +10461,7 @@
       "baseDefense": 179,
       "baseStamina": 128
     },
-    {
+    "SNOVER_NORMAL": {
       "isFormless": true,
       "speciesId": "SNOVER",
       "form": "NORMAL",
@@ -10482,7 +10482,7 @@
       "baseDefense": 105,
       "baseStamina": 155
     },
-    {
+    "ABOMASNOW_NORMAL": {
       "isFormless": true,
       "speciesId": "ABOMASNOW",
       "form": "NORMAL",
@@ -10503,7 +10503,7 @@
       "baseDefense": 158,
       "baseStamina": 207
     },
-    {
+    "WEAVILE_NORMAL": {
       "isFormless": true,
       "speciesId": "WEAVILE",
       "form": "NORMAL",
@@ -10524,7 +10524,7 @@
       "baseDefense": 171,
       "baseStamina": 172
     },
-    {
+    "MAGNEZONE_NORMAL": {
       "isFormless": true,
       "speciesId": "MAGNEZONE",
       "form": "NORMAL",
@@ -10545,7 +10545,7 @@
       "baseDefense": 205,
       "baseStamina": 172
     },
-    {
+    "LICKILICKY_NORMAL": {
       "isFormless": true,
       "speciesId": "LICKILICKY",
       "form": "NORMAL",
@@ -10566,7 +10566,7 @@
       "baseDefense": 181,
       "baseStamina": 242
     },
-    {
+    "RHYPERIOR_NORMAL": {
       "isFormless": true,
       "speciesId": "RHYPERIOR",
       "form": "NORMAL",
@@ -10588,7 +10588,7 @@
       "baseDefense": 190,
       "baseStamina": 251
     },
-    {
+    "TANGROWTH_NORMAL": {
       "isFormless": true,
       "speciesId": "TANGROWTH",
       "form": "NORMAL",
@@ -10609,7 +10609,7 @@
       "baseDefense": 184,
       "baseStamina": 225
     },
-    {
+    "ELECTIVIRE_NORMAL": {
       "isFormless": true,
       "speciesId": "ELECTIVIRE",
       "form": "NORMAL",
@@ -10631,7 +10631,7 @@
       "baseDefense": 163,
       "baseStamina": 181
     },
-    {
+    "MAGMORTAR_NORMAL": {
       "isFormless": true,
       "speciesId": "MAGMORTAR",
       "form": "NORMAL",
@@ -10653,7 +10653,7 @@
       "baseDefense": 172,
       "baseStamina": 181
     },
-    {
+    "TOGEKISS_NORMAL": {
       "isFormless": true,
       "speciesId": "TOGEKISS",
       "form": "NORMAL",
@@ -10676,7 +10676,7 @@
       "baseDefense": 217,
       "baseStamina": 198
     },
-    {
+    "YANMEGA_NORMAL": {
       "isFormless": true,
       "speciesId": "YANMEGA",
       "form": "NORMAL",
@@ -10697,7 +10697,7 @@
       "baseDefense": 156,
       "baseStamina": 200
     },
-    {
+    "LEAFEON_NORMAL": {
       "isFormless": true,
       "speciesId": "LEAFEON",
       "form": "NORMAL",
@@ -10718,7 +10718,7 @@
       "baseDefense": 219,
       "baseStamina": 163
     },
-    {
+    "GLACEON_NORMAL": {
       "isFormless": true,
       "speciesId": "GLACEON",
       "form": "NORMAL",
@@ -10739,7 +10739,7 @@
       "baseDefense": 205,
       "baseStamina": 163
     },
-    {
+    "GLISCOR_NORMAL": {
       "isFormless": true,
       "speciesId": "GLISCOR",
       "form": "NORMAL",
@@ -10760,7 +10760,7 @@
       "baseDefense": 222,
       "baseStamina": 181
     },
-    {
+    "MAMOSWINE_NORMAL": {
       "isFormless": true,
       "speciesId": "MAMOSWINE",
       "form": "NORMAL",
@@ -10781,7 +10781,7 @@
       "baseDefense": 146,
       "baseStamina": 242
     },
-    {
+    "PORYGON_Z_NORMAL": {
       "isFormless": true,
       "speciesId": "PORYGON_Z",
       "form": "NORMAL",
@@ -10803,7 +10803,7 @@
       "baseDefense": 150,
       "baseStamina": 198
     },
-    {
+    "GALLADE_NORMAL": {
       "isFormless": false,
       "speciesId": "GALLADE",
       "form": "NORMAL",
@@ -10827,7 +10827,7 @@
       "baseDefense": 195,
       "baseStamina": 169
     },
-    {
+    "PROBOPASS_NORMAL": {
       "isFormless": true,
       "speciesId": "PROBOPASS",
       "form": "NORMAL",
@@ -10848,7 +10848,7 @@
       "baseDefense": 275,
       "baseStamina": 155
     },
-    {
+    "DUSKNOIR_NORMAL": {
       "isFormless": true,
       "speciesId": "DUSKNOIR",
       "form": "NORMAL",
@@ -10869,7 +10869,7 @@
       "baseDefense": 254,
       "baseStamina": 128
     },
-    {
+    "FROSLASS_NORMAL": {
       "isFormless": true,
       "speciesId": "FROSLASS",
       "form": "NORMAL",
@@ -10890,7 +10890,7 @@
       "baseDefense": 150,
       "baseStamina": 172
     },
-    {
+    "ROTOM_FAN": {
       "isFormless": false,
       "speciesId": "ROTOM",
       "form": "FAN",
@@ -10911,7 +10911,7 @@
       "baseDefense": 219,
       "baseStamina": 137
     },
-    {
+    "ROTOM_FROST": {
       "isFormless": false,
       "speciesId": "ROTOM",
       "form": "FROST",
@@ -10932,7 +10932,7 @@
       "baseDefense": 219,
       "baseStamina": 137
     },
-    {
+    "ROTOM_HEAT": {
       "isFormless": false,
       "speciesId": "ROTOM",
       "form": "HEAT",
@@ -10953,7 +10953,7 @@
       "baseDefense": 219,
       "baseStamina": 137
     },
-    {
+    "ROTOM_MOW": {
       "isFormless": false,
       "speciesId": "ROTOM",
       "form": "MOW",
@@ -10974,7 +10974,7 @@
       "baseDefense": 219,
       "baseStamina": 137
     },
-    {
+    "ROTOM_NORMAL": {
       "isFormless": false,
       "speciesId": "ROTOM",
       "form": "NORMAL",
@@ -10995,7 +10995,7 @@
       "baseDefense": 159,
       "baseStamina": 137
     },
-    {
+    "ROTOM_WASH": {
       "isFormless": false,
       "speciesId": "ROTOM",
       "form": "WASH",
@@ -11016,7 +11016,7 @@
       "baseDefense": 219,
       "baseStamina": 137
     },
-    {
+    "UXIE_NORMAL": {
       "isFormless": true,
       "speciesId": "UXIE",
       "form": "NORMAL",
@@ -11037,7 +11037,7 @@
       "baseDefense": 270,
       "baseStamina": 181
     },
-    {
+    "MESPRIT_NORMAL": {
       "isFormless": true,
       "speciesId": "MESPRIT",
       "form": "NORMAL",
@@ -11058,7 +11058,7 @@
       "baseDefense": 212,
       "baseStamina": 190
     },
-    {
+    "AZELF_NORMAL": {
       "isFormless": true,
       "speciesId": "AZELF",
       "form": "NORMAL",
@@ -11079,7 +11079,7 @@
       "baseDefense": 151,
       "baseStamina": 181
     },
-    {
+    "DIALGA_NORMAL": {
       "isFormless": true,
       "speciesId": "DIALGA",
       "form": "NORMAL",
@@ -11100,7 +11100,7 @@
       "baseDefense": 211,
       "baseStamina": 205
     },
-    {
+    "PALKIA_NORMAL": {
       "isFormless": true,
       "speciesId": "PALKIA",
       "form": "NORMAL",
@@ -11121,7 +11121,7 @@
       "baseDefense": 215,
       "baseStamina": 189
     },
-    {
+    "HEATRAN_NORMAL": {
       "isFormless": true,
       "speciesId": "HEATRAN",
       "form": "NORMAL",
@@ -11142,7 +11142,7 @@
       "baseDefense": 213,
       "baseStamina": 209
     },
-    {
+    "REGIGIGAS_NORMAL": {
       "isFormless": true,
       "speciesId": "REGIGIGAS",
       "form": "NORMAL",
@@ -11163,7 +11163,7 @@
       "baseDefense": 210,
       "baseStamina": 221
     },
-    {
+    "GIRATINA_ALTERED": {
       "isFormless": false,
       "speciesId": "GIRATINA",
       "form": "ALTERED",
@@ -11184,7 +11184,7 @@
       "baseDefense": 225,
       "baseStamina": 284
     },
-    {
+    "GIRATINA_ORIGIN": {
       "isFormless": false,
       "speciesId": "GIRATINA",
       "form": "ORIGIN",
@@ -11205,7 +11205,7 @@
       "baseDefense": 187,
       "baseStamina": 284
     },
-    {
+    "CRESSELIA_NORMAL": {
       "isFormless": true,
       "speciesId": "CRESSELIA",
       "form": "NORMAL",
@@ -11226,7 +11226,7 @@
       "baseDefense": 258,
       "baseStamina": 260
     },
-    {
+    "PHIONE_NORMAL": {
       "isFormless": true,
       "speciesId": "PHIONE",
       "form": "NORMAL",
@@ -11247,7 +11247,7 @@
       "baseDefense": 162,
       "baseStamina": 190
     },
-    {
+    "MANAPHY_NORMAL": {
       "isFormless": true,
       "speciesId": "MANAPHY",
       "form": "NORMAL",
@@ -11268,7 +11268,7 @@
       "baseDefense": 210,
       "baseStamina": 225
     },
-    {
+    "DARKRAI_NORMAL": {
       "isFormless": true,
       "speciesId": "DARKRAI",
       "form": "NORMAL",
@@ -11289,7 +11289,7 @@
       "baseDefense": 198,
       "baseStamina": 172
     },
-    {
+    "SHAYMIN_LAND": {
       "isFormless": false,
       "speciesId": "SHAYMIN",
       "form": "LAND",
@@ -11310,7 +11310,7 @@
       "baseDefense": 210,
       "baseStamina": 225
     },
-    {
+    "SHAYMIN_SKY": {
       "isFormless": false,
       "speciesId": "SHAYMIN",
       "form": "SKY",
@@ -11331,7 +11331,7 @@
       "baseDefense": 166,
       "baseStamina": 225
     },
-    {
+    "ARCEUS_BUG": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "BUG",
@@ -11352,7 +11352,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_DARK": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "DARK",
@@ -11373,7 +11373,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_DRAGON": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "DRAGON",
@@ -11394,7 +11394,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_ELECTRIC": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "ELECTRIC",
@@ -11415,7 +11415,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_FAIRY": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "FAIRY",
@@ -11436,7 +11436,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_FIGHTING": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "FIGHTING",
@@ -11457,7 +11457,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_FIRE": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "FIRE",
@@ -11478,7 +11478,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_FLYING": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "FLYING",
@@ -11499,7 +11499,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_GHOST": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "GHOST",
@@ -11520,7 +11520,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_GRASS": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "GRASS",
@@ -11541,7 +11541,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_GROUND": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "GROUND",
@@ -11562,7 +11562,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_ICE": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "ICE",
@@ -11583,7 +11583,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_NORMAL": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "NORMAL",
@@ -11604,7 +11604,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_POISON": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "POISON",
@@ -11625,7 +11625,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_PSYCHIC": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "PSYCHIC",
@@ -11646,7 +11646,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_ROCK": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "ROCK",
@@ -11667,7 +11667,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_STEEL": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "STEEL",
@@ -11688,7 +11688,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "ARCEUS_WATER": {
       "isFormless": false,
       "speciesId": "ARCEUS",
       "form": "WATER",
@@ -11709,7 +11709,7 @@
       "baseDefense": 238,
       "baseStamina": 237
     },
-    {
+    "VICTINI_NORMAL": {
       "isFormless": true,
       "speciesId": "VICTINI",
       "form": "NORMAL",
@@ -11730,7 +11730,7 @@
       "baseDefense": 210,
       "baseStamina": 225
     },
-    {
+    "SNIVY_NORMAL": {
       "isFormless": true,
       "speciesId": "SNIVY",
       "form": "NORMAL",
@@ -11751,7 +11751,7 @@
       "baseDefense": 107,
       "baseStamina": 128
     },
-    {
+    "SERVINE_NORMAL": {
       "isFormless": true,
       "speciesId": "SERVINE",
       "form": "NORMAL",
@@ -11772,7 +11772,7 @@
       "baseDefense": 152,
       "baseStamina": 155
     },
-    {
+    "SERPERIOR_NORMAL": {
       "isFormless": true,
       "speciesId": "SERPERIOR",
       "form": "NORMAL",
@@ -11793,7 +11793,7 @@
       "baseDefense": 204,
       "baseStamina": 181
     },
-    {
+    "TEPIG_NORMAL": {
       "isFormless": true,
       "speciesId": "TEPIG",
       "form": "NORMAL",
@@ -11814,7 +11814,7 @@
       "baseDefense": 85,
       "baseStamina": 163
     },
-    {
+    "PIGNITE_NORMAL": {
       "isFormless": true,
       "speciesId": "PIGNITE",
       "form": "NORMAL",
@@ -11835,7 +11835,7 @@
       "baseDefense": 106,
       "baseStamina": 207
     },
-    {
+    "EMBOAR_NORMAL": {
       "isFormless": true,
       "speciesId": "EMBOAR",
       "form": "NORMAL",
@@ -11856,7 +11856,7 @@
       "baseDefense": 127,
       "baseStamina": 242
     },
-    {
+    "OSHAWOTT_NORMAL": {
       "isFormless": true,
       "speciesId": "OSHAWOTT",
       "form": "NORMAL",
@@ -11877,7 +11877,7 @@
       "baseDefense": 85,
       "baseStamina": 146
     },
-    {
+    "DEWOTT_NORMAL": {
       "isFormless": true,
       "speciesId": "DEWOTT",
       "form": "NORMAL",
@@ -11898,7 +11898,7 @@
       "baseDefense": 116,
       "baseStamina": 181
     },
-    {
+    "SAMUROTT_NORMAL": {
       "isFormless": true,
       "speciesId": "SAMUROTT",
       "form": "NORMAL",
@@ -11919,7 +11919,7 @@
       "baseDefense": 157,
       "baseStamina": 216
     },
-    {
+    "PATRAT_NORMAL": {
       "isFormless": true,
       "speciesId": "PATRAT",
       "form": "NORMAL",
@@ -11940,7 +11940,7 @@
       "baseDefense": 73,
       "baseStamina": 128
     },
-    {
+    "WATCHOG_NORMAL": {
       "isFormless": true,
       "speciesId": "WATCHOG",
       "form": "NORMAL",
@@ -11961,7 +11961,7 @@
       "baseDefense": 139,
       "baseStamina": 155
     },
-    {
+    "LILLIPUP_NORMAL": {
       "isFormless": true,
       "speciesId": "LILLIPUP",
       "form": "NORMAL",
@@ -11982,7 +11982,7 @@
       "baseDefense": 86,
       "baseStamina": 128
     },
-    {
+    "HERDIER_NORMAL": {
       "isFormless": true,
       "speciesId": "HERDIER",
       "form": "NORMAL",
@@ -12003,7 +12003,7 @@
       "baseDefense": 126,
       "baseStamina": 163
     },
-    {
+    "STOUTLAND_NORMAL": {
       "isFormless": true,
       "speciesId": "STOUTLAND",
       "form": "NORMAL",
@@ -12024,7 +12024,7 @@
       "baseDefense": 182,
       "baseStamina": 198
     },
-    {
+    "PURRLOIN_NORMAL": {
       "isFormless": true,
       "speciesId": "PURRLOIN",
       "form": "NORMAL",
@@ -12045,7 +12045,7 @@
       "baseDefense": 73,
       "baseStamina": 121
     },
-    {
+    "LIEPARD_NORMAL": {
       "isFormless": true,
       "speciesId": "LIEPARD",
       "form": "NORMAL",
@@ -12066,7 +12066,7 @@
       "baseDefense": 106,
       "baseStamina": 162
     },
-    {
+    "PANSAGE_NORMAL": {
       "isFormless": true,
       "speciesId": "PANSAGE",
       "form": "NORMAL",
@@ -12087,7 +12087,7 @@
       "baseDefense": 94,
       "baseStamina": 137
     },
-    {
+    "SIMISAGE_NORMAL": {
       "isFormless": true,
       "speciesId": "SIMISAGE",
       "form": "NORMAL",
@@ -12108,7 +12108,7 @@
       "baseDefense": 133,
       "baseStamina": 181
     },
-    {
+    "PANSEAR_NORMAL": {
       "isFormless": true,
       "speciesId": "PANSEAR",
       "form": "NORMAL",
@@ -12129,7 +12129,7 @@
       "baseDefense": 94,
       "baseStamina": 137
     },
-    {
+    "SIMISEAR_NORMAL": {
       "isFormless": true,
       "speciesId": "SIMISEAR",
       "form": "NORMAL",
@@ -12150,7 +12150,7 @@
       "baseDefense": 133,
       "baseStamina": 181
     },
-    {
+    "PANPOUR_NORMAL": {
       "isFormless": true,
       "speciesId": "PANPOUR",
       "form": "NORMAL",
@@ -12171,7 +12171,7 @@
       "baseDefense": 94,
       "baseStamina": 137
     },
-    {
+    "SIMIPOUR_NORMAL": {
       "isFormless": true,
       "speciesId": "SIMIPOUR",
       "form": "NORMAL",
@@ -12192,7 +12192,7 @@
       "baseDefense": 133,
       "baseStamina": 181
     },
-    {
+    "MUNNA_NORMAL": {
       "isFormless": true,
       "speciesId": "MUNNA",
       "form": "NORMAL",
@@ -12213,7 +12213,7 @@
       "baseDefense": 92,
       "baseStamina": 183
     },
-    {
+    "MUSHARNA_NORMAL": {
       "isFormless": true,
       "speciesId": "MUSHARNA",
       "form": "NORMAL",
@@ -12234,7 +12234,7 @@
       "baseDefense": 166,
       "baseStamina": 253
     },
-    {
+    "PIDOVE_NORMAL": {
       "isFormless": true,
       "speciesId": "PIDOVE",
       "form": "NORMAL",
@@ -12255,7 +12255,7 @@
       "baseDefense": 80,
       "baseStamina": 137
     },
-    {
+    "TRANQUILL_NORMAL": {
       "isFormless": true,
       "speciesId": "TRANQUILL",
       "form": "NORMAL",
@@ -12276,7 +12276,7 @@
       "baseDefense": 107,
       "baseStamina": 158
     },
-    {
+    "UNFEZANT_NORMAL": {
       "isFormless": true,
       "speciesId": "UNFEZANT",
       "form": "NORMAL",
@@ -12297,7 +12297,7 @@
       "baseDefense": 146,
       "baseStamina": 190
     },
-    {
+    "BLITZLE_NORMAL": {
       "isFormless": true,
       "speciesId": "BLITZLE",
       "form": "NORMAL",
@@ -12318,7 +12318,7 @@
       "baseDefense": 64,
       "baseStamina": 128
     },
-    {
+    "ZEBSTRIKA_NORMAL": {
       "isFormless": true,
       "speciesId": "ZEBSTRIKA",
       "form": "NORMAL",
@@ -12339,7 +12339,7 @@
       "baseDefense": 136,
       "baseStamina": 181
     },
-    {
+    "ROGGENROLA_NORMAL": {
       "isFormless": true,
       "speciesId": "ROGGENROLA",
       "form": "NORMAL",
@@ -12360,7 +12360,7 @@
       "baseDefense": 110,
       "baseStamina": 146
     },
-    {
+    "BOLDORE_NORMAL": {
       "isFormless": true,
       "speciesId": "BOLDORE",
       "form": "NORMAL",
@@ -12381,7 +12381,7 @@
       "baseDefense": 143,
       "baseStamina": 172
     },
-    {
+    "GIGALITH_NORMAL": {
       "isFormless": true,
       "speciesId": "GIGALITH",
       "form": "NORMAL",
@@ -12403,7 +12403,7 @@
       "baseDefense": 201,
       "baseStamina": 198
     },
-    {
+    "WOOBAT_NORMAL": {
       "isFormless": true,
       "speciesId": "WOOBAT",
       "form": "NORMAL",
@@ -12424,7 +12424,7 @@
       "baseDefense": 85,
       "baseStamina": 163
     },
-    {
+    "SWOOBAT_NORMAL": {
       "isFormless": true,
       "speciesId": "SWOOBAT",
       "form": "NORMAL",
@@ -12445,7 +12445,7 @@
       "baseDefense": 119,
       "baseStamina": 167
     },
-    {
+    "DRILBUR_NORMAL": {
       "isFormless": true,
       "speciesId": "DRILBUR",
       "form": "NORMAL",
@@ -12466,7 +12466,7 @@
       "baseDefense": 85,
       "baseStamina": 155
     },
-    {
+    "EXCADRILL_NORMAL": {
       "isFormless": true,
       "speciesId": "EXCADRILL",
       "form": "NORMAL",
@@ -12488,7 +12488,7 @@
       "baseDefense": 129,
       "baseStamina": 242
     },
-    {
+    "AUDINO_NORMAL": {
       "isFormless": true,
       "speciesId": "AUDINO",
       "form": "NORMAL",
@@ -12509,7 +12509,7 @@
       "baseDefense": 163,
       "baseStamina": 230
     },
-    {
+    "TIMBURR_NORMAL": {
       "isFormless": true,
       "speciesId": "TIMBURR",
       "form": "NORMAL",
@@ -12530,7 +12530,7 @@
       "baseDefense": 87,
       "baseStamina": 181
     },
-    {
+    "GURDURR_NORMAL": {
       "isFormless": true,
       "speciesId": "GURDURR",
       "form": "NORMAL",
@@ -12551,7 +12551,7 @@
       "baseDefense": 134,
       "baseStamina": 198
     },
-    {
+    "CONKELDURR_NORMAL": {
       "isFormless": true,
       "speciesId": "CONKELDURR",
       "form": "NORMAL",
@@ -12572,7 +12572,7 @@
       "baseDefense": 158,
       "baseStamina": 233
     },
-    {
+    "TYMPOLE_NORMAL": {
       "isFormless": true,
       "speciesId": "TYMPOLE",
       "form": "NORMAL",
@@ -12593,7 +12593,7 @@
       "baseDefense": 78,
       "baseStamina": 137
     },
-    {
+    "PALPITOAD_NORMAL": {
       "isFormless": true,
       "speciesId": "PALPITOAD",
       "form": "NORMAL",
@@ -12614,7 +12614,7 @@
       "baseDefense": 109,
       "baseStamina": 181
     },
-    {
+    "SEISMITOAD_NORMAL": {
       "isFormless": true,
       "speciesId": "SEISMITOAD",
       "form": "NORMAL",
@@ -12635,7 +12635,7 @@
       "baseDefense": 150,
       "baseStamina": 233
     },
-    {
+    "THROH_NORMAL": {
       "isFormless": true,
       "speciesId": "THROH",
       "form": "NORMAL",
@@ -12656,7 +12656,7 @@
       "baseDefense": 160,
       "baseStamina": 260
     },
-    {
+    "SAWK_NORMAL": {
       "isFormless": true,
       "speciesId": "SAWK",
       "form": "NORMAL",
@@ -12677,7 +12677,7 @@
       "baseDefense": 153,
       "baseStamina": 181
     },
-    {
+    "SEWADDLE_NORMAL": {
       "isFormless": true,
       "speciesId": "SEWADDLE",
       "form": "NORMAL",
@@ -12698,7 +12698,7 @@
       "baseDefense": 124,
       "baseStamina": 128
     },
-    {
+    "SWADLOON_NORMAL": {
       "isFormless": true,
       "speciesId": "SWADLOON",
       "form": "NORMAL",
@@ -12719,7 +12719,7 @@
       "baseDefense": 162,
       "baseStamina": 146
     },
-    {
+    "LEAVANNY_NORMAL": {
       "isFormless": true,
       "speciesId": "LEAVANNY",
       "form": "NORMAL",
@@ -12740,7 +12740,7 @@
       "baseDefense": 165,
       "baseStamina": 181
     },
-    {
+    "VENIPEDE_NORMAL": {
       "isFormless": true,
       "speciesId": "VENIPEDE",
       "form": "NORMAL",
@@ -12761,7 +12761,7 @@
       "baseDefense": 99,
       "baseStamina": 102
     },
-    {
+    "WHIRLIPEDE_NORMAL": {
       "isFormless": true,
       "speciesId": "WHIRLIPEDE",
       "form": "NORMAL",
@@ -12782,7 +12782,7 @@
       "baseDefense": 173,
       "baseStamina": 120
     },
-    {
+    "SCOLIPEDE_NORMAL": {
       "isFormless": true,
       "speciesId": "SCOLIPEDE",
       "form": "NORMAL",
@@ -12803,7 +12803,7 @@
       "baseDefense": 175,
       "baseStamina": 155
     },
-    {
+    "COTTONEE_NORMAL": {
       "isFormless": true,
       "speciesId": "COTTONEE",
       "form": "NORMAL",
@@ -12824,7 +12824,7 @@
       "baseDefense": 111,
       "baseStamina": 120
     },
-    {
+    "WHIMSICOTT_NORMAL": {
       "isFormless": true,
       "speciesId": "WHIMSICOTT",
       "form": "NORMAL",
@@ -12845,7 +12845,7 @@
       "baseDefense": 176,
       "baseStamina": 155
     },
-    {
+    "PETILIL_NORMAL": {
       "isFormless": true,
       "speciesId": "PETILIL",
       "form": "NORMAL",
@@ -12865,7 +12865,7 @@
       "baseDefense": 91,
       "baseStamina": 128
     },
-    {
+    "LILLIGANT_NORMAL": {
       "isFormless": true,
       "speciesId": "LILLIGANT",
       "form": "NORMAL",
@@ -12886,7 +12886,7 @@
       "baseDefense": 155,
       "baseStamina": 172
     },
-    {
+    "BASCULIN_BLUE_STRIPED": {
       "isFormless": false,
       "speciesId": "BASCULIN",
       "form": "BLUE_STRIPED",
@@ -12907,7 +12907,7 @@
       "baseDefense": 129,
       "baseStamina": 172
     },
-    {
+    "BASCULIN_RED_STRIPED": {
       "isFormless": false,
       "speciesId": "BASCULIN",
       "form": "RED_STRIPED",
@@ -12928,7 +12928,7 @@
       "baseDefense": 129,
       "baseStamina": 172
     },
-    {
+    "SANDILE_NORMAL": {
       "isFormless": true,
       "speciesId": "SANDILE",
       "form": "NORMAL",
@@ -12949,7 +12949,7 @@
       "baseDefense": 69,
       "baseStamina": 137
     },
-    {
+    "KROKOROK_NORMAL": {
       "isFormless": true,
       "speciesId": "KROKOROK",
       "form": "NORMAL",
@@ -12970,7 +12970,7 @@
       "baseDefense": 90,
       "baseStamina": 155
     },
-    {
+    "KROOKODILE_NORMAL": {
       "isFormless": true,
       "speciesId": "KROOKODILE",
       "form": "NORMAL",
@@ -12991,7 +12991,7 @@
       "baseDefense": 158,
       "baseStamina": 216
     },
-    {
+    "DARUMAKA_NORMAL": {
       "isFormless": true,
       "speciesId": "DARUMAKA",
       "form": "NORMAL",
@@ -13012,7 +13012,7 @@
       "baseDefense": 86,
       "baseStamina": 172
     },
-    {
+    "DARMANITAN_STANDARD": {
       "isFormless": false,
       "speciesId": "DARMANITAN",
       "form": "STANDARD",
@@ -13034,7 +13034,7 @@
       "baseDefense": 114,
       "baseStamina": 233
     },
-    {
+    "DARMANITAN_ZEN": {
       "isFormless": false,
       "speciesId": "DARMANITAN",
       "form": "ZEN",
@@ -13056,7 +13056,7 @@
       "baseDefense": 202,
       "baseStamina": 233
     },
-    {
+    "MARACTUS_NORMAL": {
       "isFormless": true,
       "speciesId": "MARACTUS",
       "form": "NORMAL",
@@ -13077,7 +13077,7 @@
       "baseDefense": 130,
       "baseStamina": 181
     },
-    {
+    "DWEBBLE_NORMAL": {
       "isFormless": true,
       "speciesId": "DWEBBLE",
       "form": "NORMAL",
@@ -13098,7 +13098,7 @@
       "baseDefense": 128,
       "baseStamina": 137
     },
-    {
+    "CRUSTLE_NORMAL": {
       "isFormless": true,
       "speciesId": "CRUSTLE",
       "form": "NORMAL",
@@ -13119,7 +13119,7 @@
       "baseDefense": 200,
       "baseStamina": 172
     },
-    {
+    "SCRAGGY_NORMAL": {
       "isFormless": true,
       "speciesId": "SCRAGGY",
       "form": "NORMAL",
@@ -13140,7 +13140,7 @@
       "baseDefense": 132,
       "baseStamina": 137
     },
-    {
+    "SCRAFTY_NORMAL": {
       "isFormless": true,
       "speciesId": "SCRAFTY",
       "form": "NORMAL",
@@ -13161,7 +13161,7 @@
       "baseDefense": 222,
       "baseStamina": 163
     },
-    {
+    "SIGILYPH_NORMAL": {
       "isFormless": true,
       "speciesId": "SIGILYPH",
       "form": "NORMAL",
@@ -13183,7 +13183,7 @@
       "baseDefense": 167,
       "baseStamina": 176
     },
-    {
+    "YAMASK_NORMAL": {
       "isFormless": true,
       "speciesId": "YAMASK",
       "form": "NORMAL",
@@ -13204,7 +13204,7 @@
       "baseDefense": 141,
       "baseStamina": 116
     },
-    {
+    "COFAGRIGUS_NORMAL": {
       "isFormless": true,
       "speciesId": "COFAGRIGUS",
       "form": "NORMAL",
@@ -13225,7 +13225,7 @@
       "baseDefense": 237,
       "baseStamina": 151
     },
-    {
+    "TIRTOUGA_NORMAL": {
       "isFormless": true,
       "speciesId": "TIRTOUGA",
       "form": "NORMAL",
@@ -13246,7 +13246,7 @@
       "baseDefense": 146,
       "baseStamina": 144
     },
-    {
+    "CARRACOSTA_NORMAL": {
       "isFormless": true,
       "speciesId": "CARRACOSTA",
       "form": "NORMAL",
@@ -13267,7 +13267,7 @@
       "baseDefense": 197,
       "baseStamina": 179
     },
-    {
+    "ARCHEN_NORMAL": {
       "isFormless": true,
       "speciesId": "ARCHEN",
       "form": "NORMAL",
@@ -13288,7 +13288,7 @@
       "baseDefense": 89,
       "baseStamina": 146
     },
-    {
+    "ARCHEOPS_NORMAL": {
       "isFormless": true,
       "speciesId": "ARCHEOPS",
       "form": "NORMAL",
@@ -13309,7 +13309,7 @@
       "baseDefense": 139,
       "baseStamina": 181
     },
-    {
+    "TRUBBISH_NORMAL": {
       "isFormless": true,
       "speciesId": "TRUBBISH",
       "form": "NORMAL",
@@ -13330,7 +13330,7 @@
       "baseDefense": 122,
       "baseStamina": 137
     },
-    {
+    "GARBODOR_NORMAL": {
       "isFormless": true,
       "speciesId": "GARBODOR",
       "form": "NORMAL",
@@ -13352,7 +13352,7 @@
       "baseDefense": 164,
       "baseStamina": 190
     },
-    {
+    "ZORUA_NORMAL": {
       "isFormless": true,
       "speciesId": "ZORUA",
       "form": "NORMAL",
@@ -13373,7 +13373,7 @@
       "baseDefense": 78,
       "baseStamina": 120
     },
-    {
+    "ZOROARK_NORMAL": {
       "isFormless": true,
       "speciesId": "ZOROARK",
       "form": "NORMAL",
@@ -13394,7 +13394,7 @@
       "baseDefense": 127,
       "baseStamina": 155
     },
-    {
+    "MINCCINO_NORMAL": {
       "isFormless": true,
       "speciesId": "MINCCINO",
       "form": "NORMAL",
@@ -13415,7 +13415,7 @@
       "baseDefense": 80,
       "baseStamina": 146
     },
-    {
+    "CINCCINO_NORMAL": {
       "isFormless": true,
       "speciesId": "CINCCINO",
       "form": "NORMAL",
@@ -13436,7 +13436,7 @@
       "baseDefense": 130,
       "baseStamina": 181
     },
-    {
+    "GOTHITA_NORMAL": {
       "isFormless": true,
       "speciesId": "GOTHITA",
       "form": "NORMAL",
@@ -13457,7 +13457,7 @@
       "baseDefense": 112,
       "baseStamina": 128
     },
-    {
+    "GOTHORITA_NORMAL": {
       "isFormless": true,
       "speciesId": "GOTHORITA",
       "form": "NORMAL",
@@ -13478,7 +13478,7 @@
       "baseDefense": 153,
       "baseStamina": 155
     },
-    {
+    "GOTHITELLE_NORMAL": {
       "isFormless": true,
       "speciesId": "GOTHITELLE",
       "form": "NORMAL",
@@ -13499,7 +13499,7 @@
       "baseDefense": 205,
       "baseStamina": 172
     },
-    {
+    "SOLOSIS_NORMAL": {
       "isFormless": true,
       "speciesId": "SOLOSIS",
       "form": "NORMAL",
@@ -13520,7 +13520,7 @@
       "baseDefense": 83,
       "baseStamina": 128
     },
-    {
+    "DUOSION_NORMAL": {
       "isFormless": true,
       "speciesId": "DUOSION",
       "form": "NORMAL",
@@ -13541,7 +13541,7 @@
       "baseDefense": 103,
       "baseStamina": 163
     },
-    {
+    "REUNICLUS_NORMAL": {
       "isFormless": true,
       "speciesId": "REUNICLUS",
       "form": "NORMAL",
@@ -13562,7 +13562,7 @@
       "baseDefense": 148,
       "baseStamina": 242
     },
-    {
+    "DUCKLETT_NORMAL": {
       "isFormless": true,
       "speciesId": "DUCKLETT",
       "form": "NORMAL",
@@ -13583,7 +13583,7 @@
       "baseDefense": 96,
       "baseStamina": 158
     },
-    {
+    "SWANNA_NORMAL": {
       "isFormless": true,
       "speciesId": "SWANNA",
       "form": "NORMAL",
@@ -13604,7 +13604,7 @@
       "baseDefense": 132,
       "baseStamina": 181
     },
-    {
+    "VANILLITE_NORMAL": {
       "isFormless": true,
       "speciesId": "VANILLITE",
       "form": "NORMAL",
@@ -13625,7 +13625,7 @@
       "baseDefense": 106,
       "baseStamina": 113
     },
-    {
+    "VANILLISH_NORMAL": {
       "isFormless": true,
       "speciesId": "VANILLISH",
       "form": "NORMAL",
@@ -13646,7 +13646,7 @@
       "baseDefense": 138,
       "baseStamina": 139
     },
-    {
+    "VANILLUXE_NORMAL": {
       "isFormless": true,
       "speciesId": "VANILLUXE",
       "form": "NORMAL",
@@ -13667,7 +13667,7 @@
       "baseDefense": 184,
       "baseStamina": 174
     },
-    {
+    "DEERLING_AUTUMN": {
       "isFormless": false,
       "speciesId": "DEERLING",
       "form": "AUTUMN",
@@ -13688,7 +13688,7 @@
       "baseDefense": 100,
       "baseStamina": 155
     },
-    {
+    "DEERLING_SPRING": {
       "isFormless": false,
       "speciesId": "DEERLING",
       "form": "SPRING",
@@ -13709,7 +13709,7 @@
       "baseDefense": 100,
       "baseStamina": 155
     },
-    {
+    "DEERLING_SUMMER": {
       "isFormless": false,
       "speciesId": "DEERLING",
       "form": "SUMMER",
@@ -13730,7 +13730,7 @@
       "baseDefense": 100,
       "baseStamina": 155
     },
-    {
+    "DEERLING_WINTER": {
       "isFormless": false,
       "speciesId": "DEERLING",
       "form": "WINTER",
@@ -13751,7 +13751,7 @@
       "baseDefense": 100,
       "baseStamina": 155
     },
-    {
+    "SAWSBUCK_AUTUMN": {
       "isFormless": false,
       "speciesId": "SAWSBUCK",
       "form": "AUTUMN",
@@ -13773,7 +13773,7 @@
       "baseDefense": 146,
       "baseStamina": 190
     },
-    {
+    "SAWSBUCK_SPRING": {
       "isFormless": false,
       "speciesId": "SAWSBUCK",
       "form": "SPRING",
@@ -13795,7 +13795,7 @@
       "baseDefense": 146,
       "baseStamina": 190
     },
-    {
+    "SAWSBUCK_SUMMER": {
       "isFormless": false,
       "speciesId": "SAWSBUCK",
       "form": "SUMMER",
@@ -13817,7 +13817,7 @@
       "baseDefense": 146,
       "baseStamina": 190
     },
-    {
+    "SAWSBUCK_WINTER": {
       "isFormless": false,
       "speciesId": "SAWSBUCK",
       "form": "WINTER",
@@ -13839,7 +13839,7 @@
       "baseDefense": 146,
       "baseStamina": 190
     },
-    {
+    "EMOLGA_NORMAL": {
       "isFormless": true,
       "speciesId": "EMOLGA",
       "form": "NORMAL",
@@ -13860,7 +13860,7 @@
       "baseDefense": 127,
       "baseStamina": 146
     },
-    {
+    "KARRABLAST_NORMAL": {
       "isFormless": true,
       "speciesId": "KARRABLAST",
       "form": "NORMAL",
@@ -13882,7 +13882,7 @@
       "baseDefense": 87,
       "baseStamina": 137
     },
-    {
+    "ESCAVALIER_NORMAL": {
       "isFormless": true,
       "speciesId": "ESCAVALIER",
       "form": "NORMAL",
@@ -13904,7 +13904,7 @@
       "baseDefense": 187,
       "baseStamina": 172
     },
-    {
+    "FOONGUS_NORMAL": {
       "isFormless": true,
       "speciesId": "FOONGUS",
       "form": "NORMAL",
@@ -13925,7 +13925,7 @@
       "baseDefense": 91,
       "baseStamina": 170
     },
-    {
+    "AMOONGUSS_NORMAL": {
       "isFormless": true,
       "speciesId": "AMOONGUSS",
       "form": "NORMAL",
@@ -13946,7 +13946,7 @@
       "baseDefense": 139,
       "baseStamina": 249
     },
-    {
+    "FRILLISH_NORMAL": {
       "isFormless": true,
       "speciesId": "FRILLISH",
       "form": "NORMAL",
@@ -13967,7 +13967,7 @@
       "baseDefense": 134,
       "baseStamina": 146
     },
-    {
+    "JELLICENT_NORMAL": {
       "isFormless": true,
       "speciesId": "JELLICENT",
       "form": "NORMAL",
@@ -13988,7 +13988,7 @@
       "baseDefense": 178,
       "baseStamina": 225
     },
-    {
+    "ALOMOMOLA_NORMAL": {
       "isFormless": true,
       "speciesId": "ALOMOMOLA",
       "form": "NORMAL",
@@ -14009,7 +14009,7 @@
       "baseDefense": 131,
       "baseStamina": 338
     },
-    {
+    "JOLTIK_NORMAL": {
       "isFormless": true,
       "speciesId": "JOLTIK",
       "form": "NORMAL",
@@ -14030,7 +14030,7 @@
       "baseDefense": 98,
       "baseStamina": 137
     },
-    {
+    "GALVANTULA_NORMAL": {
       "isFormless": true,
       "speciesId": "GALVANTULA",
       "form": "NORMAL",
@@ -14052,7 +14052,7 @@
       "baseDefense": 128,
       "baseStamina": 172
     },
-    {
+    "FERROSEED_NORMAL": {
       "isFormless": true,
       "speciesId": "FERROSEED",
       "form": "NORMAL",
@@ -14073,7 +14073,7 @@
       "baseDefense": 155,
       "baseStamina": 127
     },
-    {
+    "FERROTHORN_NORMAL": {
       "isFormless": true,
       "speciesId": "FERROTHORN",
       "form": "NORMAL",
@@ -14095,7 +14095,7 @@
       "baseDefense": 223,
       "baseStamina": 179
     },
-    {
+    "KLINK_NORMAL": {
       "isFormless": true,
       "speciesId": "KLINK",
       "form": "NORMAL",
@@ -14116,7 +14116,7 @@
       "baseDefense": 121,
       "baseStamina": 120
     },
-    {
+    "KLANG_NORMAL": {
       "isFormless": true,
       "speciesId": "KLANG",
       "form": "NORMAL",
@@ -14137,7 +14137,7 @@
       "baseDefense": 174,
       "baseStamina": 155
     },
-    {
+    "KLINKLANG_NORMAL": {
       "isFormless": true,
       "speciesId": "KLINKLANG",
       "form": "NORMAL",
@@ -14158,7 +14158,7 @@
       "baseDefense": 214,
       "baseStamina": 155
     },
-    {
+    "TYNAMO_NORMAL": {
       "isFormless": true,
       "speciesId": "TYNAMO",
       "form": "NORMAL",
@@ -14177,7 +14177,7 @@
       "baseDefense": 78,
       "baseStamina": 111
     },
-    {
+    "EELEKTRIK_NORMAL": {
       "isFormless": true,
       "speciesId": "EELEKTRIK",
       "form": "NORMAL",
@@ -14198,7 +14198,7 @@
       "baseDefense": 130,
       "baseStamina": 163
     },
-    {
+    "EELEKTROSS_NORMAL": {
       "isFormless": true,
       "speciesId": "EELEKTROSS",
       "form": "NORMAL",
@@ -14220,7 +14220,7 @@
       "baseDefense": 152,
       "baseStamina": 198
     },
-    {
+    "ELGYEM_NORMAL": {
       "isFormless": true,
       "speciesId": "ELGYEM",
       "form": "NORMAL",
@@ -14241,7 +14241,7 @@
       "baseDefense": 100,
       "baseStamina": 146
     },
-    {
+    "BEHEEYEM_NORMAL": {
       "isFormless": true,
       "speciesId": "BEHEEYEM",
       "form": "NORMAL",
@@ -14262,7 +14262,7 @@
       "baseDefense": 163,
       "baseStamina": 181
     },
-    {
+    "LITWICK_NORMAL": {
       "isFormless": true,
       "speciesId": "LITWICK",
       "form": "NORMAL",
@@ -14283,7 +14283,7 @@
       "baseDefense": 98,
       "baseStamina": 137
     },
-    {
+    "LAMPENT_NORMAL": {
       "isFormless": true,
       "speciesId": "LAMPENT",
       "form": "NORMAL",
@@ -14304,7 +14304,7 @@
       "baseDefense": 115,
       "baseStamina": 155
     },
-    {
+    "CHANDELURE_NORMAL": {
       "isFormless": true,
       "speciesId": "CHANDELURE",
       "form": "NORMAL",
@@ -14325,7 +14325,7 @@
       "baseDefense": 182,
       "baseStamina": 155
     },
-    {
+    "AXEW_NORMAL": {
       "isFormless": true,
       "speciesId": "AXEW",
       "form": "NORMAL",
@@ -14346,7 +14346,7 @@
       "baseDefense": 101,
       "baseStamina": 130
     },
-    {
+    "FRAXURE_NORMAL": {
       "isFormless": true,
       "speciesId": "FRAXURE",
       "form": "NORMAL",
@@ -14367,7 +14367,7 @@
       "baseDefense": 123,
       "baseStamina": 165
     },
-    {
+    "HAXORUS_NORMAL": {
       "isFormless": true,
       "speciesId": "HAXORUS",
       "form": "NORMAL",
@@ -14389,7 +14389,7 @@
       "baseDefense": 172,
       "baseStamina": 183
     },
-    {
+    "CUBCHOO_NORMAL": {
       "isFormless": true,
       "speciesId": "CUBCHOO",
       "form": "NORMAL",
@@ -14410,7 +14410,7 @@
       "baseDefense": 74,
       "baseStamina": 146
     },
-    {
+    "BEARTIC_NORMAL": {
       "isFormless": true,
       "speciesId": "BEARTIC",
       "form": "NORMAL",
@@ -14431,7 +14431,7 @@
       "baseDefense": 152,
       "baseStamina": 216
     },
-    {
+    "CRYOGONAL_NORMAL": {
       "isFormless": true,
       "speciesId": "CRYOGONAL",
       "form": "NORMAL",
@@ -14453,7 +14453,7 @@
       "baseDefense": 218,
       "baseStamina": 190
     },
-    {
+    "SHELMET_NORMAL": {
       "isFormless": true,
       "speciesId": "SHELMET",
       "form": "NORMAL",
@@ -14474,7 +14474,7 @@
       "baseDefense": 140,
       "baseStamina": 137
     },
-    {
+    "ACCELGOR_NORMAL": {
       "isFormless": true,
       "speciesId": "ACCELGOR",
       "form": "NORMAL",
@@ -14496,7 +14496,7 @@
       "baseDefense": 120,
       "baseStamina": 190
     },
-    {
+    "STUNFISK_NORMAL": {
       "isFormless": true,
       "speciesId": "STUNFISK",
       "form": "NORMAL",
@@ -14517,7 +14517,7 @@
       "baseDefense": 171,
       "baseStamina": 240
     },
-    {
+    "MIENFOO_NORMAL": {
       "isFormless": true,
       "speciesId": "MIENFOO",
       "form": "NORMAL",
@@ -14538,7 +14538,7 @@
       "baseDefense": 98,
       "baseStamina": 128
     },
-    {
+    "MIENSHAO_NORMAL": {
       "isFormless": true,
       "speciesId": "MIENSHAO",
       "form": "NORMAL",
@@ -14559,7 +14559,7 @@
       "baseDefense": 127,
       "baseStamina": 163
     },
-    {
+    "DRUDDIGON_NORMAL": {
       "isFormless": true,
       "speciesId": "DRUDDIGON",
       "form": "NORMAL",
@@ -14580,7 +14580,7 @@
       "baseDefense": 170,
       "baseStamina": 184
     },
-    {
+    "GOLETT_NORMAL": {
       "isFormless": true,
       "speciesId": "GOLETT",
       "form": "NORMAL",
@@ -14601,7 +14601,7 @@
       "baseDefense": 92,
       "baseStamina": 153
     },
-    {
+    "GOLURK_NORMAL": {
       "isFormless": true,
       "speciesId": "GOLURK",
       "form": "NORMAL",
@@ -14622,7 +14622,7 @@
       "baseDefense": 154,
       "baseStamina": 205
     },
-    {
+    "PAWNIARD_NORMAL": {
       "isFormless": true,
       "speciesId": "PAWNIARD",
       "form": "NORMAL",
@@ -14643,7 +14643,7 @@
       "baseDefense": 114,
       "baseStamina": 128
     },
-    {
+    "BISHARP_NORMAL": {
       "isFormless": true,
       "speciesId": "BISHARP",
       "form": "NORMAL",
@@ -14665,7 +14665,7 @@
       "baseDefense": 176,
       "baseStamina": 163
     },
-    {
+    "BOUFFALANT_NORMAL": {
       "isFormless": true,
       "speciesId": "BOUFFALANT",
       "form": "NORMAL",
@@ -14687,7 +14687,7 @@
       "baseDefense": 182,
       "baseStamina": 216
     },
-    {
+    "RUFFLET_NORMAL": {
       "isFormless": true,
       "speciesId": "RUFFLET",
       "form": "NORMAL",
@@ -14708,7 +14708,7 @@
       "baseDefense": 97,
       "baseStamina": 172
     },
-    {
+    "BRAVIARY_NORMAL": {
       "isFormless": true,
       "speciesId": "BRAVIARY",
       "form": "NORMAL",
@@ -14729,7 +14729,7 @@
       "baseDefense": 152,
       "baseStamina": 225
     },
-    {
+    "VULLABY_NORMAL": {
       "isFormless": true,
       "speciesId": "VULLABY",
       "form": "NORMAL",
@@ -14750,7 +14750,7 @@
       "baseDefense": 139,
       "baseStamina": 172
     },
-    {
+    "MANDIBUZZ_NORMAL": {
       "isFormless": true,
       "speciesId": "MANDIBUZZ",
       "form": "NORMAL",
@@ -14772,7 +14772,7 @@
       "baseDefense": 205,
       "baseStamina": 242
     },
-    {
+    "HEATMOR_NORMAL": {
       "isFormless": true,
       "speciesId": "HEATMOR",
       "form": "NORMAL",
@@ -14793,7 +14793,7 @@
       "baseDefense": 129,
       "baseStamina": 198
     },
-    {
+    "DURANT_NORMAL": {
       "isFormless": true,
       "speciesId": "DURANT",
       "form": "NORMAL",
@@ -14814,7 +14814,7 @@
       "baseDefense": 188,
       "baseStamina": 151
     },
-    {
+    "DEINO_NORMAL": {
       "isFormless": true,
       "speciesId": "DEINO",
       "form": "NORMAL",
@@ -14835,7 +14835,7 @@
       "baseDefense": 93,
       "baseStamina": 141
     },
-    {
+    "ZWEILOUS_NORMAL": {
       "isFormless": true,
       "speciesId": "ZWEILOUS",
       "form": "NORMAL",
@@ -14856,7 +14856,7 @@
       "baseDefense": 135,
       "baseStamina": 176
     },
-    {
+    "HYDREIGON_NORMAL": {
       "isFormless": true,
       "speciesId": "HYDREIGON",
       "form": "NORMAL",
@@ -14877,7 +14877,7 @@
       "baseDefense": 188,
       "baseStamina": 211
     },
-    {
+    "LARVESTA_NORMAL": {
       "isFormless": true,
       "speciesId": "LARVESTA",
       "form": "NORMAL",
@@ -14898,7 +14898,7 @@
       "baseDefense": 107,
       "baseStamina": 146
     },
-    {
+    "VOLCARONA_NORMAL": {
       "isFormless": true,
       "speciesId": "VOLCARONA",
       "form": "NORMAL",
@@ -14920,7 +14920,7 @@
       "baseDefense": 189,
       "baseStamina": 198
     },
-    {
+    "COBALION_NORMAL": {
       "isFormless": true,
       "speciesId": "COBALION",
       "form": "NORMAL",
@@ -14941,7 +14941,7 @@
       "baseDefense": 229,
       "baseStamina": 209
     },
-    {
+    "TERRAKION_NORMAL": {
       "isFormless": true,
       "speciesId": "TERRAKION",
       "form": "NORMAL",
@@ -14962,7 +14962,7 @@
       "baseDefense": 192,
       "baseStamina": 209
     },
-    {
+    "VIRIZION_NORMAL": {
       "isFormless": true,
       "speciesId": "VIRIZION",
       "form": "NORMAL",
@@ -14983,7 +14983,7 @@
       "baseDefense": 229,
       "baseStamina": 209
     },
-    {
+    "TORNADUS_INCARNATE": {
       "isFormless": false,
       "speciesId": "TORNADUS",
       "form": "INCARNATE",
@@ -15005,7 +15005,7 @@
       "baseDefense": 164,
       "baseStamina": 188
     },
-    {
+    "TORNADUS_THERIAN": {
       "isFormless": false,
       "speciesId": "TORNADUS",
       "form": "THERIAN",
@@ -15027,7 +15027,7 @@
       "baseDefense": 189,
       "baseStamina": 188
     },
-    {
+    "THUNDURUS_INCARNATE": {
       "isFormless": false,
       "speciesId": "THUNDURUS",
       "form": "INCARNATE",
@@ -15049,7 +15049,7 @@
       "baseDefense": 164,
       "baseStamina": 188
     },
-    {
+    "THUNDURUS_THERIAN": {
       "isFormless": false,
       "speciesId": "THUNDURUS",
       "form": "THERIAN",
@@ -15071,7 +15071,7 @@
       "baseDefense": 161,
       "baseStamina": 188
     },
-    {
+    "RESHIRAM_NORMAL": {
       "isFormless": true,
       "speciesId": "RESHIRAM",
       "form": "NORMAL",
@@ -15093,7 +15093,7 @@
       "baseDefense": 211,
       "baseStamina": 205
     },
-    {
+    "ZEKROM_NORMAL": {
       "isFormless": true,
       "speciesId": "ZEKROM",
       "form": "NORMAL",
@@ -15115,7 +15115,7 @@
       "baseDefense": 211,
       "baseStamina": 205
     },
-    {
+    "LANDORUS_INCARNATE": {
       "isFormless": false,
       "speciesId": "LANDORUS",
       "form": "INCARNATE",
@@ -15137,7 +15137,7 @@
       "baseDefense": 182,
       "baseStamina": 205
     },
-    {
+    "LANDORUS_THERIAN": {
       "isFormless": false,
       "speciesId": "LANDORUS",
       "form": "THERIAN",
@@ -15159,7 +15159,7 @@
       "baseDefense": 179,
       "baseStamina": 205
     },
-    {
+    "KYUREM_NORMAL": {
       "isFormless": false,
       "speciesId": "KYUREM",
       "form": "NORMAL",
@@ -15181,7 +15181,7 @@
       "baseDefense": 170,
       "baseStamina": 245
     },
-    {
+    "KYUREM_BLACK": {
       "isFormless": false,
       "speciesId": "KYUREM",
       "form": "BLACK",
@@ -15203,7 +15203,7 @@
       "baseDefense": 183,
       "baseStamina": 245
     },
-    {
+    "KYUREM_WHITE": {
       "isFormless": false,
       "speciesId": "KYUREM",
       "form": "WHITE",
@@ -15225,7 +15225,7 @@
       "baseDefense": 183,
       "baseStamina": 245
     },
-    {
+    "KELDEO_ORDINARY": {
       "isFormless": false,
       "speciesId": "KELDEO",
       "form": "ORDINARY",
@@ -15247,7 +15247,7 @@
       "baseDefense": 192,
       "baseStamina": 209
     },
-    {
+    "KELDEO_RESOLUTE": {
       "isFormless": false,
       "speciesId": "KELDEO",
       "form": "RESOLUTE",
@@ -15269,7 +15269,7 @@
       "baseDefense": 192,
       "baseStamina": 209
     },
-    {
+    "MELOETTA_ARIA": {
       "isFormless": false,
       "speciesId": "MELOETTA",
       "form": "ARIA",
@@ -15291,7 +15291,7 @@
       "baseDefense": 225,
       "baseStamina": 225
     },
-    {
+    "MELOETTA_PIROUETTE": {
       "isFormless": false,
       "speciesId": "MELOETTA",
       "form": "PIROUETTE",
@@ -15313,7 +15313,7 @@
       "baseDefense": 188,
       "baseStamina": 225
     },
-    {
+    "GENESECT_BURN": {
       "isFormless": false,
       "speciesId": "GENESECT",
       "form": "BURN",
@@ -15334,7 +15334,7 @@
       "baseDefense": 199,
       "baseStamina": 174
     },
-    {
+    "GENESECT_CHILL": {
       "isFormless": false,
       "speciesId": "GENESECT",
       "form": "CHILL",
@@ -15355,7 +15355,7 @@
       "baseDefense": 199,
       "baseStamina": 174
     },
-    {
+    "GENESECT_DOUSE": {
       "isFormless": false,
       "speciesId": "GENESECT",
       "form": "DOUSE",
@@ -15376,7 +15376,7 @@
       "baseDefense": 199,
       "baseStamina": 174
     },
-    {
+    "GENESECT_NORMAL": {
       "isFormless": false,
       "speciesId": "GENESECT",
       "form": "NORMAL",
@@ -15397,7 +15397,7 @@
       "baseDefense": 199,
       "baseStamina": 174
     },
-    {
+    "GENESECT_SHOCK": {
       "isFormless": false,
       "speciesId": "GENESECT",
       "form": "SHOCK",
@@ -15418,7 +15418,7 @@
       "baseDefense": 199,
       "baseStamina": 174
     },
-    {
+    "MELTAN_NORMAL": {
       "isFormless": true,
       "speciesId": "MELTAN",
       "form": "NORMAL",
@@ -15437,7 +15437,7 @@
       "baseDefense": 99,
       "baseStamina": 130
     },
-    {
+    "MELMETAL_NORMAL": {
       "isFormless": true,
       "speciesId": "MELMETAL",
       "form": "NORMAL",
@@ -15458,9 +15458,9 @@
       "baseDefense": 190,
       "baseStamina": 264
     }
-  ],
-  "moves": [
-    {
+  },
+  "moves": {
+    "WRAP": {
       "id": "WRAP",
       "type": "NORMAL",
       "pveStats": {
@@ -15474,7 +15474,7 @@
         "turns": 1
       }
     },
-    {
+    "HYPER_BEAM": {
       "id": "HYPER_BEAM",
       "type": "NORMAL",
       "pveStats": {
@@ -15488,7 +15488,7 @@
         "turns": 1
       }
     },
-    {
+    "DARK_PULSE": {
       "id": "DARK_PULSE",
       "type": "DARK",
       "pveStats": {
@@ -15502,7 +15502,7 @@
         "turns": 1
       }
     },
-    {
+    "SLUDGE": {
       "id": "SLUDGE",
       "type": "POISON",
       "pveStats": {
@@ -15516,7 +15516,7 @@
         "turns": 1
       }
     },
-    {
+    "VICE_GRIP": {
       "id": "VICE_GRIP",
       "type": "NORMAL",
       "pveStats": {
@@ -15530,7 +15530,7 @@
         "turns": 1
       }
     },
-    {
+    "FLAME_WHEEL": {
       "id": "FLAME_WHEEL",
       "type": "FIRE",
       "pveStats": {
@@ -15544,7 +15544,7 @@
         "turns": 1
       }
     },
-    {
+    "MEGAHORN": {
       "id": "MEGAHORN",
       "type": "BUG",
       "pveStats": {
@@ -15558,7 +15558,7 @@
         "turns": 1
       }
     },
-    {
+    "FLAMETHROWER": {
       "id": "FLAMETHROWER",
       "type": "FIRE",
       "pveStats": {
@@ -15572,7 +15572,7 @@
         "turns": 1
       }
     },
-    {
+    "DIG": {
       "id": "DIG",
       "type": "GROUND",
       "pveStats": {
@@ -15586,7 +15586,7 @@
         "turns": 1
       }
     },
-    {
+    "CROSS_CHOP": {
       "id": "CROSS_CHOP",
       "type": "FIGHTING",
       "pveStats": {
@@ -15600,7 +15600,7 @@
         "turns": 1
       }
     },
-    {
+    "PSYBEAM": {
       "id": "PSYBEAM",
       "type": "PSYCHIC",
       "pveStats": {
@@ -15614,7 +15614,7 @@
         "turns": 1
       }
     },
-    {
+    "EARTHQUAKE": {
       "id": "EARTHQUAKE",
       "type": "GROUND",
       "pveStats": {
@@ -15628,7 +15628,7 @@
         "turns": 1
       }
     },
-    {
+    "STONE_EDGE": {
       "id": "STONE_EDGE",
       "type": "ROCK",
       "pveStats": {
@@ -15642,7 +15642,7 @@
         "turns": 1
       }
     },
-    {
+    "ICE_PUNCH": {
       "id": "ICE_PUNCH",
       "type": "ICE",
       "pveStats": {
@@ -15656,7 +15656,7 @@
         "turns": 1
       }
     },
-    {
+    "HEART_STAMP": {
       "id": "HEART_STAMP",
       "type": "PSYCHIC",
       "pveStats": {
@@ -15670,7 +15670,7 @@
         "turns": 1
       }
     },
-    {
+    "DISCHARGE": {
       "id": "DISCHARGE",
       "type": "ELECTRIC",
       "pveStats": {
@@ -15684,7 +15684,7 @@
         "turns": 1
       }
     },
-    {
+    "FLASH_CANNON": {
       "id": "FLASH_CANNON",
       "type": "STEEL",
       "pveStats": {
@@ -15698,7 +15698,7 @@
         "turns": 1
       }
     },
-    {
+    "DRILL_PECK": {
       "id": "DRILL_PECK",
       "type": "FLYING",
       "pveStats": {
@@ -15712,7 +15712,7 @@
         "turns": 1
       }
     },
-    {
+    "ICE_BEAM": {
       "id": "ICE_BEAM",
       "type": "ICE",
       "pveStats": {
@@ -15726,7 +15726,7 @@
         "turns": 1
       }
     },
-    {
+    "BLIZZARD": {
       "id": "BLIZZARD",
       "type": "ICE",
       "pveStats": {
@@ -15740,7 +15740,7 @@
         "turns": 1
       }
     },
-    {
+    "HEAT_WAVE": {
       "id": "HEAT_WAVE",
       "type": "FIRE",
       "pveStats": {
@@ -15754,7 +15754,7 @@
         "turns": 1
       }
     },
-    {
+    "AERIAL_ACE": {
       "id": "AERIAL_ACE",
       "type": "FLYING",
       "pveStats": {
@@ -15768,7 +15768,7 @@
         "turns": 1
       }
     },
-    {
+    "DRILL_RUN": {
       "id": "DRILL_RUN",
       "type": "GROUND",
       "pveStats": {
@@ -15782,7 +15782,7 @@
         "turns": 1
       }
     },
-    {
+    "PETAL_BLIZZARD": {
       "id": "PETAL_BLIZZARD",
       "type": "GRASS",
       "pveStats": {
@@ -15796,7 +15796,7 @@
         "turns": 1
       }
     },
-    {
+    "MEGA_DRAIN": {
       "id": "MEGA_DRAIN",
       "type": "GRASS",
       "pveStats": {
@@ -15810,7 +15810,7 @@
         "turns": 1
       }
     },
-    {
+    "BUG_BUZZ": {
       "id": "BUG_BUZZ",
       "type": "BUG",
       "pveStats": {
@@ -15824,7 +15824,7 @@
         "turns": 1
       }
     },
-    {
+    "POISON_FANG": {
       "id": "POISON_FANG",
       "type": "POISON",
       "pveStats": {
@@ -15838,7 +15838,7 @@
         "turns": 1
       }
     },
-    {
+    "NIGHT_SLASH": {
       "id": "NIGHT_SLASH",
       "type": "DARK",
       "pveStats": {
@@ -15852,7 +15852,7 @@
         "turns": 1
       }
     },
-    {
+    "BUBBLE_BEAM": {
       "id": "BUBBLE_BEAM",
       "type": "WATER",
       "pveStats": {
@@ -15866,7 +15866,7 @@
         "turns": 1
       }
     },
-    {
+    "SUBMISSION": {
       "id": "SUBMISSION",
       "type": "FIGHTING",
       "pveStats": {
@@ -15880,7 +15880,7 @@
         "turns": 1
       }
     },
-    {
+    "LOW_SWEEP": {
       "id": "LOW_SWEEP",
       "type": "FIGHTING",
       "pveStats": {
@@ -15894,7 +15894,7 @@
         "turns": 1
       }
     },
-    {
+    "AQUA_JET": {
       "id": "AQUA_JET",
       "type": "WATER",
       "pveStats": {
@@ -15908,7 +15908,7 @@
         "turns": 1
       }
     },
-    {
+    "AQUA_TAIL": {
       "id": "AQUA_TAIL",
       "type": "WATER",
       "pveStats": {
@@ -15922,7 +15922,7 @@
         "turns": 1
       }
     },
-    {
+    "SEED_BOMB": {
       "id": "SEED_BOMB",
       "type": "GRASS",
       "pveStats": {
@@ -15936,7 +15936,7 @@
         "turns": 1
       }
     },
-    {
+    "PSYSHOCK": {
       "id": "PSYSHOCK",
       "type": "PSYCHIC",
       "pveStats": {
@@ -15950,7 +15950,7 @@
         "turns": 1
       }
     },
-    {
+    "ANCIENT_POWER": {
       "id": "ANCIENT_POWER",
       "type": "ROCK",
       "pveStats": {
@@ -15964,7 +15964,7 @@
         "turns": 1
       }
     },
-    {
+    "ROCK_TOMB": {
       "id": "ROCK_TOMB",
       "type": "ROCK",
       "pveStats": {
@@ -15978,7 +15978,7 @@
         "turns": 1
       }
     },
-    {
+    "ROCK_SLIDE": {
       "id": "ROCK_SLIDE",
       "type": "ROCK",
       "pveStats": {
@@ -15992,7 +15992,7 @@
         "turns": 1
       }
     },
-    {
+    "POWER_GEM": {
       "id": "POWER_GEM",
       "type": "ROCK",
       "pveStats": {
@@ -16006,7 +16006,7 @@
         "turns": 1
       }
     },
-    {
+    "SHADOW_SNEAK": {
       "id": "SHADOW_SNEAK",
       "type": "GHOST",
       "pveStats": {
@@ -16020,7 +16020,7 @@
         "turns": 1
       }
     },
-    {
+    "SHADOW_PUNCH": {
       "id": "SHADOW_PUNCH",
       "type": "GHOST",
       "pveStats": {
@@ -16034,7 +16034,7 @@
         "turns": 1
       }
     },
-    {
+    "OMINOUS_WIND": {
       "id": "OMINOUS_WIND",
       "type": "GHOST",
       "pveStats": {
@@ -16048,7 +16048,7 @@
         "turns": 1
       }
     },
-    {
+    "SHADOW_BALL": {
       "id": "SHADOW_BALL",
       "type": "GHOST",
       "pveStats": {
@@ -16062,7 +16062,7 @@
         "turns": 1
       }
     },
-    {
+    "MAGNET_BOMB": {
       "id": "MAGNET_BOMB",
       "type": "STEEL",
       "pveStats": {
@@ -16076,7 +16076,7 @@
         "turns": 1
       }
     },
-    {
+    "IRON_HEAD": {
       "id": "IRON_HEAD",
       "type": "STEEL",
       "pveStats": {
@@ -16090,7 +16090,7 @@
         "turns": 1
       }
     },
-    {
+    "PARABOLIC_CHARGE": {
       "id": "PARABOLIC_CHARGE",
       "type": "ELECTRIC",
       "pveStats": {
@@ -16104,7 +16104,7 @@
         "turns": 1
       }
     },
-    {
+    "THUNDER_PUNCH": {
       "id": "THUNDER_PUNCH",
       "type": "ELECTRIC",
       "pveStats": {
@@ -16118,7 +16118,7 @@
         "turns": 1
       }
     },
-    {
+    "THUNDER": {
       "id": "THUNDER",
       "type": "ELECTRIC",
       "pveStats": {
@@ -16132,7 +16132,7 @@
         "turns": 1
       }
     },
-    {
+    "THUNDERBOLT": {
       "id": "THUNDERBOLT",
       "type": "ELECTRIC",
       "pveStats": {
@@ -16146,7 +16146,7 @@
         "turns": 1
       }
     },
-    {
+    "TWISTER": {
       "id": "TWISTER",
       "type": "DRAGON",
       "pveStats": {
@@ -16160,7 +16160,7 @@
         "turns": 1
       }
     },
-    {
+    "DRAGON_PULSE": {
       "id": "DRAGON_PULSE",
       "type": "DRAGON",
       "pveStats": {
@@ -16174,7 +16174,7 @@
         "turns": 1
       }
     },
-    {
+    "DRAGON_CLAW": {
       "id": "DRAGON_CLAW",
       "type": "DRAGON",
       "pveStats": {
@@ -16188,7 +16188,7 @@
         "turns": 1
       }
     },
-    {
+    "DISARMING_VOICE": {
       "id": "DISARMING_VOICE",
       "type": "FAIRY",
       "pveStats": {
@@ -16202,7 +16202,7 @@
         "turns": 1
       }
     },
-    {
+    "DRAINING_KISS": {
       "id": "DRAINING_KISS",
       "type": "FAIRY",
       "pveStats": {
@@ -16216,7 +16216,7 @@
         "turns": 1
       }
     },
-    {
+    "DAZZLING_GLEAM": {
       "id": "DAZZLING_GLEAM",
       "type": "FAIRY",
       "pveStats": {
@@ -16230,7 +16230,7 @@
         "turns": 1
       }
     },
-    {
+    "MOONBLAST": {
       "id": "MOONBLAST",
       "type": "FAIRY",
       "pveStats": {
@@ -16244,7 +16244,7 @@
         "turns": 1
       }
     },
-    {
+    "PLAY_ROUGH": {
       "id": "PLAY_ROUGH",
       "type": "FAIRY",
       "pveStats": {
@@ -16258,7 +16258,7 @@
         "turns": 1
       }
     },
-    {
+    "CROSS_POISON": {
       "id": "CROSS_POISON",
       "type": "POISON",
       "pveStats": {
@@ -16272,7 +16272,7 @@
         "turns": 1
       }
     },
-    {
+    "SLUDGE_BOMB": {
       "id": "SLUDGE_BOMB",
       "type": "POISON",
       "pveStats": {
@@ -16286,7 +16286,7 @@
         "turns": 1
       }
     },
-    {
+    "SLUDGE_WAVE": {
       "id": "SLUDGE_WAVE",
       "type": "POISON",
       "pveStats": {
@@ -16300,7 +16300,7 @@
         "turns": 1
       }
     },
-    {
+    "GUNK_SHOT": {
       "id": "GUNK_SHOT",
       "type": "POISON",
       "pveStats": {
@@ -16314,7 +16314,7 @@
         "turns": 1
       }
     },
-    {
+    "BONE_CLUB": {
       "id": "BONE_CLUB",
       "type": "GROUND",
       "pveStats": {
@@ -16328,7 +16328,7 @@
         "turns": 1
       }
     },
-    {
+    "BULLDOZE": {
       "id": "BULLDOZE",
       "type": "GROUND",
       "pveStats": {
@@ -16342,7 +16342,7 @@
         "turns": 1
       }
     },
-    {
+    "MUD_BOMB": {
       "id": "MUD_BOMB",
       "type": "GROUND",
       "pveStats": {
@@ -16356,7 +16356,7 @@
         "turns": 1
       }
     },
-    {
+    "SIGNAL_BEAM": {
       "id": "SIGNAL_BEAM",
       "type": "BUG",
       "pveStats": {
@@ -16370,7 +16370,7 @@
         "turns": 1
       }
     },
-    {
+    "X_SCISSOR": {
       "id": "X_SCISSOR",
       "type": "BUG",
       "pveStats": {
@@ -16384,7 +16384,7 @@
         "turns": 1
       }
     },
-    {
+    "FLAME_CHARGE": {
       "id": "FLAME_CHARGE",
       "type": "FIRE",
       "pveStats": {
@@ -16398,7 +16398,7 @@
         "turns": 1
       }
     },
-    {
+    "FLAME_BURST": {
       "id": "FLAME_BURST",
       "type": "FIRE",
       "pveStats": {
@@ -16412,7 +16412,7 @@
         "turns": 1
       }
     },
-    {
+    "FIRE_BLAST": {
       "id": "FIRE_BLAST",
       "type": "FIRE",
       "pveStats": {
@@ -16426,7 +16426,7 @@
         "turns": 1
       }
     },
-    {
+    "BRINE": {
       "id": "BRINE",
       "type": "WATER",
       "pveStats": {
@@ -16440,7 +16440,7 @@
         "turns": 1
       }
     },
-    {
+    "WATER_PULSE": {
       "id": "WATER_PULSE",
       "type": "WATER",
       "pveStats": {
@@ -16454,7 +16454,7 @@
         "turns": 1
       }
     },
-    {
+    "SCALD": {
       "id": "SCALD",
       "type": "WATER",
       "pveStats": {
@@ -16468,7 +16468,7 @@
         "turns": 1
       }
     },
-    {
+    "HYDRO_PUMP": {
       "id": "HYDRO_PUMP",
       "type": "WATER",
       "pveStats": {
@@ -16482,7 +16482,7 @@
         "turns": 1
       }
     },
-    {
+    "PSYCHIC": {
       "id": "PSYCHIC",
       "type": "PSYCHIC",
       "pveStats": {
@@ -16496,7 +16496,7 @@
         "turns": 1
       }
     },
-    {
+    "PSYSTRIKE": {
       "id": "PSYSTRIKE",
       "type": "PSYCHIC",
       "pveStats": {
@@ -16510,7 +16510,7 @@
         "turns": 1
       }
     },
-    {
+    "ICY_WIND": {
       "id": "ICY_WIND",
       "type": "ICE",
       "pveStats": {
@@ -16524,7 +16524,7 @@
         "turns": 1
       }
     },
-    {
+    "GIGA_DRAIN": {
       "id": "GIGA_DRAIN",
       "type": "GRASS",
       "pveStats": {
@@ -16538,7 +16538,7 @@
         "turns": 1
       }
     },
-    {
+    "FIRE_PUNCH": {
       "id": "FIRE_PUNCH",
       "type": "FIRE",
       "pveStats": {
@@ -16552,7 +16552,7 @@
         "turns": 1
       }
     },
-    {
+    "SOLAR_BEAM": {
       "id": "SOLAR_BEAM",
       "type": "GRASS",
       "pveStats": {
@@ -16566,7 +16566,7 @@
         "turns": 1
       }
     },
-    {
+    "LEAF_BLADE": {
       "id": "LEAF_BLADE",
       "type": "GRASS",
       "pveStats": {
@@ -16580,7 +16580,7 @@
         "turns": 1
       }
     },
-    {
+    "POWER_WHIP": {
       "id": "POWER_WHIP",
       "type": "GRASS",
       "pveStats": {
@@ -16594,7 +16594,7 @@
         "turns": 1
       }
     },
-    {
+    "AIR_CUTTER": {
       "id": "AIR_CUTTER",
       "type": "FLYING",
       "pveStats": {
@@ -16608,7 +16608,7 @@
         "turns": 1
       }
     },
-    {
+    "HURRICANE": {
       "id": "HURRICANE",
       "type": "FLYING",
       "pveStats": {
@@ -16622,7 +16622,7 @@
         "turns": 1
       }
     },
-    {
+    "BRICK_BREAK": {
       "id": "BRICK_BREAK",
       "type": "FIGHTING",
       "pveStats": {
@@ -16636,7 +16636,7 @@
         "turns": 1
       }
     },
-    {
+    "SWIFT": {
       "id": "SWIFT",
       "type": "NORMAL",
       "pveStats": {
@@ -16650,7 +16650,7 @@
         "turns": 1
       }
     },
-    {
+    "HORN_ATTACK": {
       "id": "HORN_ATTACK",
       "type": "NORMAL",
       "pveStats": {
@@ -16664,7 +16664,7 @@
         "turns": 1
       }
     },
-    {
+    "STOMP": {
       "id": "STOMP",
       "type": "NORMAL",
       "pveStats": {
@@ -16678,7 +16678,7 @@
         "turns": 1
       }
     },
-    {
+    "HYPER_FANG": {
       "id": "HYPER_FANG",
       "type": "NORMAL",
       "pveStats": {
@@ -16692,7 +16692,7 @@
         "turns": 1
       }
     },
-    {
+    "BODY_SLAM": {
       "id": "BODY_SLAM",
       "type": "NORMAL",
       "pveStats": {
@@ -16706,7 +16706,7 @@
         "turns": 1
       }
     },
-    {
+    "REST": {
       "id": "REST",
       "type": "NORMAL",
       "pveStats": {
@@ -16720,7 +16720,7 @@
         "turns": 1
       }
     },
-    {
+    "STRUGGLE": {
       "id": "STRUGGLE",
       "type": "NORMAL",
       "pveStats": {
@@ -16733,7 +16733,7 @@
         "turns": 1
       }
     },
-    {
+    "SCALD_BLASTOISE": {
       "id": "SCALD_BLASTOISE",
       "type": "WATER",
       "pveStats": {
@@ -16747,7 +16747,7 @@
         "turns": 1
       }
     },
-    {
+    "HYDRO_PUMP_BLASTOISE": {
       "id": "HYDRO_PUMP_BLASTOISE",
       "type": "WATER",
       "pveStats": {
@@ -16761,7 +16761,7 @@
         "turns": 1
       }
     },
-    {
+    "WRAP_GREEN": {
       "id": "WRAP_GREEN",
       "type": "NORMAL",
       "pveStats": {
@@ -16775,7 +16775,7 @@
         "turns": 1
       }
     },
-    {
+    "WRAP_PINK": {
       "id": "WRAP_PINK",
       "type": "NORMAL",
       "pveStats": {
@@ -16789,7 +16789,7 @@
         "turns": 1
       }
     },
-    {
+    "FURY_CUTTER_FAST": {
       "id": "FURY_CUTTER_FAST",
       "type": "BUG",
       "pveStats": {
@@ -16803,7 +16803,7 @@
         "turns": 1
       }
     },
-    {
+    "BUG_BITE_FAST": {
       "id": "BUG_BITE_FAST",
       "type": "BUG",
       "pveStats": {
@@ -16817,7 +16817,7 @@
         "turns": 1
       }
     },
-    {
+    "BITE_FAST": {
       "id": "BITE_FAST",
       "type": "DARK",
       "pveStats": {
@@ -16831,7 +16831,7 @@
         "turns": 1
       }
     },
-    {
+    "SUCKER_PUNCH_FAST": {
       "id": "SUCKER_PUNCH_FAST",
       "type": "DARK",
       "pveStats": {
@@ -16845,7 +16845,7 @@
         "turns": 1
       }
     },
-    {
+    "DRAGON_BREATH_FAST": {
       "id": "DRAGON_BREATH_FAST",
       "type": "DRAGON",
       "pveStats": {
@@ -16859,7 +16859,7 @@
         "turns": 1
       }
     },
-    {
+    "THUNDER_SHOCK_FAST": {
       "id": "THUNDER_SHOCK_FAST",
       "type": "ELECTRIC",
       "pveStats": {
@@ -16873,7 +16873,7 @@
         "turns": 1
       }
     },
-    {
+    "SPARK_FAST": {
       "id": "SPARK_FAST",
       "type": "ELECTRIC",
       "pveStats": {
@@ -16887,7 +16887,7 @@
         "turns": 1
       }
     },
-    {
+    "LOW_KICK_FAST": {
       "id": "LOW_KICK_FAST",
       "type": "FIGHTING",
       "pveStats": {
@@ -16901,7 +16901,7 @@
         "turns": 1
       }
     },
-    {
+    "KARATE_CHOP_FAST": {
       "id": "KARATE_CHOP_FAST",
       "type": "FIGHTING",
       "pveStats": {
@@ -16915,7 +16915,7 @@
         "turns": 1
       }
     },
-    {
+    "EMBER_FAST": {
       "id": "EMBER_FAST",
       "type": "FIRE",
       "pveStats": {
@@ -16929,7 +16929,7 @@
         "turns": 1
       }
     },
-    {
+    "WING_ATTACK_FAST": {
       "id": "WING_ATTACK_FAST",
       "type": "FLYING",
       "pveStats": {
@@ -16943,7 +16943,7 @@
         "turns": 1
       }
     },
-    {
+    "PECK_FAST": {
       "id": "PECK_FAST",
       "type": "FLYING",
       "pveStats": {
@@ -16957,7 +16957,7 @@
         "turns": 1
       }
     },
-    {
+    "LICK_FAST": {
       "id": "LICK_FAST",
       "type": "GHOST",
       "pveStats": {
@@ -16971,7 +16971,7 @@
         "turns": 1
       }
     },
-    {
+    "SHADOW_CLAW_FAST": {
       "id": "SHADOW_CLAW_FAST",
       "type": "GHOST",
       "pveStats": {
@@ -16985,7 +16985,7 @@
         "turns": 1
       }
     },
-    {
+    "VINE_WHIP_FAST": {
       "id": "VINE_WHIP_FAST",
       "type": "GRASS",
       "pveStats": {
@@ -16999,7 +16999,7 @@
         "turns": 1
       }
     },
-    {
+    "RAZOR_LEAF_FAST": {
       "id": "RAZOR_LEAF_FAST",
       "type": "GRASS",
       "pveStats": {
@@ -17013,7 +17013,7 @@
         "turns": 1
       }
     },
-    {
+    "MUD_SHOT_FAST": {
       "id": "MUD_SHOT_FAST",
       "type": "GROUND",
       "pveStats": {
@@ -17027,7 +17027,7 @@
         "turns": 1
       }
     },
-    {
+    "ICE_SHARD_FAST": {
       "id": "ICE_SHARD_FAST",
       "type": "ICE",
       "pveStats": {
@@ -17041,7 +17041,7 @@
         "turns": 2
       }
     },
-    {
+    "FROST_BREATH_FAST": {
       "id": "FROST_BREATH_FAST",
       "type": "ICE",
       "pveStats": {
@@ -17055,7 +17055,7 @@
         "turns": 1
       }
     },
-    {
+    "QUICK_ATTACK_FAST": {
       "id": "QUICK_ATTACK_FAST",
       "type": "NORMAL",
       "pveStats": {
@@ -17069,7 +17069,7 @@
         "turns": 1
       }
     },
-    {
+    "SCRATCH_FAST": {
       "id": "SCRATCH_FAST",
       "type": "NORMAL",
       "pveStats": {
@@ -17083,7 +17083,7 @@
         "turns": 1
       }
     },
-    {
+    "TACKLE_FAST": {
       "id": "TACKLE_FAST",
       "type": "NORMAL",
       "pveStats": {
@@ -17097,7 +17097,7 @@
         "turns": 1
       }
     },
-    {
+    "POUND_FAST": {
       "id": "POUND_FAST",
       "type": "NORMAL",
       "pveStats": {
@@ -17111,7 +17111,7 @@
         "turns": 1
       }
     },
-    {
+    "CUT_FAST": {
       "id": "CUT_FAST",
       "type": "NORMAL",
       "pveStats": {
@@ -17125,7 +17125,7 @@
         "turns": 1
       }
     },
-    {
+    "POISON_JAB_FAST": {
       "id": "POISON_JAB_FAST",
       "type": "POISON",
       "pveStats": {
@@ -17139,7 +17139,7 @@
         "turns": 1
       }
     },
-    {
+    "ACID_FAST": {
       "id": "ACID_FAST",
       "type": "POISON",
       "pveStats": {
@@ -17153,7 +17153,7 @@
         "turns": 1
       }
     },
-    {
+    "PSYCHO_CUT_FAST": {
       "id": "PSYCHO_CUT_FAST",
       "type": "PSYCHIC",
       "pveStats": {
@@ -17167,7 +17167,7 @@
         "turns": 1
       }
     },
-    {
+    "ROCK_THROW_FAST": {
       "id": "ROCK_THROW_FAST",
       "type": "ROCK",
       "pveStats": {
@@ -17181,7 +17181,7 @@
         "turns": 1
       }
     },
-    {
+    "METAL_CLAW_FAST": {
       "id": "METAL_CLAW_FAST",
       "type": "STEEL",
       "pveStats": {
@@ -17195,7 +17195,7 @@
         "turns": 1
       }
     },
-    {
+    "BULLET_PUNCH_FAST": {
       "id": "BULLET_PUNCH_FAST",
       "type": "STEEL",
       "pveStats": {
@@ -17209,7 +17209,7 @@
         "turns": 1
       }
     },
-    {
+    "WATER_GUN_FAST": {
       "id": "WATER_GUN_FAST",
       "type": "WATER",
       "pveStats": {
@@ -17223,7 +17223,7 @@
         "turns": 1
       }
     },
-    {
+    "SPLASH_FAST": {
       "id": "SPLASH_FAST",
       "type": "WATER",
       "pveStats": {
@@ -17235,7 +17235,7 @@
         "turns": 3
       }
     },
-    {
+    "WATER_GUN_FAST_BLASTOISE": {
       "id": "WATER_GUN_FAST_BLASTOISE",
       "type": "WATER",
       "pveStats": {
@@ -17249,7 +17249,7 @@
         "turns": 1
       }
     },
-    {
+    "MUD_SLAP_FAST": {
       "id": "MUD_SLAP_FAST",
       "type": "GROUND",
       "pveStats": {
@@ -17263,7 +17263,7 @@
         "turns": 2
       }
     },
-    {
+    "ZEN_HEADBUTT_FAST": {
       "id": "ZEN_HEADBUTT_FAST",
       "type": "PSYCHIC",
       "pveStats": {
@@ -17277,7 +17277,7 @@
         "turns": 2
       }
     },
-    {
+    "CONFUSION_FAST": {
       "id": "CONFUSION_FAST",
       "type": "PSYCHIC",
       "pveStats": {
@@ -17291,7 +17291,7 @@
         "turns": 3
       }
     },
-    {
+    "POISON_STING_FAST": {
       "id": "POISON_STING_FAST",
       "type": "POISON",
       "pveStats": {
@@ -17305,7 +17305,7 @@
         "turns": 1
       }
     },
-    {
+    "BUBBLE_FAST": {
       "id": "BUBBLE_FAST",
       "type": "WATER",
       "pveStats": {
@@ -17319,7 +17319,7 @@
         "turns": 2
       }
     },
-    {
+    "FEINT_ATTACK_FAST": {
       "id": "FEINT_ATTACK_FAST",
       "type": "DARK",
       "pveStats": {
@@ -17333,7 +17333,7 @@
         "turns": 1
       }
     },
-    {
+    "STEEL_WING_FAST": {
       "id": "STEEL_WING_FAST",
       "type": "STEEL",
       "pveStats": {
@@ -17347,7 +17347,7 @@
         "turns": 1
       }
     },
-    {
+    "FIRE_FANG_FAST": {
       "id": "FIRE_FANG_FAST",
       "type": "FIRE",
       "pveStats": {
@@ -17361,7 +17361,7 @@
         "turns": 1
       }
     },
-    {
+    "ROCK_SMASH_FAST": {
       "id": "ROCK_SMASH_FAST",
       "type": "FIGHTING",
       "pveStats": {
@@ -17375,7 +17375,7 @@
         "turns": 2
       }
     },
-    {
+    "TRANSFORM_FAST": {
       "id": "TRANSFORM_FAST",
       "type": "NORMAL",
       "pveStats": {
@@ -17385,7 +17385,7 @@
         "turns": 2
       }
     },
-    {
+    "COUNTER_FAST": {
       "id": "COUNTER_FAST",
       "type": "FIGHTING",
       "pveStats": {
@@ -17399,7 +17399,7 @@
         "turns": 1
       }
     },
-    {
+    "POWDER_SNOW_FAST": {
       "id": "POWDER_SNOW_FAST",
       "type": "ICE",
       "pveStats": {
@@ -17413,7 +17413,7 @@
         "turns": 1
       }
     },
-    {
+    "CLOSE_COMBAT": {
       "id": "CLOSE_COMBAT",
       "type": "FIGHTING",
       "pveStats": {
@@ -17427,7 +17427,7 @@
         "turns": 1
       }
     },
-    {
+    "DYNAMIC_PUNCH": {
       "id": "DYNAMIC_PUNCH",
       "type": "FIGHTING",
       "pveStats": {
@@ -17441,7 +17441,7 @@
         "turns": 1
       }
     },
-    {
+    "FOCUS_BLAST": {
       "id": "FOCUS_BLAST",
       "type": "FIGHTING",
       "pveStats": {
@@ -17455,7 +17455,7 @@
         "turns": 1
       }
     },
-    {
+    "AURORA_BEAM": {
       "id": "AURORA_BEAM",
       "type": "ICE",
       "pveStats": {
@@ -17469,7 +17469,7 @@
         "turns": 1
       }
     },
-    {
+    "CHARGE_BEAM_FAST": {
       "id": "CHARGE_BEAM_FAST",
       "type": "ELECTRIC",
       "pveStats": {
@@ -17483,7 +17483,7 @@
         "turns": 2
       }
     },
-    {
+    "VOLT_SWITCH_FAST": {
       "id": "VOLT_SWITCH_FAST",
       "type": "ELECTRIC",
       "pveStats": {
@@ -17497,7 +17497,7 @@
         "turns": 4
       }
     },
-    {
+    "WILD_CHARGE": {
       "id": "WILD_CHARGE",
       "type": "ELECTRIC",
       "pveStats": {
@@ -17511,7 +17511,7 @@
         "turns": 1
       }
     },
-    {
+    "ZAP_CANNON": {
       "id": "ZAP_CANNON",
       "type": "ELECTRIC",
       "pveStats": {
@@ -17525,7 +17525,7 @@
         "turns": 1
       }
     },
-    {
+    "DRAGON_TAIL_FAST": {
       "id": "DRAGON_TAIL_FAST",
       "type": "DRAGON",
       "pveStats": {
@@ -17539,7 +17539,7 @@
         "turns": 2
       }
     },
-    {
+    "AVALANCHE": {
       "id": "AVALANCHE",
       "type": "ICE",
       "pveStats": {
@@ -17553,7 +17553,7 @@
         "turns": 1
       }
     },
-    {
+    "AIR_SLASH_FAST": {
       "id": "AIR_SLASH_FAST",
       "type": "FLYING",
       "pveStats": {
@@ -17567,7 +17567,7 @@
         "turns": 2
       }
     },
-    {
+    "BRAVE_BIRD": {
       "id": "BRAVE_BIRD",
       "type": "FLYING",
       "pveStats": {
@@ -17581,7 +17581,7 @@
         "turns": 1
       }
     },
-    {
+    "SKY_ATTACK": {
       "id": "SKY_ATTACK",
       "type": "FLYING",
       "pveStats": {
@@ -17595,7 +17595,7 @@
         "turns": 1
       }
     },
-    {
+    "SAND_TOMB": {
       "id": "SAND_TOMB",
       "type": "GROUND",
       "pveStats": {
@@ -17609,7 +17609,7 @@
         "turns": 1
       }
     },
-    {
+    "ROCK_BLAST": {
       "id": "ROCK_BLAST",
       "type": "ROCK",
       "pveStats": {
@@ -17623,7 +17623,7 @@
         "turns": 1
       }
     },
-    {
+    "INFESTATION_FAST": {
       "id": "INFESTATION_FAST",
       "type": "BUG",
       "pveStats": {
@@ -17637,7 +17637,7 @@
         "turns": 2
       }
     },
-    {
+    "STRUGGLE_BUG_FAST": {
       "id": "STRUGGLE_BUG_FAST",
       "type": "BUG",
       "pveStats": {
@@ -17651,7 +17651,7 @@
         "turns": 2
       }
     },
-    {
+    "SILVER_WIND": {
       "id": "SILVER_WIND",
       "type": "BUG",
       "pveStats": {
@@ -17665,7 +17665,7 @@
         "turns": 1
       }
     },
-    {
+    "ASTONISH_FAST": {
       "id": "ASTONISH_FAST",
       "type": "GHOST",
       "pveStats": {
@@ -17679,7 +17679,7 @@
         "turns": 2
       }
     },
-    {
+    "HEX_FAST": {
       "id": "HEX_FAST",
       "type": "GHOST",
       "pveStats": {
@@ -17693,7 +17693,7 @@
         "turns": 2
       }
     },
-    {
+    "NIGHT_SHADE": {
       "id": "NIGHT_SHADE",
       "type": "GHOST",
       "pveStats": {
@@ -17707,7 +17707,7 @@
         "turns": 1
       }
     },
-    {
+    "IRON_TAIL_FAST": {
       "id": "IRON_TAIL_FAST",
       "type": "STEEL",
       "pveStats": {
@@ -17721,7 +17721,7 @@
         "turns": 2
       }
     },
-    {
+    "GYRO_BALL": {
       "id": "GYRO_BALL",
       "type": "STEEL",
       "pveStats": {
@@ -17735,7 +17735,7 @@
         "turns": 1
       }
     },
-    {
+    "HEAVY_SLAM": {
       "id": "HEAVY_SLAM",
       "type": "STEEL",
       "pveStats": {
@@ -17749,7 +17749,7 @@
         "turns": 1
       }
     },
-    {
+    "FIRE_SPIN_FAST": {
       "id": "FIRE_SPIN_FAST",
       "type": "FIRE",
       "pveStats": {
@@ -17763,7 +17763,7 @@
         "turns": 2
       }
     },
-    {
+    "OVERHEAT": {
       "id": "OVERHEAT",
       "type": "FIRE",
       "pveStats": {
@@ -17777,7 +17777,7 @@
         "turns": 1
       }
     },
-    {
+    "BULLET_SEED_FAST": {
       "id": "BULLET_SEED_FAST",
       "type": "GRASS",
       "pveStats": {
@@ -17791,7 +17791,7 @@
         "turns": 2
       }
     },
-    {
+    "GRASS_KNOT": {
       "id": "GRASS_KNOT",
       "type": "GRASS",
       "pveStats": {
@@ -17805,7 +17805,7 @@
         "turns": 1
       }
     },
-    {
+    "ENERGY_BALL": {
       "id": "ENERGY_BALL",
       "type": "GRASS",
       "pveStats": {
@@ -17819,7 +17819,7 @@
         "turns": 1
       }
     },
-    {
+    "EXTRASENSORY_FAST": {
       "id": "EXTRASENSORY_FAST",
       "type": "PSYCHIC",
       "pveStats": {
@@ -17833,7 +17833,7 @@
         "turns": 2
       }
     },
-    {
+    "FUTURESIGHT": {
       "id": "FUTURESIGHT",
       "type": "PSYCHIC",
       "pveStats": {
@@ -17847,7 +17847,7 @@
         "turns": 1
       }
     },
-    {
+    "MIRROR_COAT": {
       "id": "MIRROR_COAT",
       "type": "PSYCHIC",
       "pveStats": {
@@ -17861,7 +17861,7 @@
         "turns": 1
       }
     },
-    {
+    "OUTRAGE": {
       "id": "OUTRAGE",
       "type": "DRAGON",
       "pveStats": {
@@ -17875,7 +17875,7 @@
         "turns": 1
       }
     },
-    {
+    "SNARL_FAST": {
       "id": "SNARL_FAST",
       "type": "DARK",
       "pveStats": {
@@ -17889,7 +17889,7 @@
         "turns": 2
       }
     },
-    {
+    "CRUNCH": {
       "id": "CRUNCH",
       "type": "DARK",
       "pveStats": {
@@ -17903,7 +17903,7 @@
         "turns": 1
       }
     },
-    {
+    "FOUL_PLAY": {
       "id": "FOUL_PLAY",
       "type": "DARK",
       "pveStats": {
@@ -17917,7 +17917,7 @@
         "turns": 1
       }
     },
-    {
+    "HIDDEN_POWER_FAST": {
       "id": "HIDDEN_POWER_FAST",
       "type": "NORMAL",
       "pveStats": {
@@ -17931,7 +17931,7 @@
         "turns": 2
       }
     },
-    {
+    "TAKE_DOWN_FAST": {
       "id": "TAKE_DOWN_FAST",
       "type": "NORMAL",
       "pveStats": {
@@ -17945,7 +17945,7 @@
         "turns": 2
       }
     },
-    {
+    "WATERFALL_FAST": {
       "id": "WATERFALL_FAST",
       "type": "WATER",
       "pveStats": {
@@ -17959,7 +17959,7 @@
         "turns": 2
       }
     },
-    {
+    "SURF": {
       "id": "SURF",
       "type": "WATER",
       "pveStats": {
@@ -17973,7 +17973,7 @@
         "turns": 1
       }
     },
-    {
+    "DRACO_METEOR": {
       "id": "DRACO_METEOR",
       "type": "DRAGON",
       "pveStats": {
@@ -17987,7 +17987,7 @@
         "turns": 1
       }
     },
-    {
+    "DOOM_DESIRE": {
       "id": "DOOM_DESIRE",
       "type": "STEEL",
       "pveStats": {
@@ -18001,7 +18001,7 @@
         "turns": 1
       }
     },
-    {
+    "YAWN_FAST": {
       "id": "YAWN_FAST",
       "type": "NORMAL",
       "pveStats": {
@@ -18013,7 +18013,7 @@
         "turns": 3
       }
     },
-    {
+    "PSYCHO_BOOST": {
       "id": "PSYCHO_BOOST",
       "type": "PSYCHIC",
       "pveStats": {
@@ -18027,7 +18027,7 @@
         "turns": 1
       }
     },
-    {
+    "ORIGIN_PULSE": {
       "id": "ORIGIN_PULSE",
       "type": "WATER",
       "pveStats": {
@@ -18041,7 +18041,7 @@
         "turns": 1
       }
     },
-    {
+    "PRECIPICE_BLADES": {
       "id": "PRECIPICE_BLADES",
       "type": "GROUND",
       "pveStats": {
@@ -18055,7 +18055,7 @@
         "turns": 1
       }
     },
-    {
+    "PRESENT_FAST": {
       "id": "PRESENT_FAST",
       "type": "NORMAL",
       "pveStats": {
@@ -18069,7 +18069,7 @@
         "turns": 2
       }
     },
-    {
+    "WEATHER_BALL_FIRE": {
       "id": "WEATHER_BALL_FIRE",
       "type": "FIRE",
       "pveStats": {
@@ -18083,7 +18083,7 @@
         "turns": 1
       }
     },
-    {
+    "WEATHER_BALL_ICE": {
       "id": "WEATHER_BALL_ICE",
       "type": "ICE",
       "pveStats": {
@@ -18097,7 +18097,7 @@
         "turns": 1
       }
     },
-    {
+    "WEATHER_BALL_ROCK": {
       "id": "WEATHER_BALL_ROCK",
       "type": "NORMAL",
       "pveStats": {
@@ -18111,7 +18111,7 @@
         "turns": 1
       }
     },
-    {
+    "WEATHER_BALL_WATER": {
       "id": "WEATHER_BALL_WATER",
       "type": "WATER",
       "pveStats": {
@@ -18125,7 +18125,7 @@
         "turns": 1
       }
     },
-    {
+    "FRENZY_PLANT": {
       "id": "FRENZY_PLANT",
       "type": "GRASS",
       "pveStats": {
@@ -18139,7 +18139,7 @@
         "turns": 1
       }
     },
-    {
+    "SMACK_DOWN_FAST": {
       "id": "SMACK_DOWN_FAST",
       "type": "ROCK",
       "pveStats": {
@@ -18153,7 +18153,7 @@
         "turns": 2
       }
     },
-    {
+    "BLAST_BURN": {
       "id": "BLAST_BURN",
       "type": "FIRE",
       "pveStats": {
@@ -18167,7 +18167,7 @@
         "turns": 1
       }
     },
-    {
+    "HYDRO_CANNON": {
       "id": "HYDRO_CANNON",
       "type": "WATER",
       "pveStats": {
@@ -18181,7 +18181,7 @@
         "turns": 1
       }
     },
-    {
+    "LAST_RESORT": {
       "id": "LAST_RESORT",
       "type": "NORMAL",
       "pveStats": {
@@ -18195,7 +18195,7 @@
         "turns": 1
       }
     },
-    {
+    "METEOR_MASH": {
       "id": "METEOR_MASH",
       "type": "STEEL",
       "pveStats": {
@@ -18209,7 +18209,7 @@
         "turns": 1
       }
     },
-    {
+    "SKULL_BASH": {
       "id": "SKULL_BASH",
       "type": "NORMAL",
       "pveStats": {
@@ -18223,7 +18223,7 @@
         "turns": 1
       }
     },
-    {
+    "ACID_SPRAY": {
       "id": "ACID_SPRAY",
       "type": "POISON",
       "pveStats": {
@@ -18237,7 +18237,7 @@
         "turns": 1
       }
     },
-    {
+    "EARTH_POWER": {
       "id": "EARTH_POWER",
       "type": "GROUND",
       "pveStats": {
@@ -18251,7 +18251,7 @@
         "turns": 1
       }
     },
-    {
+    "CRABHAMMER": {
       "id": "CRABHAMMER",
       "type": "WATER",
       "pveStats": {
@@ -18265,7 +18265,7 @@
         "turns": 1
       }
     },
-    {
+    "LEAF_TORNADO": {
       "id": "LEAF_TORNADO",
       "type": "GRASS",
       "pveStats": {
@@ -18279,7 +18279,7 @@
         "turns": 1
       }
     },
-    {
+    "MUDDY_WATER": {
       "id": "MUDDY_WATER",
       "type": "WATER",
       "pveStats": {
@@ -18293,7 +18293,7 @@
         "turns": 1
       }
     },
-    {
+    "BLAZE_KICK": {
       "id": "BLAZE_KICK",
       "type": "FIRE",
       "pveStats": {
@@ -18307,7 +18307,7 @@
         "turns": 1
       }
     },
-    {
+    "POWER_UP_PUNCH": {
       "id": "POWER_UP_PUNCH",
       "type": "FIGHTING",
       "pveStats": {
@@ -18321,7 +18321,7 @@
         "turns": 1
       }
     },
-    {
+    "CHARM_FAST": {
       "id": "CHARM_FAST",
       "type": "FAIRY",
       "pveStats": {
@@ -18335,7 +18335,7 @@
         "turns": 2
       }
     },
-    {
+    "FRUSTRATION": {
       "id": "FRUSTRATION",
       "type": "NORMAL",
       "pveStats": {
@@ -18349,7 +18349,7 @@
         "turns": 1
       }
     },
-    {
+    "RETURN": {
       "id": "RETURN",
       "type": "NORMAL",
       "pveStats": {
@@ -18363,7 +18363,7 @@
         "turns": 1
       }
     },
-    {
+    "SYNCHRONOISE": {
       "id": "SYNCHRONOISE",
       "type": "PSYCHIC",
       "pveStats": {
@@ -18377,5 +18377,5 @@
         "turns": 1
       }
     }
-  ]
+  }
 }

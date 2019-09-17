@@ -1,7 +1,9 @@
 import { IPveMoveTemplate, IPvpMoveTemplate } from '../interfaces';
+import { TranslatorService } from '../services';
 
 export class Move {
   public id: string;
+  public name: string;
   public type: string;
 
   public pveStats: {
@@ -19,6 +21,7 @@ export class Move {
   constructor() {
     this.id = 'UNKNOWN';
     this.type = 'UNKNOWN';
+    this.name = TranslatorService.translate('UNKOWN');
     this.pveStats = {
       power: 0,
       energyDelta: -100,
@@ -34,8 +37,9 @@ export class Move {
   /**
    * Updates PVE stats with provided data.
    */
-  public updatePveStats(pveSource: IPveMoveTemplate): void {
+  public updatePveStats(pveSource: IPveMoveTemplate, language?: string): void {
     this.id = pveSource.moveSettings.movementId;
+    this.name = TranslatorService.translate(this.id, language);
     this.type = pveSource.moveSettings.pokemonType.split('_', 3)[2]; // remove the `POKEMON_` prefix
     this.pveStats = {
       power: pveSource.moveSettings.power,
@@ -47,8 +51,9 @@ export class Move {
   /**
    * Updates PVP stats with provided data.
    */
-  public updatePvpStats(pveSource: IPvpMoveTemplate): void {
+  public updatePvpStats(pveSource: IPvpMoveTemplate, language?: string): void {
     this.id = pveSource.combatMove.uniqueId;
+    this.name = TranslatorService.translate(this.id, language);
     this.type = pveSource.combatMove.type.split('_', 3)[2]; // remove the `POKEMON_` prefix
     this.pvpStats = {
       power: pveSource.combatMove.power,

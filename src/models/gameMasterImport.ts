@@ -52,6 +52,18 @@ export class GameMasterImport {
   }
 
   /**
+   * Imports the data from a previously imported game master that was saved as JSON.
+   * @param jsonObject The JSON object to import.
+   */
+  public static importFromSaved(jsonObject: any): GameMasterImportResult {
+    return new GameMasterImportResult(
+      new Map(Object.entries(jsonObject.species)
+        .map(([key, value]) => [key, PokemonSpecies.fromParsed(value as PokemonSpecies)])),
+      new Map(Object.entries(jsonObject.moves)),
+    );
+  }
+
+  /**
    * The imported Pokémon species.
    */
   public speciesList: Map<string, PokemonSpecies> = new Map<string, PokemonSpecies>();
@@ -94,7 +106,7 @@ export class GameMasterImport {
 
       // IMPORT POKEMON
       if (template.templateId.startsWith('V') && template.templateId.substring(6, 13) === 'POKEMON') {
-        const pokemon = new PokemonSpecies(template as IPokemonTemplate);
+        const pokemon = PokemonSpecies.fromRawMaster(template as IPokemonTemplate);
         // for normal and non-shadow/purified forms, add it if we haven't added it yet
         if (!pokemon.form.endsWith('SHADOW')
           && !pokemon.form.endsWith('PURIFIED')
@@ -192,8 +204,14 @@ export class GameMasterImport {
     }
     try {
       await writeFile(path.join(process.cwd(), this.options.saveFile), JSON.stringify({
-        species: Array.from(this.speciesList.values()),
-        moves: Array.from(this.movesList.values()),
+        species: [...this.speciesList].reduce((acc, val) => {
+          acc[val[0]] = val[1];
+          return acc;
+        }, {} as any),
+        moves: [...this.movesList].reduce((acc, val) => {
+          acc[val[0]] = val[1];
+          return acc;
+        }, {} as any),
       }, null, 2));
     } catch (err) {
       throw new Error(`Failed to save game master to local file: ${err}`);

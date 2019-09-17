@@ -21,7 +21,14 @@
     "pokemon-go"
   ],
   "author": "Jesse Kawell",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakawell/pogo-master-import.git"
+  },
   "license": "MIT",
+  "files": [
+    "dist/**"
+  ],
   "dependencies": {
     "pokemongo-game-master": "^2.1.0",
     "yargs": "^14.0.0"
