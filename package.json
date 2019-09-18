@@ -27,7 +27,8 @@
   },
   "license": "MIT",
   "files": [
-    "dist/**"
+    "dist/**",
+    "data/**"
   ],
   "dependencies": {
     "pokemongo-game-master": "^2.1.0",

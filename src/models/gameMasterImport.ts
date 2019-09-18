@@ -112,9 +112,10 @@ export class GameMasterImport {
       // IMPORT POKEMON
       if (template.templateId.startsWith('V') && template.templateId.substring(6, 13) === 'POKEMON') {
         const pokemon = PokemonSpecies.fromRawMaster(template as IPokemonTemplate, this.options.language);
+        const previous: PokemonSpecies | undefined = this.speciesList.get(pokemon.id);
         // add pokemon that haven't bee added yet
-        if (!this.speciesList.has(pokemon.id) // if the pokemon hasn't been added yet, or...
-          || pokemon.chargeMoves.length > (this.speciesList.get(pokemon.id) as PokemonSpecies).chargeMoves.length) { // ...if this pokemon has more charge moves than the previous one (as shadow forms do)
+        if (!previous // if the pokemon hasn't been added yet, or...
+          || pokemon.chargeMoves.length > previous.chargeMoves.length) { // ...if this pokemon has more charge moves than the previous one (as shadow forms do)
           this.speciesList.set(pokemon.id, pokemon); // ...add/replace it
         }
 
@@ -122,7 +123,7 @@ export class GameMasterImport {
         const previousNormal: PokemonSpecies | undefined = this.speciesList.get(
           PokemonSpecies.generateId(pokemon.speciesId, 'NORMAL'),
         );
-        if (!pokemon.form.endsWith('NORMAL') && previousNormal && (previousNormal as PokemonSpecies).isFormless) {
+        if (!pokemon.form.endsWith('NORMAL') && previousNormal && previousNormal.isFormless) {
           this.speciesList.delete(previousNormal.id);
         }
       }
