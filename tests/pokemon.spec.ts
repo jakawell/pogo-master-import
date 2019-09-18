@@ -5,12 +5,12 @@ import fakeGameMaster from './mockData/mockGameMaster.json';
 let pokemon: Pokemon;
 
 beforeEach(() => {
-  const species = new PokemonSpecies(fakeGameMaster.itemTemplates[0] as IPokemonTemplate);
+  const species = PokemonSpecies.fromRawMaster(fakeGameMaster.itemTemplates[0] as IPokemonTemplate);
   pokemon = new Pokemon(species, 15.5, 10, 11, 12);
 });
 
 test('should import all fields properly', () => {
-  expect(pokemon.species.id).toBe('VENUSAUR_SHADOW');
+  expect(pokemon.species.id).toBe('VENUSAUR_NORMAL');
   expect(pokemon.level).toBe(15.5);
   expect(pokemon.attackIv).toBe(10);
   expect(pokemon.defenseIv).toBe(11);

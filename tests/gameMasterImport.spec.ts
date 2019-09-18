@@ -88,6 +88,7 @@ test('should download and import game master', async () => {
     localSourcePath: './master.json',
     save: true,
     saveFile: './master.json',
+    language: undefined,
   };
   const { speciesList, movesList } = await GameMasterImport.importGameMaster(options);
   expectGoodLists(speciesList, movesList);
@@ -104,6 +105,7 @@ test('should load file and import game master', async () => {
     localSourcePath: './master.json',
     save: true,
     saveFile: './master.json',
+    language: undefined,
   };
   const { speciesList, movesList } = await GameMasterImport.importGameMaster(options);
   expectGoodLists(speciesList, movesList);
@@ -129,6 +131,7 @@ test('should fail for invalid save location', async () => {
     localSourcePath: './master.json',
     save: true,
     saveFile: 'invalidFile.json',
+    language: undefined,
   };
   await expect(GameMasterImport.importGameMaster(options))
     .rejects.toHaveProperty('message', 'Failed to save game master to local file: Error: Mock write error');
@@ -141,6 +144,7 @@ test('should fail for no save location', async () => {
     localSourcePath: './master.json',
     save: true,
     saveFile: '',
+    language: undefined,
   };
   await expect(GameMasterImport.importGameMaster(options))
     .rejects.toHaveProperty('message', 'No save path was provided. Set "options.saveFile"');
@@ -153,6 +157,7 @@ test('should fail for invalid local source path', async () => {
     localSourcePath: 'invalidFile.json',
     save: true,
     saveFile: './master.json',
+    language: undefined,
   };
   await expect(GameMasterImport.importGameMaster(options))
     .rejects.toHaveProperty('message', 'Failed to read game master from local file: Error: Mock read error');
@@ -165,6 +170,7 @@ test('should fail for no local source path', async () => {
     localSourcePath: '',
     save: true,
     saveFile: './master.json',
+    language: undefined,
   };
   await expect(GameMasterImport.importGameMaster(options))
     .rejects.toHaveProperty('message', 'No source path was provided. Set "options.localSourcePath".');
@@ -177,6 +183,7 @@ test('should fail for badly formatted local source path', async () => {
     localSourcePath: 'invalidFormat.json',
     save: true,
     saveFile: './master.json',
+    language: undefined,
   };
   await expect(GameMasterImport.importGameMaster(options))
     // tslint:disable-next-line: max-line-length

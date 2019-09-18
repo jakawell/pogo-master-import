@@ -36,6 +36,10 @@ export class PokemonSpecies {
     if (rawSource) {
       const source = rawSource;
       this.speciesId = source.pokemonSettings.pokemonId;
+      if (source.pokemonSettings.form && // shadow/purified is not treated as a 'form' as far as stats are concerned
+        (source.pokemonSettings.form.endsWith('_SHADOW') || source.pokemonSettings.form.endsWith('_PURIFIED'))) {
+        source.pokemonSettings.form = 'NORMAL';
+      }
       this.form = (source.pokemonSettings.form || 'NORMAL').replace(this.speciesId + '_', '');
       this.speciesName = TranslatorService.translate(this.id, language);
       if (!source.pokemonSettings.form) { // default pokemon with no set form to "NORMAL", but mark them in case we need to remove them later

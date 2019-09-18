@@ -29,6 +29,10 @@ export interface IGameMasterImportOptions {
    * Path to use for saving the game master. Default is "./master.json".
    */
   saveFile: string | undefined;
+  /**
+   * Language to use for names. Default is empty, which just converts the code names to human readable.
+   */
+  language: string | undefined;
 }
 
 // tslint:disable-next-line: max-classes-per-file
@@ -78,6 +82,7 @@ export class GameMasterImport {
     localSourcePath: './master.json',
     save: false,
     saveFile: './master.json',
+    language: undefined,
   };
   private gameMaster: IGameMaster | null = null;
 
@@ -106,24 +111,11 @@ export class GameMasterImport {
 
       // IMPORT POKEMON
       if (template.templateId.startsWith('V') && template.templateId.substring(6, 13) === 'POKEMON') {
-        const pokemon = PokemonSpecies.fromRawMaster(template as IPokemonTemplate);
-        // for normal and non-shadow/purified forms, add it if we haven't added it yet
-        if (!pokemon.form.endsWith('SHADOW')
-          && !pokemon.form.endsWith('PURIFIED')
-          && !this.speciesList.has(pokemon.id)) {
-          this.speciesList.set(pokemon.id, pokemon);
-
-        // replace normal form moves with shadow moves, since they have the same moves plus more
-        } else if (pokemon.form.endsWith('SHADOW')) {
-          const normalPokemon: PokemonSpecies | undefined = this.speciesList.get(
-            PokemonSpecies.generateId(pokemon.speciesId, 'NORMAL'),
-          );
-          if (normalPokemon) {
-            (normalPokemon as PokemonSpecies).chargeMoves = pokemon.chargeMoves;
-          } else {
-            pokemon.form = 'NORMAL';
-            this.speciesList.set(pokemon.id, pokemon);
-          }
+        const pokemon = PokemonSpecies.fromRawMaster(template as IPokemonTemplate, this.options.language);
+        // add pokemon that haven't bee added yet
+        if (!this.speciesList.has(pokemon.id) // if the pokemon hasn't been added yet, or...
+          || pokemon.chargeMoves.length > (this.speciesList.get(pokemon.id) as PokemonSpecies).chargeMoves.length) { // ...if this pokemon has more charge moves than the previous one (as shadow forms do)
+          this.speciesList.set(pokemon.id, pokemon); // ...add/replace it
         }
 
         // if it has a non-normal form, and previously had a "formless" entry, remove the "formless" one
@@ -138,9 +130,9 @@ export class GameMasterImport {
       // IMPORT PVE MOVES
       if (template.templateId.startsWith('V') && template.templateId.substring(6, 10) === 'MOVE') {
         const move = new Move();
-        move.updatePveStats(template as IPveMoveTemplate);
+        move.updatePveStats(template as IPveMoveTemplate, this.options.language);
         if (this.movesList.has(move.id)) {
-          (this.movesList.get(move.id) as Move).updatePveStats(template as IPveMoveTemplate);
+          (this.movesList.get(move.id) as Move).updatePveStats(template as IPveMoveTemplate, this.options.language);
         } else {
           this.movesList.set(move.id, move);
         }
@@ -149,9 +141,9 @@ export class GameMasterImport {
       // IMPORT PVP MOVES
       if (template.templateId.startsWith('COMBAT_V') && template.templateId.substring(13, 17) === 'MOVE') {
         const move = new Move();
-        move.updatePvpStats(template as IPvpMoveTemplate);
+        move.updatePvpStats(template as IPvpMoveTemplate, this.options.language);
         if (this.movesList.has(move.id)) {
-          (this.movesList.get(move.id) as Move).updatePvpStats(template as IPvpMoveTemplate);
+          (this.movesList.get(move.id) as Move).updatePvpStats(template as IPvpMoveTemplate, this.options.language);
         } else {
           this.movesList.set(move.id, move);
         }
