@@ -105,14 +105,16 @@ test('should load file and import game master', async () => {
     localSourcePath: './master.json',
     save: true,
     saveFile: './master.json',
-    language: undefined,
+    language: 'en-us',
   };
   const { speciesList, movesList } = await GameMasterImport.importGameMaster(options);
   expectGoodLists(speciesList, movesList);
+  expect((speciesList.get('VENUSAUR_NORMAL') as PokemonSpecies).speciesName).toBe('Venusaur');
 
   const importer = new GameMasterImport(options);
   const { speciesList: speciesListCons, movesList: movesListCons } = await importer.importGameMaster();
   expectGoodLists(speciesListCons, movesListCons);
+  expect((speciesListCons.get('VENUSAUR_NORMAL') as PokemonSpecies).speciesName).toBe('Venusaur');
 });
 
 test('should accept no options', async () => {

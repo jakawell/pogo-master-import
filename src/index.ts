@@ -15,7 +15,7 @@ export * from './models';
     localSourcePath: (argv.localSourcePath as string),
     save: (argv.save as boolean),
     saveFile: (argv.saveFile as string),
-    language: (argv.lanuage as string),
+    language: (argv.language as string),
   };
   try {
     await GameMasterImport.importGameMaster(options);
