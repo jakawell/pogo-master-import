@@ -4,7 +4,6 @@ import path from 'path';
 export class TranslatorService {
   public static getTranslations(): Map<string, any> {
     if (!TranslatorService.translations) {
-      console.log(`Getting translation files from within ${path.resolve(__dirname)}`);
       const translationFiles = fs.readdirSync(path.join(__dirname, '../data/translations'));
       TranslatorService.translations = new Map<string, any>(
         translationFiles
