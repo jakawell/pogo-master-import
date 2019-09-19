@@ -2,18 +2,19 @@ import { IPokemonTemplate } from '../interfaces';
 import { TranslatorService } from '../services';
 
 export class PokemonSpecies {
-  public static fromRawMaster(source: IPokemonTemplate, language?: string): PokemonSpecies {
-    return new PokemonSpecies(source, null, language);
+  public static fromRawMaster(source: IPokemonTemplate, pokedexNumber: number, language?: string): PokemonSpecies {
+    return new PokemonSpecies(source, pokedexNumber, null, language);
   }
 
   public static fromParsed(source: PokemonSpecies, language?: string): PokemonSpecies {
-    return new PokemonSpecies(null, source, language);
+    return new PokemonSpecies(null, null, source, language);
   }
 
   public static generateId(speciesId: string, form: string): string {
     return `${speciesId}_${form}`;
   }
 
+  public pokedexNumber: number;
   public speciesId: string;
   public form: string;
   public speciesName: string;
@@ -32,9 +33,15 @@ export class PokemonSpecies {
     return PokemonSpecies.generateId(this.speciesId, this.form);
   }
 
-  private constructor(rawSource: IPokemonTemplate | null, parsedSource: PokemonSpecies | null, language?: string) {
+  private constructor(
+    rawSource: IPokemonTemplate | null,
+    pokedexNumber: number | null,
+    parsedSource: PokemonSpecies | null,
+    language?: string,
+  ) {
     if (rawSource) {
       const source = rawSource;
+      this.pokedexNumber = pokedexNumber as number;
       this.speciesId = source.pokemonSettings.pokemonId;
       if (source.pokemonSettings.form && // shadow/purified is not treated as a 'form' as far as stats are concerned
         (source.pokemonSettings.form.endsWith('_SHADOW') || source.pokemonSettings.form.endsWith('_PURIFIED'))) {
@@ -61,6 +68,7 @@ export class PokemonSpecies {
       }
     } else {
       const source = parsedSource as PokemonSpecies;
+      this.pokedexNumber = source.pokedexNumber;
       this.speciesId = source.speciesId;
       this.form = source.form;
       this.speciesName = source.speciesName;

@@ -46,6 +46,7 @@ test('should import data from parsed game master', () => {
   const imported = GameMasterImport.importFromSaved({
     species: {
       VENUSAUR_NORMAL: {
+        pokedexNumber: 3,
         speciesId: 'VENUSAUR',
         form: 'NORMAL',
         speciesName: 'Venusaur',
@@ -92,11 +93,13 @@ test('should download and import game master', async () => {
   };
   const { speciesList, movesList } = await GameMasterImport.importGameMaster(options);
   expectGoodLists(speciesList, movesList);
+  expect((speciesList.get('VENUSAUR_NORMAL') as PokemonSpecies).pokedexNumber).toBe(3);
   expect((speciesList.get('VENUSAUR_NORMAL') as PokemonSpecies).speciesName).toBe('Venusaur');
 
   const importer = new GameMasterImport(options);
   const { speciesList: speciesListCons, movesList: movesListCons } = await importer.importGameMaster();
   expectGoodLists(speciesListCons, movesListCons);
+  expect((speciesListCons.get('VENUSAUR_NORMAL') as PokemonSpecies).pokedexNumber).toBe(3);
   expect((speciesListCons.get('VENUSAUR_NORMAL') as PokemonSpecies).speciesName).toBe('Venusaur');
 });
 
@@ -111,11 +114,13 @@ test('should load file and import game master', async () => {
   };
   const { speciesList, movesList } = await GameMasterImport.importGameMaster(options);
   expectGoodLists(speciesList, movesList);
+  expect((speciesList.get('VENUSAUR_NORMAL') as PokemonSpecies).pokedexNumber).toBe(3);
   expect((speciesList.get('VENUSAUR_NORMAL') as PokemonSpecies).speciesName).toBe('Venusaur');
 
   const importer = new GameMasterImport(options);
   const { speciesList: speciesListCons, movesList: movesListCons } = await importer.importGameMaster();
   expectGoodLists(speciesListCons, movesListCons);
+  expect((speciesListCons.get('VENUSAUR_NORMAL') as PokemonSpecies).pokedexNumber).toBe(3);
   expect((speciesListCons.get('VENUSAUR_NORMAL') as PokemonSpecies).speciesName).toBe('Venusaur');
 });
 

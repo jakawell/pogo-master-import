@@ -11,15 +11,15 @@ export class Pokemon {
   }
 
   public get attack(): number {
-    return this.species.baseAttack + this.attackIv;
+    return (this.species.baseAttack + this.attackIv) * this.cpMultiplier;
   }
 
   public get defense(): number {
-    return this.species.baseDefense + this.defenseIv;
+    return (this.species.baseDefense + this.defenseIv) * this.cpMultiplier;
   }
 
   public get stamina(): number {
-    return this.species.baseStamina + this.staminaIv;
+    return (this.species.baseStamina + this.staminaIv) * this.cpMultiplier;
   }
 
   public get cpMultiplier(): number {
@@ -27,8 +27,11 @@ export class Pokemon {
   }
 
   public get cp(): number {
+    const basicAttack = this.species.baseAttack + this.attackIv;
+    const basicDefense = this.species.baseDefense + this.defenseIv;
+    const basicStamina = this.species.baseStamina + this.staminaIv;
     const rawCp = (
-        this.attack * (Math.sqrt(this.defense) * Math.sqrt(this.stamina) * Math.pow(this.cpMultiplier, 2))
+        basicAttack * (Math.sqrt(basicDefense) * Math.sqrt(basicStamina) * Math.pow(this.cpMultiplier, 2))
       ) / 10;
     return Math.floor(Math.max(rawCp, 10));
   }

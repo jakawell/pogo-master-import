@@ -3,7 +3,8 @@ import { PokemonSpecies } from '../src/models';
 import fakeGameMaster from './mockData/mockGameMaster.json';
 
 test('should import all fields properly from raw game master', () => {
-  const species = PokemonSpecies.fromRawMaster(fakeGameMaster.itemTemplates[0] as unknown as IPokemonTemplate);
+  const species = PokemonSpecies.fromRawMaster((fakeGameMaster.itemTemplates[0] as unknown as IPokemonTemplate), 3);
+  expect(species.pokedexNumber).toBe(3);
   expect(species.speciesId).toBe('VENUSAUR');
   expect(species.form).toBe('NORMAL');
   expect(species.id).toBe('VENUSAUR_NORMAL');
@@ -18,6 +19,7 @@ test('should import all fields properly from raw game master', () => {
 
 test('should import all fields properly from parsed', () => {
   const species = PokemonSpecies.fromParsed({
+    pokedexNumber: 3,
     speciesId: 'VENUSAUR',
     form: 'NORMAL',
     speciesName: 'Venusaur Normal',
@@ -29,6 +31,7 @@ test('should import all fields properly from parsed', () => {
     baseStamina: 190,
     isFormless: false,
   } as PokemonSpecies);
+  expect(species.pokedexNumber).toBe(3);
   expect(species.speciesId).toBe('VENUSAUR');
   expect(species.form).toBe('NORMAL');
   expect(species.id).toBe('VENUSAUR_NORMAL');

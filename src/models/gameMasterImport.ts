@@ -111,7 +111,9 @@ export class GameMasterImport {
 
       // IMPORT POKEMON
       if (template.templateId.startsWith('V') && template.templateId.substring(6, 13) === 'POKEMON') {
-        const pokemon = PokemonSpecies.fromRawMaster(template as IPokemonTemplate, this.options.language);
+        const pokedexNumber = parseInt(template.templateId.substring(1, 5), 10);
+        const pokemon = PokemonSpecies
+          .fromRawMaster(template as IPokemonTemplate, pokedexNumber, this.options.language);
         const previous: PokemonSpecies | undefined = this.speciesList.get(pokemon.id);
         // add pokemon that haven't bee added yet
         if (!previous // if the pokemon hasn't been added yet, or...
