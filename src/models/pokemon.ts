@@ -1,5 +1,5 @@
 import { PokemonSpecies } from './pokemonSpecies';
-import cpMultipliers from '../../data/cpMultipliers.json';
+import cpMultipliers from '../data/cpMultipliers.json';
 
 export class Pokemon {
   constructor(

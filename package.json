@@ -9,7 +9,8 @@
     "download": "tsc && node dist/index.js --save=true",
     "lint": "tslint -p .",
     "test": "jest tests",
-    "prepublish": "tsc"
+    "build": "rm -rf dist/ && tsc",
+    "prepublish": "npm run build"
   },
   "husky": {
     "hooks": {
@@ -27,8 +28,7 @@
   },
   "license": "MIT",
   "files": [
-    "dist/**",
-    "data/**"
+    "dist/**"
   ],
   "dependencies": {
     "pokemongo-game-master": "^2.1.0",
