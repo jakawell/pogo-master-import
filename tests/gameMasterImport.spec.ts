@@ -17,8 +17,8 @@ jest.spyOn(fs, 'readFile').mockImplementation((file, callback) => {
   }
 });
 import PokemongoGameMaster from 'pokemongo-game-master';
-import { IGameMasterImportOptions } from '../src/interfaces';
-import { GameMasterImport, PokemonSpecies, Move } from '../src/models';
+import { PokemonSpecies, Move } from 'pogo-objects';
+import { GameMasterImport, IGameMasterImportOptions } from '../src/models';
 
 beforeEach(() => {
   jest.spyOn(PokemongoGameMaster, 'getVersion').mockResolvedValue(mockGameMaster);

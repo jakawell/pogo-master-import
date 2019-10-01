@@ -2,8 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import { promisify } from 'util';
 import PokemongoGameMaster from 'pokemongo-game-master';
-import { IGameMaster, IPokemonTemplate, IPveMoveTemplate, IPvpMoveTemplate } from '../interfaces';
-import { PokemonSpecies, Move } from './';
+import { IGameMaster, IPokemonTemplate, IPveMoveTemplate, IPvpMoveTemplate, PokemonSpecies, Move } from 'pogo-objects';
+import { TranslatorService } from '../services';
 
 const writeFile = promisify(fs.writeFile);
 const readFile = promisify(fs.readFile);
@@ -112,8 +112,9 @@ export class GameMasterImport {
       // IMPORT POKEMON
       if (template.templateId.startsWith('V') && template.templateId.substring(6, 13) === 'POKEMON') {
         const pokedexNumber = parseInt(template.templateId.substring(1, 5), 10);
-        const pokemon = PokemonSpecies
-          .fromRawMaster(template as IPokemonTemplate, pokedexNumber, this.options.language);
+        const pokemonTemplate = template as IPokemonTemplate;
+        const pokemon = PokemonSpecies.fromRawMaster(pokemonTemplate, pokedexNumber, 'placeholder');
+        pokemon.speciesName = TranslatorService.translate(pokemon.id, this.options.language);
         const previous: PokemonSpecies | undefined = this.speciesList.get(pokemon.id);
         // add pokemon that haven't bee added yet
         if (!previous // if the pokemon hasn't been added yet, or...
@@ -132,10 +133,12 @@ export class GameMasterImport {
 
       // IMPORT PVE MOVES
       if (template.templateId.startsWith('V') && template.templateId.substring(6, 10) === 'MOVE') {
+        const moveTemplate = template as IPveMoveTemplate;
+        const moveName = TranslatorService.translate(moveTemplate.moveSettings.movementId, this.options.language);
         const move = new Move();
-        move.updatePveStats(template as IPveMoveTemplate, this.options.language);
+        move.updatePveStats(moveTemplate, moveName);
         if (this.movesList.has(move.id)) {
-          (this.movesList.get(move.id) as Move).updatePveStats(template as IPveMoveTemplate, this.options.language);
+          (this.movesList.get(move.id) as Move).updatePveStats(moveTemplate, moveName);
         } else {
           this.movesList.set(move.id, move);
         }
@@ -143,10 +146,12 @@ export class GameMasterImport {
 
       // IMPORT PVP MOVES
       if (template.templateId.startsWith('COMBAT_V') && template.templateId.substring(13, 17) === 'MOVE') {
+        const moveTemplate = template as IPvpMoveTemplate;
+        const moveName = TranslatorService.translate(moveTemplate.combatMove.uniqueId, this.options.language);
         const move = new Move();
-        move.updatePvpStats(template as IPvpMoveTemplate, this.options.language);
+        move.updatePvpStats(moveTemplate, moveName);
         if (this.movesList.has(move.id)) {
-          (this.movesList.get(move.id) as Move).updatePvpStats(template as IPvpMoveTemplate, this.options.language);
+          (this.movesList.get(move.id) as Move).updatePvpStats(moveTemplate, moveName);
         } else {
           this.movesList.set(move.id, move);
         }

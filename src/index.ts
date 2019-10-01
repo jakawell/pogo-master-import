@@ -1,10 +1,8 @@
 #!/usr/bin/env node
 // tslint:disable: no-console
 import { argv } from 'yargs';
-import { IGameMasterImportOptions } from './interfaces';
-import { GameMasterImport } from './models';
+import { GameMasterImport, IGameMasterImportOptions } from './models';
 
-export * from './interfaces';
 export * from './models';
 
 (async () => {
