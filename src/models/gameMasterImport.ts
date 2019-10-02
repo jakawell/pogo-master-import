@@ -4,9 +4,16 @@ import { promisify } from 'util';
 import PokemongoGameMaster from 'pokemongo-game-master';
 import { IGameMaster, IPokemonTemplate, IPveMoveTemplate, IPvpMoveTemplate, PokemonSpecies, Move } from 'pogo-objects';
 import { TranslatorService } from '../services';
+import DefaultLegacyMoves from '../data/legacyMoves.json';
 
 const writeFile = promisify(fs.writeFile);
 const readFile = promisify(fs.readFile);
+
+export interface ILegacyMoveSet {
+  species: string;
+  legacyFast: string[] | undefined;
+  legacyCharge: string[] | undefined;
+}
 
 export interface IGameMasterImportOptions {
   /**
@@ -33,6 +40,14 @@ export interface IGameMasterImportOptions {
    * Language to use for names. Default is empty, which just converts the code names to human readable.
    */
   language: string | undefined;
+  /**
+   * Whether to include legacy/event moves.
+   */
+  includeLegacyMoves: boolean | undefined;
+  /**
+   * Path to a custom list of legacy moves.
+   */
+  legacyMovesFile: string | undefined;
 }
 
 // tslint:disable-next-line: max-classes-per-file
@@ -83,6 +98,8 @@ export class GameMasterImport {
     save: false,
     saveFile: './master.json',
     language: undefined,
+    includeLegacyMoves: true,
+    legacyMovesFile: undefined,
   };
   private gameMaster: IGameMaster | null = null;
 
@@ -154,6 +171,28 @@ export class GameMasterImport {
           (this.movesList.get(move.id) as Move).updatePvpStats(moveTemplate, moveName);
         } else {
           this.movesList.set(move.id, move);
+        }
+      }
+    }
+    if (this.options.includeLegacyMoves) {
+      let legacyMoves: ILegacyMoveSet[] = DefaultLegacyMoves as ILegacyMoveSet[];
+      if (this.options.legacyMovesFile) {
+        try {
+          const legacyFile = await readFile(path.join(process.cwd(), this.options.legacyMovesFile));
+          legacyMoves = JSON.parse(legacyFile.toString()) as ILegacyMoveSet[];
+        } catch (err) {
+          throw new Error(`Failed to import legacy movesets from local file: ${err}`);
+        }
+      }
+      for (const moveSet of legacyMoves) {
+        if (this.speciesList.has(moveSet.species)) {
+          const species = this.speciesList.get(moveSet.species) as PokemonSpecies;
+          if (moveSet.legacyFast) {
+            species.fastMoves = species.fastMoves.concat(moveSet.legacyFast);
+          }
+          if (moveSet.legacyCharge) {
+            species.chargeMoves = species.chargeMoves.concat(moveSet.legacyCharge);
+          }
         }
       }
     }

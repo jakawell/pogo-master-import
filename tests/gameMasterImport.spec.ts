@@ -12,6 +12,17 @@ jest.spyOn(fs, 'readFile').mockImplementation((file, callback) => {
     callback(new Error('Mock read error'), Buffer.alloc(0));
   } else if ((file as string).endsWith('invalidFormat.json')) {
     callback(null, Buffer.from('??'));
+  } else if ((file as string).endsWith('invalidLegacyMoves.json')) {
+    callback(new Error('Mock read error'), Buffer.alloc(0));
+  } else if ((file as string).endsWith('legacyMoves.json')) {
+    callback(null, Buffer.from(JSON.stringify([
+      {
+        species: 'GIRATINA_ALTERED',
+        legacyFast: [
+          'TACKLE_FAST',
+        ],
+      },
+    ])));
   } else {
     callback(null, Buffer.from(JSON.stringify(mockGameMaster)));
   }
@@ -90,17 +101,27 @@ test('should download and import game master', async () => {
     save: true,
     saveFile: './master.json',
     language: 'en-us',
+    includeLegacyMoves: false,
+    legacyMovesFile: './legacyMoves.json',
   };
   const { speciesList, movesList } = await GameMasterImport.importGameMaster(options);
   expectGoodLists(speciesList, movesList);
   expect((speciesList.get('VENUSAUR_NORMAL') as PokemonSpecies).pokedexNumber).toBe(3);
   expect((speciesList.get('VENUSAUR_NORMAL') as PokemonSpecies).speciesName).toBe('Venusaur');
+  expect((speciesList.get('GIRATINA_ALTERED') as PokemonSpecies).fastMoves).toEqual([
+    'DRAGON_BREATH_FAST',
+    'SHADOW_CLAW_FAST',
+  ]);
 
   const importer = new GameMasterImport(options);
   const { speciesList: speciesListCons, movesList: movesListCons } = await importer.importGameMaster();
   expectGoodLists(speciesListCons, movesListCons);
   expect((speciesListCons.get('VENUSAUR_NORMAL') as PokemonSpecies).pokedexNumber).toBe(3);
   expect((speciesListCons.get('VENUSAUR_NORMAL') as PokemonSpecies).speciesName).toBe('Venusaur');
+  expect((speciesListCons.get('GIRATINA_ALTERED') as PokemonSpecies).fastMoves).toEqual([
+    'DRAGON_BREATH_FAST',
+    'SHADOW_CLAW_FAST',
+  ]);
 });
 
 test('should load file and import game master', async () => {
@@ -111,6 +132,8 @@ test('should load file and import game master', async () => {
     save: true,
     saveFile: './master.json',
     language: 'en-us',
+    includeLegacyMoves: false,
+    legacyMovesFile: undefined,
   };
   const { speciesList, movesList } = await GameMasterImport.importGameMaster(options);
   expectGoodLists(speciesList, movesList);
@@ -133,6 +156,39 @@ test('should accept no options', async () => {
   expectGoodLists(speciesListCons, movesListCons);
 });
 
+test('should use custom legacy moves file', async () => {
+  const options: IGameMasterImportOptions = {
+    download: true,
+    downloadVersion: 'latest',
+    localSourcePath: './master.json',
+    save: true,
+    saveFile: './master.json',
+    language: 'en-us',
+    includeLegacyMoves: true,
+    legacyMovesFile: './legacyMoves.json',
+  };
+  const { speciesList, movesList } = await GameMasterImport.importGameMaster(options);
+  expectGoodLists(speciesList, movesList);
+  expect((speciesList.get('VENUSAUR_NORMAL') as PokemonSpecies).pokedexNumber).toBe(3);
+  expect((speciesList.get('VENUSAUR_NORMAL') as PokemonSpecies).speciesName).toBe('Venusaur');
+  expect((speciesList.get('GIRATINA_ALTERED') as PokemonSpecies).fastMoves).toEqual([
+    'DRAGON_BREATH_FAST',
+    'SHADOW_CLAW_FAST',
+    'TACKLE_FAST',
+  ]);
+
+  const importer = new GameMasterImport(options);
+  const { speciesList: speciesListCons, movesList: movesListCons } = await importer.importGameMaster();
+  expectGoodLists(speciesListCons, movesListCons);
+  expect((speciesListCons.get('VENUSAUR_NORMAL') as PokemonSpecies).pokedexNumber).toBe(3);
+  expect((speciesListCons.get('VENUSAUR_NORMAL') as PokemonSpecies).speciesName).toBe('Venusaur');
+  expect((speciesListCons.get('GIRATINA_ALTERED') as PokemonSpecies).fastMoves).toEqual([
+    'DRAGON_BREATH_FAST',
+    'SHADOW_CLAW_FAST',
+    'TACKLE_FAST',
+  ]);
+});
+
 test('should fail for invalid save location', async () => {
   const options: IGameMasterImportOptions = {
     download: false,
@@ -141,6 +197,8 @@ test('should fail for invalid save location', async () => {
     save: true,
     saveFile: 'invalidFile.json',
     language: undefined,
+    includeLegacyMoves: false,
+    legacyMovesFile: undefined,
   };
   await expect(GameMasterImport.importGameMaster(options))
     .rejects.toHaveProperty('message', 'Failed to save game master to local file: Error: Mock write error');
@@ -154,6 +212,8 @@ test('should fail for no save location', async () => {
     save: true,
     saveFile: '',
     language: undefined,
+    includeLegacyMoves: false,
+    legacyMovesFile: undefined,
   };
   await expect(GameMasterImport.importGameMaster(options))
     .rejects.toHaveProperty('message', 'No save path was provided. Set "options.saveFile"');
@@ -167,6 +227,8 @@ test('should fail for invalid local source path', async () => {
     save: true,
     saveFile: './master.json',
     language: undefined,
+    includeLegacyMoves: false,
+    legacyMovesFile: undefined,
   };
   await expect(GameMasterImport.importGameMaster(options))
     .rejects.toHaveProperty('message', 'Failed to read game master from local file: Error: Mock read error');
@@ -180,6 +242,8 @@ test('should fail for no local source path', async () => {
     save: true,
     saveFile: './master.json',
     language: undefined,
+    includeLegacyMoves: false,
+    legacyMovesFile: undefined,
   };
   await expect(GameMasterImport.importGameMaster(options))
     .rejects.toHaveProperty('message', 'No source path was provided. Set "options.localSourcePath".');
@@ -193,8 +257,25 @@ test('should fail for badly formatted local source path', async () => {
     save: true,
     saveFile: './master.json',
     language: undefined,
+    includeLegacyMoves: false,
+    legacyMovesFile: undefined,
   };
   await expect(GameMasterImport.importGameMaster(options))
     // tslint:disable-next-line: max-line-length
     .rejects.toHaveProperty('message', `Failed to read game master from local file: Error: Failed to parse game master from local file: SyntaxError: Unexpected token ? in JSON at position 0`);
+});
+
+test('should fail for bad legacy moves file path', async () => {
+  const options: IGameMasterImportOptions = {
+    download: true,
+    downloadVersion: 'latest',
+    localSourcePath: './master.json',
+    save: true,
+    saveFile: './master.json',
+    language: 'en-us',
+    includeLegacyMoves: true,
+    legacyMovesFile: './invalidLegacyMoves.json',
+  };
+  await expect(GameMasterImport.importGameMaster(options))
+    .rejects.toHaveProperty('message', `Failed to import legacy movesets from local file: Error: Mock read error`);
 });

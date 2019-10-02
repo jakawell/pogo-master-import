@@ -14,6 +14,8 @@ export * from './models';
     save: (argv.save as boolean),
     saveFile: (argv.saveFile as string),
     language: (argv.language as string),
+    includeLegacyMoves: (argv.includeLegacyMoves as boolean),
+    legacyMovesFile: (argv.legacyMovesFile as string),
   };
   try {
     await GameMasterImport.importGameMaster(options);
