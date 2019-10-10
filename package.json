@@ -1,6 +1,6 @@
 {
   "name": "pogo-master-import",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Imports and parses the Pokémon GO game master and provides TS objects.",
   "main": "dist/index.js",
   "scripts": {
