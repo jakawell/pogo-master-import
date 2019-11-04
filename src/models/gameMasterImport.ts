@@ -132,8 +132,14 @@ export class GameMasterImport {
         const pokemonTemplate = template as IPokemonTemplate;
         const pokemon = PokemonSpecies.fromRawMaster(pokemonTemplate, pokedexNumber, 'placeholder');
         pokemon.speciesName = TranslatorService.translate(pokemon.id, this.options.language);
+
+        // Ignore forms for seasonal events (ends in the year; ie. 'FALL_2019')
+        if (/^.+_[0-9]{2,4}$/.test(pokemon.form)) {
+          continue;
+        }
+
         const previous: PokemonSpecies | undefined = this.speciesList.get(pokemon.id);
-        // add pokemon that haven't bee added yet
+        // add pokemon that haven't been added yet
         if (!previous // if the pokemon hasn't been added yet, or...
           || pokemon.chargeMoves.length > previous.chargeMoves.length) { // ...if this pokemon has more charge moves than the previous one (as shadow forms do)
           this.speciesList.set(pokemon.id, pokemon); // ...add/replace it
