@@ -6,6 +6,7 @@ test('should translate to en-us', () => {
 
 test('should translate to default text', () => {
   expect(TranslatorService.translate('MR_MIME_NORMAL')).toBe('Mr Mime Normal');
+  expect(TranslatorService.translate('LOCK_ON_FAST')).toBe('Lock On');
 });
 
 test('should translate to default text with unknown text', () => {

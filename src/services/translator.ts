@@ -30,8 +30,9 @@ export class TranslatorService {
 
   private static nullTranslation(text: string): string {
     return text.toLowerCase()
+      .replace(/_fast$/, '') // remove the '_FAST' from the end of fast moves
       .split('_')
-      .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
+      .map((s) => s.charAt(0).toUpperCase() + s.substring(1)) // replace each word with Namecase version
       .join(' ');
   }
 }

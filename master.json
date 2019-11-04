@@ -585,7 +585,7 @@
       "baseStamina": 163
     },
     "EKANS_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 23,
       "speciesId": "EKANS",
       "form": "NORMAL",
@@ -602,6 +602,8 @@
         "WRAP",
         "POISON_FANG",
         "SLUDGE_BOMB",
+        "RETURN",
+        "FRUSTRATION",
         "GUNK_SHOT"
       ],
       "baseAttack": 110,
@@ -609,7 +611,7 @@
       "baseStamina": 111
     },
     "ARBOK_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 24,
       "speciesId": "ARBOK",
       "form": "NORMAL",
@@ -627,7 +629,9 @@
         "DARK_PULSE",
         "SLUDGE_WAVE",
         "GUNK_SHOT",
-        "ACID_SPRAY"
+        "ACID_SPRAY",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 167,
       "baseDefense": 153,
@@ -751,6 +755,8 @@
         "DIG",
         "ROCK_SLIDE",
         "SAND_TOMB",
+        "RETURN",
+        "FRUSTRATION",
         "ROCK_TOMB"
       ],
       "baseAttack": 126,
@@ -798,7 +804,9 @@
       "chargeMoves": [
         "EARTHQUAKE",
         "ROCK_TOMB",
-        "BULLDOZE"
+        "BULLDOZE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 182,
       "baseDefense": 175,
@@ -1408,7 +1416,9 @@
       "chargeMoves": [
         "DIG",
         "MUD_BOMB",
-        "ROCK_TOMB"
+        "ROCK_TOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 109,
       "baseDefense": 78,
@@ -1455,10 +1465,12 @@
       "chargeMoves": [
         "EARTHQUAKE",
         "MUD_BOMB",
-        "STONE_EDGE"
+        "STONE_EDGE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 167,
-      "baseDefense": 136,
+      "baseDefense": 134,
       "baseStamina": 111
     },
     "MEOWTH_ALOLA": {
@@ -1502,6 +1514,8 @@
         "NIGHT_SLASH",
         "DARK_PULSE",
         "FOUL_PLAY",
+        "RETURN",
+        "FRUSTRATION",
         "BODY_SLAM"
       ],
       "baseAttack": 92,
@@ -1549,6 +1563,8 @@
         "FOUL_PLAY",
         "POWER_GEM",
         "PLAY_ROUGH",
+        "RETURN",
+        "FRUSTRATION",
         "NIGHT_SLASH"
       ],
       "baseAttack": 150,
@@ -1940,7 +1956,7 @@
       "baseStamina": 207
     },
     "BELLSPROUT_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 69,
       "speciesId": "BELLSPROUT",
       "form": "NORMAL",
@@ -1956,14 +1972,16 @@
       "chargeMoves": [
         "POWER_WHIP",
         "SLUDGE_BOMB",
-        "WRAP"
+        "WRAP",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 139,
       "baseDefense": 61,
       "baseStamina": 137
     },
     "WEEPINBELL_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 70,
       "speciesId": "WEEPINBELL",
       "form": "NORMAL",
@@ -1980,14 +1998,16 @@
       "chargeMoves": [
         "POWER_WHIP",
         "SLUDGE_BOMB",
-        "SEED_BOMB"
+        "SEED_BOMB",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 172,
       "baseDefense": 92,
       "baseStamina": 163
     },
     "VICTREEBEL_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 71,
       "speciesId": "VICTREEBEL",
       "form": "NORMAL",
@@ -2005,7 +2025,9 @@
         "SLUDGE_BOMB",
         "SOLAR_BEAM",
         "LEAF_TORNADO",
-        "ACID_SPRAY"
+        "ACID_SPRAY",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 207,
       "baseDefense": 135,
@@ -2098,7 +2120,9 @@
       "chargeMoves": [
         "ROCK_SLIDE",
         "ROCK_TOMB",
-        "DIG"
+        "DIG",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 132,
       "baseDefense": 132,
@@ -2146,6 +2170,8 @@
         "DIG",
         "STONE_EDGE",
         "ROCK_BLAST",
+        "RETURN",
+        "FRUSTRATION",
         "ROCK_SLIDE"
       ],
       "baseAttack": 164,
@@ -2194,6 +2220,8 @@
         "STONE_EDGE",
         "ROCK_BLAST",
         "EARTHQUAKE",
+        "RETURN",
+        "FRUSTRATION",
         "ANCIENT_POWER"
       ],
       "baseAttack": 211,
@@ -2295,7 +2323,7 @@
       "baseStamina": 216
     },
     "MAGNEMITE_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 81,
       "speciesId": "MAGNEMITE",
       "form": "NORMAL",
@@ -2311,14 +2339,16 @@
       "chargeMoves": [
         "DISCHARGE",
         "MAGNET_BOMB",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 165,
       "baseDefense": 121,
       "baseStamina": 93
     },
     "MAGNETON_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 82,
       "speciesId": "MAGNETON",
       "form": "NORMAL",
@@ -2336,6 +2366,8 @@
         "ZAP_CANNON",
         "MAGNET_BOMB",
         "FLASH_CANNON",
+        "RETURN",
+        "FRUSTRATION",
         "DISCHARGE"
       ],
       "baseAttack": 223,
@@ -2567,7 +2599,7 @@
       "baseStamina": 233
     },
     "SHELLDER_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 90,
       "speciesId": "SHELLDER",
       "form": "NORMAL",
@@ -2583,14 +2615,16 @@
       "chargeMoves": [
         "BUBBLE_BEAM",
         "WATER_PULSE",
-        "ICY_WIND"
+        "ICY_WIND",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 116,
       "baseDefense": 134,
       "baseStamina": 102
     },
     "CLOYSTER_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 91,
       "speciesId": "CLOYSTER",
       "form": "NORMAL",
@@ -2607,6 +2641,8 @@
         "AURORA_BEAM",
         "HYDRO_PUMP",
         "AVALANCHE",
+        "RETURN",
+        "FRUSTRATION",
         "ICY_WIND"
       ],
       "baseAttack": 186,
@@ -2689,7 +2725,7 @@
       "baseStamina": 155
     },
     "ONIX_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 95,
       "speciesId": "ONIX",
       "form": "NORMAL",
@@ -2706,6 +2742,8 @@
         "SAND_TOMB",
         "STONE_EDGE",
         "HEAVY_SLAM",
+        "RETURN",
+        "FRUSTRATION",
         "ROCK_SLIDE"
       ],
       "baseAttack": 85,
@@ -2767,7 +2805,7 @@
       "baseStamina": 198
     },
     "KRABBY_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 98,
       "speciesId": "KRABBY",
       "form": "NORMAL",
@@ -2783,14 +2821,16 @@
       "chargeMoves": [
         "VICE_GRIP",
         "BUBBLE_BEAM",
-        "WATER_PULSE"
+        "WATER_PULSE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 181,
       "baseDefense": 124,
       "baseStamina": 102
     },
     "KINGLER_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 99,
       "speciesId": "KINGLER",
       "form": "NORMAL",
@@ -2808,7 +2848,9 @@
         "VICE_GRIP",
         "X_SCISSOR",
         "WATER_PULSE",
-        "CRABHAMMER"
+        "CRABHAMMER",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 240,
       "baseDefense": 181,
@@ -3009,7 +3051,7 @@
       "baseStamina": 155
     },
     "HITMONLEE_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 106,
       "speciesId": "HITMONLEE",
       "form": "NORMAL",
@@ -3026,6 +3068,8 @@
         "CLOSE_COMBAT",
         "LOW_SWEEP",
         "STONE_EDGE",
+        "RETURN",
+        "FRUSTRATION",
         "BRICK_BREAK"
       ],
       "baseAttack": 224,
@@ -3085,7 +3129,7 @@
       "baseStamina": 207
     },
     "KOFFING_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 109,
       "speciesId": "KOFFING",
       "form": "NORMAL",
@@ -3102,14 +3146,16 @@
       "chargeMoves": [
         "SLUDGE",
         "SLUDGE_BOMB",
-        "DARK_PULSE"
+        "DARK_PULSE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 119,
       "baseDefense": 141,
       "baseStamina": 120
     },
     "WEEZING_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 110,
       "speciesId": "WEEZING",
       "form": "NORMAL",
@@ -3127,14 +3173,16 @@
         "SLUDGE_BOMB",
         "SHADOW_BALL",
         "DARK_PULSE",
-        "THUNDERBOLT"
+        "THUNDERBOLT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 174,
       "baseDefense": 197,
       "baseStamina": 163
     },
     "RHYHORN_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 111,
       "speciesId": "RHYHORN",
       "form": "NORMAL",
@@ -3150,14 +3198,16 @@
       "chargeMoves": [
         "BULLDOZE",
         "HORN_ATTACK",
-        "STOMP"
+        "STOMP",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 140,
       "baseDefense": 127,
       "baseStamina": 190
     },
     "RHYDON_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 112,
       "speciesId": "RHYDON",
       "form": "NORMAL",
@@ -3174,6 +3224,8 @@
         "SURF",
         "EARTHQUAKE",
         "STONE_EDGE",
+        "RETURN",
+        "FRUSTRATION",
         "MEGAHORN"
       ],
       "baseAttack": 222,
@@ -3229,7 +3281,7 @@
       "baseStamina": 163
     },
     "KANGASKHAN_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 115,
       "speciesId": "KANGASKHAN",
       "form": "NORMAL",
@@ -3247,6 +3299,8 @@
         "EARTHQUAKE",
         "OUTRAGE",
         "POWER_UP_PUNCH",
+        "RETURN",
+        "FRUSTRATION",
         "STOMP"
       ],
       "baseAttack": 181,
@@ -3765,7 +3819,7 @@
       "baseStamina": 163
     },
     "PORYGON_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 137,
       "speciesId": "PORYGON",
       "form": "NORMAL",
@@ -3783,6 +3837,8 @@
         "SOLAR_BEAM",
         "HYPER_BEAM",
         "ZAP_CANNON",
+        "RETURN",
+        "FRUSTRATION",
         "SIGNAL_BEAM"
       ],
       "baseAttack": 153,
@@ -3942,7 +3998,7 @@
       "baseStamina": 330
     },
     "ARTICUNO_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 144,
       "speciesId": "ARTICUNO",
       "form": "NORMAL",
@@ -3960,6 +4016,8 @@
         "ICY_WIND",
         "BLIZZARD",
         "ANCIENT_POWER",
+        "RETURN",
+        "FRUSTRATION",
         "HURRICANE"
       ],
       "baseAttack": 192,
@@ -5296,7 +5354,7 @@
       "baseStamina": 216
     },
     "MURKROW_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 198,
       "speciesId": "MURKROW",
       "form": "NORMAL",
@@ -5312,7 +5370,9 @@
       "chargeMoves": [
         "DRILL_PECK",
         "FOUL_PLAY",
-        "DARK_PULSE"
+        "DARK_PULSE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 175,
       "baseDefense": 87,
@@ -5385,7 +5445,7 @@
       "baseStamina": 134
     },
     "WOBBUFFET_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 202,
       "speciesId": "WOBBUFFET",
       "form": "NORMAL",
@@ -5400,7 +5460,9 @@
         "CHARM_FAST"
       ],
       "chargeMoves": [
-        "MIRROR_COAT"
+        "MIRROR_COAT",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 60,
       "baseDefense": 106,
@@ -5522,7 +5584,7 @@
       "baseStamina": 163
     },
     "STEELIX_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 208,
       "speciesId": "STEELIX",
       "form": "NORMAL",
@@ -5539,7 +5601,9 @@
       "chargeMoves": [
         "EARTHQUAKE",
         "HEAVY_SLAM",
-        "CRUNCH"
+        "CRUNCH",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 148,
       "baseDefense": 272,
@@ -5688,7 +5752,7 @@
       "baseStamina": 190
     },
     "SNEASEL_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 215,
       "speciesId": "SNEASEL",
       "form": "NORMAL",
@@ -5704,7 +5768,9 @@
       "chargeMoves": [
         "AVALANCHE",
         "ICE_PUNCH",
-        "FOUL_PLAY"
+        "FOUL_PLAY",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 189,
       "baseDefense": 146,
@@ -6114,7 +6180,7 @@
       "baseStamina": 207
     },
     "PORYGON2_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 233,
       "speciesId": "PORYGON2",
       "form": "NORMAL",
@@ -6130,7 +6196,9 @@
       "chargeMoves": [
         "SOLAR_BEAM",
         "HYPER_BEAM",
-        "ZAP_CANNON"
+        "ZAP_CANNON",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 198,
       "baseDefense": 180,
@@ -9569,7 +9637,8 @@
       ],
       "fastMoves": [
         "ROCK_THROW_FAST",
-        "ROCK_SMASH_FAST"
+        "ROCK_SMASH_FAST",
+        "LOCK_ON_FAST"
       ],
       "chargeMoves": [
         "STONE_EDGE",
@@ -9592,7 +9661,8 @@
       ],
       "fastMoves": [
         "FROST_BREATH_FAST",
-        "ROCK_SMASH_FAST"
+        "ROCK_SMASH_FAST",
+        "LOCK_ON_FAST"
       ],
       "chargeMoves": [
         "BLIZZARD",
@@ -9615,7 +9685,8 @@
       ],
       "fastMoves": [
         "METAL_CLAW_FAST",
-        "ROCK_SMASH_FAST"
+        "ROCK_SMASH_FAST",
+        "LOCK_ON_FAST"
       ],
       "chargeMoves": [
         "FLASH_CANNON",
@@ -9933,7 +10004,7 @@
       "baseStamina": 216
     },
     "CHIMCHAR_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 390,
       "speciesId": "CHIMCHAR",
       "form": "NORMAL",
@@ -9949,14 +10020,16 @@
       "chargeMoves": [
         "FLAME_WHEEL",
         "FLAMETHROWER",
-        "FLAME_CHARGE"
+        "FLAME_CHARGE",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 113,
       "baseDefense": 86,
       "baseStamina": 127
     },
     "MONFERNO_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 391,
       "speciesId": "MONFERNO",
       "form": "NORMAL",
@@ -9972,14 +10045,16 @@
       "chargeMoves": [
         "FLAME_WHEEL",
         "FLAMETHROWER",
-        "LOW_SWEEP"
+        "LOW_SWEEP",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 158,
       "baseDefense": 105,
       "baseStamina": 162
     },
     "INFERNAPE_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 392,
       "speciesId": "INFERNAPE",
       "form": "NORMAL",
@@ -9996,6 +10071,8 @@
         "SOLAR_BEAM",
         "FLAMETHROWER",
         "CLOSE_COMBAT",
+        "RETURN",
+        "FRUSTRATION",
         "BLAST_BURN"
       ],
       "baseAttack": 222,
@@ -11003,7 +11080,7 @@
       "baseStamina": 155
     },
     "HONCHKROW_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 430,
       "speciesId": "HONCHKROW",
       "form": "NORMAL",
@@ -11020,7 +11097,9 @@
         "BRAVE_BIRD",
         "PSYCHIC",
         "DARK_PULSE",
-        "SKY_ATTACK"
+        "SKY_ATTACK",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 243,
       "baseDefense": 103,
@@ -11303,7 +11382,7 @@
       "baseStamina": 137
     },
     "GIBLE_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 443,
       "speciesId": "GIBLE",
       "form": "NORMAL",
@@ -11319,14 +11398,16 @@
       "chargeMoves": [
         "DIG",
         "TWISTER",
-        "BODY_SLAM"
+        "BODY_SLAM",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 124,
       "baseDefense": 84,
       "baseStamina": 151
     },
     "GABITE_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 444,
       "speciesId": "GABITE",
       "form": "NORMAL",
@@ -11342,14 +11423,16 @@
       "chargeMoves": [
         "DIG",
         "TWISTER",
-        "FLAMETHROWER"
+        "FLAMETHROWER",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 172,
       "baseDefense": 125,
       "baseStamina": 169
     },
     "GARCHOMP_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 445,
       "speciesId": "GARCHOMP",
       "form": "NORMAL",
@@ -11365,7 +11448,9 @@
       "chargeMoves": [
         "OUTRAGE",
         "EARTHQUAKE",
-        "FIRE_BLAST"
+        "FIRE_BLAST",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 261,
       "baseDefense": 193,
@@ -11442,7 +11527,7 @@
       "baseStamina": 172
     },
     "HIPPOPOTAS_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 449,
       "speciesId": "HIPPOPOTAS",
       "form": "NORMAL",
@@ -11458,14 +11543,16 @@
       "chargeMoves": [
         "DIG",
         "ROCK_TOMB",
-        "BODY_SLAM"
+        "BODY_SLAM",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 124,
       "baseDefense": 118,
       "baseStamina": 169
     },
     "HIPPOWDON_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 450,
       "speciesId": "HIPPOWDON",
       "form": "NORMAL",
@@ -11484,7 +11571,9 @@
         "EARTHQUAKE",
         "STONE_EDGE",
         "BODY_SLAM",
-        "EARTH_POWER"
+        "EARTH_POWER",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 201,
       "baseDefense": 191,
@@ -11723,7 +11812,7 @@
       "baseStamina": 207
     },
     "WEAVILE_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 461,
       "speciesId": "WEAVILE",
       "form": "NORMAL",
@@ -11740,14 +11829,16 @@
       "chargeMoves": [
         "AVALANCHE",
         "FOCUS_BLAST",
-        "FOUL_PLAY"
+        "FOUL_PLAY",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 243,
       "baseDefense": 171,
       "baseStamina": 172
     },
     "MAGNEZONE_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 462,
       "speciesId": "MAGNEZONE",
       "form": "NORMAL",
@@ -11763,7 +11854,9 @@
       "chargeMoves": [
         "ZAP_CANNON",
         "WILD_CHARGE",
-        "FLASH_CANNON"
+        "FLASH_CANNON",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 238,
       "baseDefense": 205,
@@ -11793,7 +11886,7 @@
       "baseStamina": 242
     },
     "RHYPERIOR_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 464,
       "speciesId": "RHYPERIOR",
       "form": "NORMAL",
@@ -11810,7 +11903,9 @@
         "SURF",
         "EARTHQUAKE",
         "STONE_EDGE",
-        "SKULL_BASH"
+        "SKULL_BASH",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 241,
       "baseDefense": 190,
@@ -12033,7 +12128,7 @@
       "baseStamina": 242
     },
     "PORYGON_Z_NORMAL": {
-      "isFormless": true,
+      "isFormless": false,
       "pokedexNumber": 474,
       "speciesId": "PORYGON_Z",
       "form": "NORMAL",
@@ -12050,7 +12145,9 @@
         "SOLAR_BEAM",
         "HYPER_BEAM",
         "ZAP_CANNON",
-        "BLIZZARD"
+        "BLIZZARD",
+        "RETURN",
+        "FRUSTRATION"
       ],
       "baseAttack": 264,
       "baseDefense": 150,
@@ -12442,12 +12539,12 @@
       ],
       "fastMoves": [
         "ZEN_HEADBUTT_FAST",
-        "ROCK_SMASH_FAST"
+        "HIDDEN_POWER_FAST"
       ],
       "chargeMoves": [
-        "STONE_EDGE",
-        "AVALANCHE",
-        "HEAVY_SLAM"
+        "GIGA_IMPACT",
+        "FOCUS_BLAST",
+        "THUNDER"
       ],
       "baseAttack": 287,
       "baseDefense": 210,
@@ -18678,7 +18775,7 @@
     "FURY_CUTTER_FAST": {
       "id": "FURY_CUTTER_FAST",
       "type": "BUG",
-      "name": "Fury Cutter Fast",
+      "name": "Fury Cutter",
       "isLegacy": false,
       "pveStats": {
         "power": 3,
@@ -18694,7 +18791,7 @@
     "BUG_BITE_FAST": {
       "id": "BUG_BITE_FAST",
       "type": "BUG",
-      "name": "Bug Bite Fast",
+      "name": "Bug Bite",
       "isLegacy": false,
       "pveStats": {
         "power": 5,
@@ -18710,7 +18807,7 @@
     "BITE_FAST": {
       "id": "BITE_FAST",
       "type": "DARK",
-      "name": "Bite Fast",
+      "name": "Bite",
       "isLegacy": false,
       "pveStats": {
         "power": 6,
@@ -18726,7 +18823,7 @@
     "SUCKER_PUNCH_FAST": {
       "id": "SUCKER_PUNCH_FAST",
       "type": "DARK",
-      "name": "Sucker Punch Fast",
+      "name": "Sucker Punch",
       "isLegacy": false,
       "pveStats": {
         "power": 7,
@@ -18742,7 +18839,7 @@
     "DRAGON_BREATH_FAST": {
       "id": "DRAGON_BREATH_FAST",
       "type": "DRAGON",
-      "name": "Dragon Breath Fast",
+      "name": "Dragon Breath",
       "isLegacy": false,
       "pveStats": {
         "power": 6,
@@ -18758,7 +18855,7 @@
     "THUNDER_SHOCK_FAST": {
       "id": "THUNDER_SHOCK_FAST",
       "type": "ELECTRIC",
-      "name": "Thunder Shock Fast",
+      "name": "Thunder Shock",
       "isLegacy": false,
       "pveStats": {
         "power": 5,
@@ -18774,7 +18871,7 @@
     "SPARK_FAST": {
       "id": "SPARK_FAST",
       "type": "ELECTRIC",
-      "name": "Spark Fast",
+      "name": "Spark",
       "isLegacy": false,
       "pveStats": {
         "power": 6,
@@ -18790,7 +18887,7 @@
     "LOW_KICK_FAST": {
       "id": "LOW_KICK_FAST",
       "type": "FIGHTING",
-      "name": "Low Kick Fast",
+      "name": "Low Kick",
       "isLegacy": false,
       "pveStats": {
         "power": 6,
@@ -18806,7 +18903,7 @@
     "KARATE_CHOP_FAST": {
       "id": "KARATE_CHOP_FAST",
       "type": "FIGHTING",
-      "name": "Karate Chop Fast",
+      "name": "Karate Chop",
       "isLegacy": false,
       "pveStats": {
         "power": 8,
@@ -18822,7 +18919,7 @@
     "EMBER_FAST": {
       "id": "EMBER_FAST",
       "type": "FIRE",
-      "name": "Ember Fast",
+      "name": "Ember",
       "isLegacy": false,
       "pveStats": {
         "power": 10,
@@ -18838,7 +18935,7 @@
     "WING_ATTACK_FAST": {
       "id": "WING_ATTACK_FAST",
       "type": "FLYING",
-      "name": "Wing Attack Fast",
+      "name": "Wing Attack",
       "isLegacy": false,
       "pveStats": {
         "power": 8,
@@ -18854,7 +18951,7 @@
     "PECK_FAST": {
       "id": "PECK_FAST",
       "type": "FLYING",
-      "name": "Peck Fast",
+      "name": "Peck",
       "isLegacy": false,
       "pveStats": {
         "power": 10,
@@ -18870,7 +18967,7 @@
     "LICK_FAST": {
       "id": "LICK_FAST",
       "type": "GHOST",
-      "name": "Lick Fast",
+      "name": "Lick",
       "isLegacy": false,
       "pveStats": {
         "power": 5,
@@ -18886,7 +18983,7 @@
     "SHADOW_CLAW_FAST": {
       "id": "SHADOW_CLAW_FAST",
       "type": "GHOST",
-      "name": "Shadow Claw Fast",
+      "name": "Shadow Claw",
       "isLegacy": false,
       "pveStats": {
         "power": 9,
@@ -18902,7 +18999,7 @@
     "VINE_WHIP_FAST": {
       "id": "VINE_WHIP_FAST",
       "type": "GRASS",
-      "name": "Vine Whip Fast",
+      "name": "Vine Whip",
       "isLegacy": false,
       "pveStats": {
         "power": 7,
@@ -18918,7 +19015,7 @@
     "RAZOR_LEAF_FAST": {
       "id": "RAZOR_LEAF_FAST",
       "type": "GRASS",
-      "name": "Razor Leaf Fast",
+      "name": "Razor Leaf",
       "isLegacy": false,
       "pveStats": {
         "power": 13,
@@ -18934,7 +19031,7 @@
     "MUD_SHOT_FAST": {
       "id": "MUD_SHOT_FAST",
       "type": "GROUND",
-      "name": "Mud Shot Fast",
+      "name": "Mud Shot",
       "isLegacy": false,
       "pveStats": {
         "power": 5,
@@ -18950,7 +19047,7 @@
     "ICE_SHARD_FAST": {
       "id": "ICE_SHARD_FAST",
       "type": "ICE",
-      "name": "Ice Shard Fast",
+      "name": "Ice Shard",
       "isLegacy": false,
       "pveStats": {
         "power": 12,
@@ -18966,7 +19063,7 @@
     "FROST_BREATH_FAST": {
       "id": "FROST_BREATH_FAST",
       "type": "ICE",
-      "name": "Frost Breath Fast",
+      "name": "Frost Breath",
       "isLegacy": false,
       "pveStats": {
         "power": 10,
@@ -18982,7 +19079,7 @@
     "QUICK_ATTACK_FAST": {
       "id": "QUICK_ATTACK_FAST",
       "type": "NORMAL",
-      "name": "Quick Attack Fast",
+      "name": "Quick Attack",
       "isLegacy": false,
       "pveStats": {
         "power": 8,
@@ -18998,7 +19095,7 @@
     "SCRATCH_FAST": {
       "id": "SCRATCH_FAST",
       "type": "NORMAL",
-      "name": "Scratch Fast",
+      "name": "Scratch",
       "isLegacy": false,
       "pveStats": {
         "power": 6,
@@ -19014,7 +19111,7 @@
     "TACKLE_FAST": {
       "id": "TACKLE_FAST",
       "type": "NORMAL",
-      "name": "Tackle Fast",
+      "name": "Tackle",
       "isLegacy": false,
       "pveStats": {
         "power": 5,
@@ -19030,7 +19127,7 @@
     "POUND_FAST": {
       "id": "POUND_FAST",
       "type": "NORMAL",
-      "name": "Pound Fast",
+      "name": "Pound",
       "isLegacy": false,
       "pveStats": {
         "power": 7,
@@ -19046,7 +19143,7 @@
     "CUT_FAST": {
       "id": "CUT_FAST",
       "type": "NORMAL",
-      "name": "Cut Fast",
+      "name": "Cut",
       "isLegacy": false,
       "pveStats": {
         "power": 5,
@@ -19062,7 +19159,7 @@
     "POISON_JAB_FAST": {
       "id": "POISON_JAB_FAST",
       "type": "POISON",
-      "name": "Poison Jab Fast",
+      "name": "Poison Jab",
       "isLegacy": false,
       "pveStats": {
         "power": 10,
@@ -19078,7 +19175,7 @@
     "ACID_FAST": {
       "id": "ACID_FAST",
       "type": "POISON",
-      "name": "Acid Fast",
+      "name": "Acid",
       "isLegacy": false,
       "pveStats": {
         "power": 9,
@@ -19094,7 +19191,7 @@
     "PSYCHO_CUT_FAST": {
       "id": "PSYCHO_CUT_FAST",
       "type": "PSYCHIC",
-      "name": "Psycho Cut Fast",
+      "name": "Psycho Cut",
       "isLegacy": false,
       "pveStats": {
         "power": 5,
@@ -19110,7 +19207,7 @@
     "ROCK_THROW_FAST": {
       "id": "ROCK_THROW_FAST",
       "type": "ROCK",
-      "name": "Rock Throw Fast",
+      "name": "Rock Throw",
       "isLegacy": false,
       "pveStats": {
         "power": 12,
@@ -19126,7 +19223,7 @@
     "METAL_CLAW_FAST": {
       "id": "METAL_CLAW_FAST",
       "type": "STEEL",
-      "name": "Metal Claw Fast",
+      "name": "Metal Claw",
       "isLegacy": false,
       "pveStats": {
         "power": 8,
@@ -19142,7 +19239,7 @@
     "BULLET_PUNCH_FAST": {
       "id": "BULLET_PUNCH_FAST",
       "type": "STEEL",
-      "name": "Bullet Punch Fast",
+      "name": "Bullet Punch",
       "isLegacy": false,
       "pveStats": {
         "power": 9,
@@ -19158,7 +19255,7 @@
     "WATER_GUN_FAST": {
       "id": "WATER_GUN_FAST",
       "type": "WATER",
-      "name": "Water Gun Fast",
+      "name": "Water Gun",
       "isLegacy": false,
       "pveStats": {
         "power": 5,
@@ -19174,7 +19271,7 @@
     "SPLASH_FAST": {
       "id": "SPLASH_FAST",
       "type": "WATER",
-      "name": "Splash Fast",
+      "name": "Splash",
       "isLegacy": false,
       "pveStats": {
         "energyDelta": 20,
@@ -19204,7 +19301,7 @@
     "MUD_SLAP_FAST": {
       "id": "MUD_SLAP_FAST",
       "type": "GROUND",
-      "name": "Mud Slap Fast",
+      "name": "Mud Slap",
       "isLegacy": false,
       "pveStats": {
         "power": 15,
@@ -19220,7 +19317,7 @@
     "ZEN_HEADBUTT_FAST": {
       "id": "ZEN_HEADBUTT_FAST",
       "type": "PSYCHIC",
-      "name": "Zen Headbutt Fast",
+      "name": "Zen Headbutt",
       "isLegacy": false,
       "pveStats": {
         "power": 12,
@@ -19236,7 +19333,7 @@
     "CONFUSION_FAST": {
       "id": "CONFUSION_FAST",
       "type": "PSYCHIC",
-      "name": "Confusion Fast",
+      "name": "Confusion",
       "isLegacy": false,
       "pveStats": {
         "power": 20,
@@ -19252,7 +19349,7 @@
     "POISON_STING_FAST": {
       "id": "POISON_STING_FAST",
       "type": "POISON",
-      "name": "Poison Sting Fast",
+      "name": "Poison Sting",
       "isLegacy": false,
       "pveStats": {
         "power": 5,
@@ -19268,7 +19365,7 @@
     "BUBBLE_FAST": {
       "id": "BUBBLE_FAST",
       "type": "WATER",
-      "name": "Bubble Fast",
+      "name": "Bubble",
       "isLegacy": false,
       "pveStats": {
         "power": 12,
@@ -19284,7 +19381,7 @@
     "FEINT_ATTACK_FAST": {
       "id": "FEINT_ATTACK_FAST",
       "type": "DARK",
-      "name": "Feint Attack Fast",
+      "name": "Feint Attack",
       "isLegacy": false,
       "pveStats": {
         "power": 10,
@@ -19300,7 +19397,7 @@
     "STEEL_WING_FAST": {
       "id": "STEEL_WING_FAST",
       "type": "STEEL",
-      "name": "Steel Wing Fast",
+      "name": "Steel Wing",
       "isLegacy": false,
       "pveStats": {
         "power": 11,
@@ -19316,7 +19413,7 @@
     "FIRE_FANG_FAST": {
       "id": "FIRE_FANG_FAST",
       "type": "FIRE",
-      "name": "Fire Fang Fast",
+      "name": "Fire Fang",
       "isLegacy": false,
       "pveStats": {
         "power": 12,
@@ -19332,7 +19429,7 @@
     "ROCK_SMASH_FAST": {
       "id": "ROCK_SMASH_FAST",
       "type": "FIGHTING",
-      "name": "Rock Smash Fast",
+      "name": "Rock Smash",
       "isLegacy": false,
       "pveStats": {
         "power": 15,
@@ -19348,7 +19445,7 @@
     "TRANSFORM_FAST": {
       "id": "TRANSFORM_FAST",
       "type": "NORMAL",
-      "name": "Transform Fast",
+      "name": "Transform",
       "isLegacy": false,
       "pveStats": {
         "castTime": 2230
@@ -19360,7 +19457,7 @@
     "COUNTER_FAST": {
       "id": "COUNTER_FAST",
       "type": "FIGHTING",
-      "name": "Counter Fast",
+      "name": "Counter",
       "isLegacy": false,
       "pveStats": {
         "power": 12,
@@ -19376,7 +19473,7 @@
     "POWDER_SNOW_FAST": {
       "id": "POWDER_SNOW_FAST",
       "type": "ICE",
-      "name": "Powder Snow Fast",
+      "name": "Powder Snow",
       "isLegacy": false,
       "pveStats": {
         "power": 6,
@@ -19456,7 +19553,7 @@
     "CHARGE_BEAM_FAST": {
       "id": "CHARGE_BEAM_FAST",
       "type": "ELECTRIC",
-      "name": "Charge Beam Fast",
+      "name": "Charge Beam",
       "isLegacy": false,
       "pveStats": {
         "power": 8,
@@ -19472,7 +19569,7 @@
     "VOLT_SWITCH_FAST": {
       "id": "VOLT_SWITCH_FAST",
       "type": "ELECTRIC",
-      "name": "Volt Switch Fast",
+      "name": "Volt Switch",
       "isLegacy": false,
       "pveStats": {
         "power": 20,
@@ -19520,7 +19617,7 @@
     "DRAGON_TAIL_FAST": {
       "id": "DRAGON_TAIL_FAST",
       "type": "DRAGON",
-      "name": "Dragon Tail Fast",
+      "name": "Dragon Tail",
       "isLegacy": false,
       "pveStats": {
         "power": 15,
@@ -19552,7 +19649,7 @@
     "AIR_SLASH_FAST": {
       "id": "AIR_SLASH_FAST",
       "type": "FLYING",
-      "name": "Air Slash Fast",
+      "name": "Air Slash",
       "isLegacy": false,
       "pveStats": {
         "power": 14,
@@ -19632,7 +19729,7 @@
     "INFESTATION_FAST": {
       "id": "INFESTATION_FAST",
       "type": "BUG",
-      "name": "Infestation Fast",
+      "name": "Infestation",
       "isLegacy": false,
       "pveStats": {
         "power": 10,
@@ -19648,7 +19745,7 @@
     "STRUGGLE_BUG_FAST": {
       "id": "STRUGGLE_BUG_FAST",
       "type": "BUG",
-      "name": "Struggle Bug Fast",
+      "name": "Struggle Bug",
       "isLegacy": false,
       "pveStats": {
         "power": 15,
@@ -19680,7 +19777,7 @@
     "ASTONISH_FAST": {
       "id": "ASTONISH_FAST",
       "type": "GHOST",
-      "name": "Astonish Fast",
+      "name": "Astonish",
       "isLegacy": false,
       "pveStats": {
         "power": 8,
@@ -19696,7 +19793,7 @@
     "HEX_FAST": {
       "id": "HEX_FAST",
       "type": "GHOST",
-      "name": "Hex Fast",
+      "name": "Hex",
       "isLegacy": false,
       "pveStats": {
         "power": 10,
@@ -19728,7 +19825,7 @@
     "IRON_TAIL_FAST": {
       "id": "IRON_TAIL_FAST",
       "type": "STEEL",
-      "name": "Iron Tail Fast",
+      "name": "Iron Tail",
       "isLegacy": false,
       "pveStats": {
         "power": 15,
@@ -19776,7 +19873,7 @@
     "FIRE_SPIN_FAST": {
       "id": "FIRE_SPIN_FAST",
       "type": "FIRE",
-      "name": "Fire Spin Fast",
+      "name": "Fire Spin",
       "isLegacy": false,
       "pveStats": {
         "power": 14,
@@ -19808,7 +19905,7 @@
     "BULLET_SEED_FAST": {
       "id": "BULLET_SEED_FAST",
       "type": "GRASS",
-      "name": "Bullet Seed Fast",
+      "name": "Bullet Seed",
       "isLegacy": false,
       "pveStats": {
         "power": 8,
@@ -19856,7 +19953,7 @@
     "EXTRASENSORY_FAST": {
       "id": "EXTRASENSORY_FAST",
       "type": "PSYCHIC",
-      "name": "Extrasensory Fast",
+      "name": "Extrasensory",
       "isLegacy": false,
       "pveStats": {
         "power": 12,
@@ -19920,7 +20017,7 @@
     "SNARL_FAST": {
       "id": "SNARL_FAST",
       "type": "DARK",
-      "name": "Snarl Fast",
+      "name": "Snarl",
       "isLegacy": false,
       "pveStats": {
         "power": 12,
@@ -19968,7 +20065,7 @@
     "HIDDEN_POWER_FAST": {
       "id": "HIDDEN_POWER_FAST",
       "type": "NORMAL",
-      "name": "Hidden Power Fast",
+      "name": "Hidden Power",
       "isLegacy": false,
       "pveStats": {
         "power": 15,
@@ -19984,7 +20081,7 @@
     "TAKE_DOWN_FAST": {
       "id": "TAKE_DOWN_FAST",
       "type": "NORMAL",
-      "name": "Take Down Fast",
+      "name": "Take Down",
       "isLegacy": false,
       "pveStats": {
         "power": 8,
@@ -20000,7 +20097,7 @@
     "WATERFALL_FAST": {
       "id": "WATERFALL_FAST",
       "type": "WATER",
-      "name": "Waterfall Fast",
+      "name": "Waterfall",
       "isLegacy": false,
       "pveStats": {
         "power": 16,
@@ -20064,7 +20161,7 @@
     "YAWN_FAST": {
       "id": "YAWN_FAST",
       "type": "NORMAL",
-      "name": "Yawn Fast",
+      "name": "Yawn",
       "isLegacy": false,
       "pveStats": {
         "energyDelta": 15,
@@ -20126,7 +20223,7 @@
     "PRESENT_FAST": {
       "id": "PRESENT_FAST",
       "type": "NORMAL",
-      "name": "Present Fast",
+      "name": "Present",
       "isLegacy": false,
       "pveStats": {
         "power": 5,
@@ -20222,7 +20319,7 @@
     "SMACK_DOWN_FAST": {
       "id": "SMACK_DOWN_FAST",
       "type": "ROCK",
-      "name": "Smack Down Fast",
+      "name": "Smack Down",
       "isLegacy": false,
       "pveStats": {
         "power": 16,
@@ -20430,7 +20527,7 @@
     "CHARM_FAST": {
       "id": "CHARM_FAST",
       "type": "FAIRY",
-      "name": "Charm Fast",
+      "name": "Charm",
       "isLegacy": false,
       "pveStats": {
         "power": 20,
@@ -20441,6 +20538,22 @@
         "power": 16,
         "energyDelta": 6,
         "turns": 2
+      }
+    },
+    "GIGA_IMPACT": {
+      "id": "GIGA_IMPACT",
+      "type": "NORMAL",
+      "name": "Giga Impact",
+      "isLegacy": false,
+      "pveStats": {
+        "power": 200,
+        "energyDelta": -100,
+        "castTime": 4700
+      },
+      "pvpStats": {
+        "power": 150,
+        "energyDelta": -80,
+        "turns": 1
       }
     },
     "FRUSTRATION": {
@@ -20491,10 +20604,26 @@
         "turns": 1
       }
     },
+    "LOCK_ON_FAST": {
+      "id": "LOCK_ON_FAST",
+      "type": "NORMAL",
+      "name": "Lock On",
+      "isLegacy": false,
+      "pveStats": {
+        "power": 1,
+        "energyDelta": 6,
+        "castTime": 300
+      },
+      "pvpStats": {
+        "power": 1,
+        "energyDelta": 5,
+        "turns": 1
+      }
+    },
     "THUNDER_FANG_FAST": {
       "id": "THUNDER_FANG_FAST",
       "type": "ELECTRIC",
-      "name": "Thunder Fang Fast",
+      "name": "Thunder Fang",
       "isLegacy": false,
       "pveStats": {
         "power": 12,
@@ -20510,7 +20639,7 @@
     "ICE_FANG_FAST": {
       "id": "ICE_FANG_FAST",
       "type": "ICE",
-      "name": "Ice Fang Fast",
+      "name": "Ice Fang",
       "isLegacy": false,
       "pveStats": {
         "power": 12,
@@ -20656,37 +20785,6 @@
       "isLegacy": false,
       "pveStats": {
         "castTime": 1300
-      },
-      "pvpStats": {
-        "power": 0,
-        "energyDelta": -100,
-        "turns": 100
-      }
-    },
-    "GIGA_IMPACT": {
-      "id": "GIGA_IMPACT",
-      "type": "NORMAL",
-      "name": "Giga Impact",
-      "isLegacy": false,
-      "pveStats": {
-        "power": 9001,
-        "energyDelta": 100,
-        "castTime": 4700
-      },
-      "pvpStats": {
-        "power": 0,
-        "energyDelta": -100,
-        "turns": 100
-      }
-    },
-    "LOCK_ON_FAST": {
-      "id": "LOCK_ON_FAST",
-      "type": "NORMAL",
-      "name": "Lock On Fast",
-      "isLegacy": false,
-      "pveStats": {
-        "power": 8,
-        "castTime": 300
       },
       "pvpStats": {
         "power": 0,
